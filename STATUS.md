@@ -152,7 +152,7 @@ Source and completion evidence paths are recorded in the progress source. Unfini
 | p8-02 — Varied post/media types | backlog | unknown | GPT-6.1 Sol / High | p7-01*, p7-02*, p7-03*, p7-04*, p7-05*, p7-06* | — |
 | p8-03 — Demo entry and read/write sandbox/reset policy | backlog | unknown | GPT-6.1 Sol / Medium | p7-01*, p7-02*, p7-03*, p7-04*, p7-05*, p7-06* | — |
 | p8-04 — Deployment, backup/recovery and public branding/disclaimer | backlog | unknown | GPT-6.1 Sol / Medium | p7-01*, p7-02*, p7-03*, p7-04*, p7-05*, p7-06* | — |
-| p8-05 — Final v1 acceptance and security/fidelity audit | backlog | unknown | GPT-6 Astra / Medium | p7-01*, p7-02*, p7-03*, p7-04*, p7-05*, p7-06* | — |
+| p8-05 — Final v1 acceptance and security/fidelity audit | backlog | unknown | GPT-6 Astra / Medium | p7-01*, p7-02*, p7-03*, p7-04*, p7-05*, p7-06*, p8-01*, p8-02*, p8-03*, p8-04* | — |
 
 ### p9 — v1.1/v1.5
 

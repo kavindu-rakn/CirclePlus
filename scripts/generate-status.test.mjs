@@ -51,6 +51,54 @@ test('later release tasks do not inflate v1 percentage', () => {
  const d=copy(); const t=d.phases.at(-1).tasks[0]; t.status='done'; t.blockers=[]; t.completion_evidence=['approved experimental PR'];
  assert.equal(render(data).split('Overall tracked')[1].split('\n')[0],render(d).split('Overall tracked')[1].split('\n')[0]);
 });
+const launchIds = ['p8-01','p8-02','p8-03','p8-04'];
+const advancingStatuses = ['ready','in_progress','review','learning_gate','ready_to_merge','done'];
+function launchScenario(unfinishedId) {
+ // Simulate accepted earlier work without changing the real progress source.
+ const d=structuredClone(liveData);
+ d.current_task=null; d.next_task=null; d.blockers=[];
+ for (const phase of d.phases) for (const t of phase.tasks) {
+  const completed=/^p[0-7]-/.test(t.id) || (launchIds.includes(t.id) && t.id!==unfinishedId);
+  t.status=completed ? 'done' : 'backlog';
+  t.blockers=[]; t.completion_evidence=completed ? ['fixture acceptance'] : [];
+ }
+ return d;
+}
+test('final acceptance retains all four launch prerequisites', () => {
+ const acceptance=liveData.phases.flatMap(p=>p.tasks).find(t=>t.id==='p8-05');
+ for (const id of launchIds) assert.ok(acceptance.dependencies.includes(id),`Missing launch prerequisite: ${id}`);
+});
+for (const unfinishedId of launchIds) test(`unfinished ${unfinishedId} blocks acceptance and later releases`, () => {
+ const d=launchScenario(unfinishedId);
+ const tasks=d.phases.flatMap(p=>p.tasks);
+ const acceptance=tasks.find(t=>t.id==='p8-05');
+ const later=d.phases.filter(p=>['p9','p10'].includes(p.id)).flatMap(p=>p.tasks);
+ assert.doesNotThrow(()=>validate(d));
+ for (const status of advancingStatuses) {
+  acceptance.status=status;
+  acceptance.completion_evidence=status==='done' ? ['fixture final acceptance'] : [];
+  assert.throws(()=>validate(d),new RegExp(`Unfinished dependency: p8-05 -> ${unfinishedId}`));
+ }
+ acceptance.status='backlog'; acceptance.completion_evidence=[];
+ for (const task of later) {
+  task.status='ready';
+  assert.throws(()=>validate(d),new RegExp(`Unfinished dependency: ${task.id} -> p8-05`));
+  // Claiming acceptance done cannot bypass the unfinished launch dependency.
+  acceptance.status='done'; acceptance.completion_evidence=['fixture final acceptance'];
+  assert.throws(()=>validate(d),new RegExp(`Unfinished dependency: p8-05 -> ${unfinishedId}`));
+  acceptance.status='backlog'; acceptance.completion_evidence=[]; task.status='backlog';
+ }
+});
+test('completed launch work permits acceptance and later-release readiness', () => {
+ const d=launchScenario();
+ const acceptance=d.phases.flatMap(p=>p.tasks).find(t=>t.id==='p8-05');
+ acceptance.status='done'; acceptance.completion_evidence=['fixture final acceptance'];
+ for (const phase of d.phases.filter(p=>['p9','p10'].includes(p.id))) {
+  for (const task of phase.tasks) task.status='ready';
+ }
+ assert.doesNotThrow(()=>validate(d));
+ assert.doesNotThrow(()=>render(d));
+});
 for (const [name,edit,pattern] of [
  ['status',d=>d.phases[0].tasks[0].status='complete',/Invalid status/],
  ['confidence',d=>d.phases[0].tasks[0].historical_confidence='certain',/Invalid confidence/],
