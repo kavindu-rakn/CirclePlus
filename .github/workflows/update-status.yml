@@ -5,12 +5,14 @@ on:
       - 'project/**'
       - 'STATUS.md'
       - 'scripts/generate-status*'
+      - 'scripts/fixtures/**'
       - '.github/workflows/update-status.yml'
   push:
     paths:
       - 'project/**'
       - 'STATUS.md'
       - 'scripts/generate-status*'
+      - 'scripts/fixtures/**'
       - '.github/workflows/update-status.yml'
   workflow_dispatch:
 permissions:
