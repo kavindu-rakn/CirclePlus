@@ -1,0 +1,1613 @@
+{
+  "schema_version": 1,
+  "project": "Google+ restoration (name TBD)",
+  "version": "v1",
+  "current_phase": "p0",
+  "current_task": "p0-02",
+  "next_task": "p0-03",
+  "blockers": [
+    "Phase 0 reference coverage and canonical snapshot remain unverified.",
+    "Meaningful PRs require developer-confirmed learning before merge readiness."
+  ],
+  "phases": [
+    {
+      "id": "p0",
+      "title": "Archaeology and reference pack",
+      "release": "v1",
+      "tasks": [
+        {
+          "id": "p0-01",
+          "title": "Existing documentation/architecture planning pack",
+          "kind": "planning",
+          "status": "done",
+          "dependencies": [],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "medium",
+          "model": "GPT-6.1 Sol",
+          "effort": "Medium",
+          "blockers": [],
+          "sources": [
+            "docs/INDEX.md",
+            "docs/17-research-evidence-register.md"
+          ],
+          "completion_evidence": [
+            "README.md",
+            "docs/INDEX.md",
+            "docs/17-research-evidence-register.md",
+            "docs/adr/README.md"
+          ]
+        },
+        {
+          "id": "p0-02",
+          "title": "AI engineering workflow and portable progress system",
+          "kind": "planning",
+          "status": "ready_to_merge",
+          "dependencies": [],
+          "issue": null,
+          "pr": "https://github.com/kavindu-rakn/CirclePlus/pull/1",
+          "historical_confidence": "medium",
+          "model": "GPT-6.1 Sol",
+          "effort": "Medium",
+          "blockers": [],
+          "sources": [
+            "docs/19-ai-engineering-workflow.md",
+            "docs/20-learning-and-pr-teaching.md"
+          ],
+          "completion_evidence": []
+        },
+        {
+          "id": "p0-03",
+          "title": "Repository/evidence audit and precise Phase 0/1 backlog",
+          "kind": "planning",
+          "status": "ready",
+          "dependencies": [],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "medium",
+          "model": "GPT-6.1 Sol",
+          "effort": "Medium",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        },
+        {
+          "id": "p0-04",
+          "title": "Source inventory and dated screenshot records",
+          "kind": "research",
+          "status": "backlog",
+          "dependencies": [
+            "p0-03"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "High",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md",
+            "docs/17-research-evidence-register.md",
+            "initial-research-done/Gemini-GPlus.pdf",
+            "initial-research-done/Perplexity-GPlus.pdf",
+            "gplus-original-screenshots/"
+          ],
+          "completion_evidence": []
+        },
+        {
+          "id": "p0-05",
+          "title": "Desktop/mobile reference and route/page matrix",
+          "kind": "research",
+          "status": "backlog",
+          "dependencies": [
+            "p0-03"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "High",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md",
+            "docs/17-research-evidence-register.md"
+          ],
+          "completion_evidence": []
+        },
+        {
+          "id": "p0-06",
+          "title": "Canonical visual snapshot declaration",
+          "kind": "research",
+          "status": "backlog",
+          "dependencies": [
+            "p0-03"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "High",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md",
+            "docs/17-research-evidence-register.md"
+          ],
+          "completion_evidence": []
+        },
+        {
+          "id": "p0-07",
+          "title": "Initial design tokens with evidence confidence",
+          "kind": "research",
+          "status": "backlog",
+          "dependencies": [
+            "p0-03"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "High",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md",
+            "docs/17-research-evidence-register.md"
+          ],
+          "completion_evidence": []
+        },
+        {
+          "id": "p0-08",
+          "title": "Unresolved behavior list and sufficient core-screen evidence",
+          "kind": "research",
+          "status": "backlog",
+          "dependencies": [
+            "p0-01",
+            "p0-02",
+            "p0-03",
+            "p0-04",
+            "p0-05",
+            "p0-06",
+            "p0-07"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "High",
+          "blockers": [
+            "Raw screenshots and research summaries lack dated per-screen metadata/verified behavior; Phase 0 exit criteria are not evidenced."
+          ],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md",
+            "docs/17-research-evidence-register.md",
+            "docs/19-open-questions.md"
+          ],
+          "completion_evidence": []
+        }
+      ]
+    },
+    {
+      "id": "p1",
+      "title": "Repository foundation + historical design system",
+      "release": "v1",
+      "tasks": [
+        {
+          "id": "p1-01",
+          "title": "Next.js/TS/pnpm scaffold, env validation, lint/typecheck/tests and CI",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [
+            "p0-01",
+            "p0-02",
+            "p0-03",
+            "p0-04",
+            "p0-05",
+            "p0-06",
+            "p0-07",
+            "p0-08"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "Medium",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        },
+        {
+          "id": "p1-02",
+          "title": "Drizzle/Supabase wiring, migrations and user/profile auth foundation",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [
+            "p0-01",
+            "p0-02",
+            "p0-03",
+            "p0-04",
+            "p0-05",
+            "p0-06",
+            "p0-07",
+            "p0-08"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "Medium",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        },
+        {
+          "id": "p1-03",
+          "title": "Historical CSS tokens and MD1 primitives",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [
+            "p0-01",
+            "p0-02",
+            "p0-03",
+            "p0-04",
+            "p0-05",
+            "p0-06",
+            "p0-07",
+            "p0-08"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "Medium",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        },
+        {
+          "id": "p1-04",
+          "title": "Static Home desktop/mobile shell at reference viewports",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [
+            "p0-01",
+            "p0-02",
+            "p0-03",
+            "p0-04",
+            "p0-05",
+            "p0-06",
+            "p0-07",
+            "p0-08",
+            "p1-01",
+            "p1-02",
+            "p1-03"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "Medium",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "title": "Stream and publishing primitives",
+      "release": "v1",
+      "tasks": [
+        {
+          "id": "p2-01",
+          "title": "Profile seed model and minimum data",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [
+            "p1-01",
+            "p1-02",
+            "p1-03",
+            "p1-04"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "Medium",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        },
+        {
+          "id": "p2-02",
+          "title": "Post model/services and server visibility",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [
+            "p1-01",
+            "p1-02",
+            "p1-03",
+            "p1-04"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "High",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        },
+        {
+          "id": "p2-03",
+          "title": "Media and link preview pipeline",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [
+            "p1-01",
+            "p1-02",
+            "p1-03",
+            "p1-04"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "High",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        },
+        {
+          "id": "p2-04",
+          "title": "Historical composer",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [
+            "p1-01",
+            "p1-02",
+            "p1-03",
+            "p1-04"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "Medium",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        },
+        {
+          "id": "p2-05",
+          "title": "Home Stream eligibility queries and cursor pagination",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [
+            "p1-01",
+            "p1-02",
+            "p1-03",
+            "p1-04"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "Medium",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        },
+        {
+          "id": "p2-06",
+          "title": "+1 interactions",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [
+            "p1-01",
+            "p1-02",
+            "p1-03",
+            "p1-04"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "Medium",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        },
+        {
+          "id": "p2-07",
+          "title": "Comments",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [
+            "p1-01",
+            "p1-02",
+            "p1-03",
+            "p1-04"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "Medium",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        },
+        {
+          "id": "p2-08",
+          "title": "Reshares and original attribution",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [
+            "p1-01",
+            "p1-02",
+            "p1-03",
+            "p1-04"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "Medium",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        },
+        {
+          "id": "p2-09",
+          "title": "Stream vertical-slice authorization and Playwright gate",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [
+            "p1-01",
+            "p1-02",
+            "p1-03",
+            "p1-04",
+            "p2-01",
+            "p2-02",
+            "p2-03",
+            "p2-04",
+            "p2-05",
+            "p2-06",
+            "p2-07",
+            "p2-08"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "Medium",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "title": "Profiles, follows, audiences",
+      "release": "v1",
+      "tasks": [
+        {
+          "id": "p3-01",
+          "title": "Profiles/About and field visibility",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [
+            "p2-01",
+            "p2-02",
+            "p2-03",
+            "p2-04",
+            "p2-05",
+            "p2-06",
+            "p2-07",
+            "p2-08",
+            "p2-09"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "High",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        },
+        {
+          "id": "p3-02",
+          "title": "Follow/unfollow edges",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [
+            "p2-01",
+            "p2-02",
+            "p2-03",
+            "p2-04",
+            "p2-05",
+            "p2-06",
+            "p2-07",
+            "p2-08",
+            "p2-09"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "Medium",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        },
+        {
+          "id": "p3-03",
+          "title": "Lightweight Circles/list model",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [
+            "p2-01",
+            "p2-02",
+            "p2-03",
+            "p2-04",
+            "p2-05",
+            "p2-06",
+            "p2-07",
+            "p2-08",
+            "p2-09"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "Medium",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        },
+        {
+          "id": "p3-04",
+          "title": "Audience selector and canViewPost",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [
+            "p2-01",
+            "p2-02",
+            "p2-03",
+            "p2-04",
+            "p2-05",
+            "p2-06",
+            "p2-07",
+            "p2-08",
+            "p2-09"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "High",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        },
+        {
+          "id": "p3-05",
+          "title": "Direct URL/Stream/search/media privacy leak tests",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [
+            "p2-01",
+            "p2-02",
+            "p2-03",
+            "p2-04",
+            "p2-05",
+            "p2-06",
+            "p2-07",
+            "p2-08",
+            "p2-09"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "High",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "title": "Collections",
+      "release": "v1",
+      "tasks": [
+        {
+          "id": "p4-01",
+          "title": "Collection data model/service and post association",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [
+            "p3-01",
+            "p3-02",
+            "p3-03",
+            "p3-04",
+            "p3-05"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "Medium",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        },
+        {
+          "id": "p4-02",
+          "title": "Create/edit UI, cover/theme",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [
+            "p3-01",
+            "p3-02",
+            "p3-03",
+            "p3-04",
+            "p3-05"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "Medium",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        },
+        {
+          "id": "p4-03",
+          "title": "Follow/unfollow Collections",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [
+            "p3-01",
+            "p3-02",
+            "p3-03",
+            "p3-04",
+            "p3-05"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "Medium",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        },
+        {
+          "id": "p4-04",
+          "title": "Discovery/following/yours surfaces",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [
+            "p3-01",
+            "p3-02",
+            "p3-03",
+            "p3-04",
+            "p3-05"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "Medium",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        },
+        {
+          "id": "p4-05",
+          "title": "Profile integration",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [
+            "p3-01",
+            "p3-02",
+            "p3-03",
+            "p3-04",
+            "p3-05"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "Medium",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        }
+      ]
+    },
+    {
+      "id": "p5",
+      "title": "Communities",
+      "release": "v1",
+      "tasks": [
+        {
+          "id": "p5-01",
+          "title": "Model, roles and categories",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [
+            "p4-01",
+            "p4-02",
+            "p4-03",
+            "p4-04",
+            "p4-05"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "Medium",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        },
+        {
+          "id": "p5-02",
+          "title": "Create/browse/detail UI",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [
+            "p4-01",
+            "p4-02",
+            "p4-03",
+            "p4-04",
+            "p4-05"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "Medium",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        },
+        {
+          "id": "p5-03",
+          "title": "Join/membership permissions",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [
+            "p4-01",
+            "p4-02",
+            "p4-03",
+            "p4-04",
+            "p4-05"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "High",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        },
+        {
+          "id": "p5-04",
+          "title": "Community Stream and posting",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [
+            "p4-01",
+            "p4-02",
+            "p4-03",
+            "p4-04",
+            "p4-05"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "Medium",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        },
+        {
+          "id": "p5-05",
+          "title": "Base moderation",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [
+            "p4-01",
+            "p4-02",
+            "p4-03",
+            "p4-04",
+            "p4-05"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "Medium",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        }
+      ]
+    },
+    {
+      "id": "p6",
+      "title": "Notifications, search, safety",
+      "release": "v1",
+      "tasks": [
+        {
+          "id": "p6-01",
+          "title": "Notification event model and recipients",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [
+            "p5-01",
+            "p5-02",
+            "p5-03",
+            "p5-04",
+            "p5-05"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "Medium",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        },
+        {
+          "id": "p6-02",
+          "title": "Historical tray/badge and realtime subscription",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [
+            "p5-01",
+            "p5-02",
+            "p5-03",
+            "p5-04",
+            "p5-05"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "High",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        },
+        {
+          "id": "p6-03",
+          "title": "People/Search with PostgreSQL FTS and visibility",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [
+            "p5-01",
+            "p5-02",
+            "p5-03",
+            "p5-04",
+            "p5-05"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "High",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        },
+        {
+          "id": "p6-04",
+          "title": "Report/block",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [
+            "p5-01",
+            "p5-02",
+            "p5-03",
+            "p5-04",
+            "p5-05"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "Medium",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        },
+        {
+          "id": "p6-05",
+          "title": "Admin moderation dashboard and audit actions",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [
+            "p5-01",
+            "p5-02",
+            "p5-03",
+            "p5-04",
+            "p5-05"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6 Astra",
+          "effort": "Medium",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        },
+        {
+          "id": "p6-06",
+          "title": "Invite-first registration controls",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [
+            "p5-01",
+            "p5-02",
+            "p5-03",
+            "p5-04",
+            "p5-05"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "Medium",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        },
+        {
+          "id": "p6-07",
+          "title": "Historically supported settings",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [
+            "p5-01",
+            "p5-02",
+            "p5-03",
+            "p5-04",
+            "p5-05"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "Medium",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        }
+      ]
+    },
+    {
+      "id": "p7",
+      "title": "Mobile fidelity + visual hardening",
+      "release": "v1",
+      "tasks": [
+        {
+          "id": "p7-01",
+          "title": "Reference-based desktop screenshot matrix",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [
+            "p6-01",
+            "p6-02",
+            "p6-03",
+            "p6-04",
+            "p6-05",
+            "p6-06",
+            "p6-07"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "Medium",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        },
+        {
+          "id": "p7-02",
+          "title": "Reference-based mobile routes, FAB/nav/drawer and viewport matrix",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [
+            "p6-01",
+            "p6-02",
+            "p6-03",
+            "p6-04",
+            "p6-05",
+            "p6-06",
+            "p6-07"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "Medium",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        },
+        {
+          "id": "p7-03",
+          "title": "Visual regression suite",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [
+            "p6-01",
+            "p6-02",
+            "p6-03",
+            "p6-04",
+            "p6-05",
+            "p6-06",
+            "p6-07"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "Medium",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        },
+        {
+          "id": "p7-04",
+          "title": "Animation/ripple comparison pass",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [
+            "p6-01",
+            "p6-02",
+            "p6-03",
+            "p6-04",
+            "p6-05",
+            "p6-06",
+            "p6-07"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "Medium",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        },
+        {
+          "id": "p7-05",
+          "title": "Accessibility pass",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [
+            "p6-01",
+            "p6-02",
+            "p6-03",
+            "p6-04",
+            "p6-05",
+            "p6-06",
+            "p6-07"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "Medium",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        },
+        {
+          "id": "p7-06",
+          "title": "Performance pass",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [
+            "p6-01",
+            "p6-02",
+            "p6-03",
+            "p6-04",
+            "p6-05",
+            "p6-06",
+            "p6-07"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "Medium",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        }
+      ]
+    },
+    {
+      "id": "p8",
+      "title": "Demo universe and portfolio launch",
+      "release": "v1",
+      "tasks": [
+        {
+          "id": "p8-01",
+          "title": "Deterministic synthetic dataset and seeded relationships",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [
+            "p7-01",
+            "p7-02",
+            "p7-03",
+            "p7-04",
+            "p7-05",
+            "p7-06"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6 Luna",
+          "effort": "Medium",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        },
+        {
+          "id": "p8-02",
+          "title": "Varied post/media types",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [
+            "p7-01",
+            "p7-02",
+            "p7-03",
+            "p7-04",
+            "p7-05",
+            "p7-06"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "High",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        },
+        {
+          "id": "p8-03",
+          "title": "Demo entry and read/write sandbox/reset policy",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [
+            "p7-01",
+            "p7-02",
+            "p7-03",
+            "p7-04",
+            "p7-05",
+            "p7-06"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "Medium",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        },
+        {
+          "id": "p8-04",
+          "title": "Deployment, backup/recovery and public branding/disclaimer",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [
+            "p7-01",
+            "p7-02",
+            "p7-03",
+            "p7-04",
+            "p7-05",
+            "p7-06"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "Medium",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        },
+        {
+          "id": "p8-05",
+          "title": "Final v1 acceptance and security/fidelity audit",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [
+            "p7-01",
+            "p7-02",
+            "p7-03",
+            "p7-04",
+            "p7-05",
+            "p7-06",
+            "p8-01",
+            "p8-02",
+            "p8-03",
+            "p8-04"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6 Astra",
+          "effort": "Medium",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        }
+      ]
+    },
+    {
+      "id": "p9",
+      "title": "v1.1/v1.5",
+      "release": "v1.1/v1.5",
+      "tasks": [
+        {
+          "id": "p9-01",
+          "title": "Richer moderation",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [
+            "p8-05"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "Medium",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        },
+        {
+          "id": "p9-02",
+          "title": "Polls if historically confirmed",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [
+            "p8-05"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "Medium",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        },
+        {
+          "id": "p9-03",
+          "title": "Improved discovery",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [
+            "p8-05"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "Medium",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        },
+        {
+          "id": "p9-04",
+          "title": "Events as separately scoped 2017 feature",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [
+            "p8-05"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "Medium",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "title": "v2",
+      "release": "v2",
+      "tasks": [
+        {
+          "id": "p10-01",
+          "title": "Google Takeout importer",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [
+            "p8-05"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "Medium",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        },
+        {
+          "id": "p10-02",
+          "title": "Historical archive restoration mode",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [
+            "p8-05"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "Medium",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        },
+        {
+          "id": "p10-03",
+          "title": "Import validation/ownership rules",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [
+            "p8-05"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "Medium",
+          "blockers": [],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        }
+      ]
+    },
+    {
+      "id": "experimental",
+      "title": "Experimental only",
+      "release": "experimental",
+      "tasks": [
+        {
+          "id": "experimental-01",
+          "title": "ActivityPub behind explicit feature boundary",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "Medium",
+          "blockers": [
+            "Separate scope approval required; excluded from v1."
+          ],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        },
+        {
+          "id": "experimental-02",
+          "title": "Optional Hangouts-inspired LiveKit experiment only if separately approved",
+          "kind": "implementation",
+          "status": "backlog",
+          "dependencies": [],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "unknown",
+          "model": "GPT-6.1 Sol",
+          "effort": "Medium",
+          "blockers": [
+            "Separate scope approval required; excluded from v1."
+          ],
+          "sources": [
+            "docs/15-roadmap-and-implementation-plan.md",
+            "plans/CODEX-MASTER-PLAN.md"
+          ],
+          "completion_evidence": []
+        }
+      ]
+    }
+  ]
+}

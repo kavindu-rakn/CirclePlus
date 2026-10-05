@@ -158,3 +158,11 @@ PRs:
 - any use of Google-branded assets
 - any scope expansion beyond current roadmap phase
 - any new hosted service/dependency with cost or lock-in implications
+
+## Operational contract for each bounded PR
+
+Read `AGENTS.md` and `STATUS.md` first, confirm current phase/task/dependencies in `project/progress.yaml`, then read relevant phase docs, evidence, and ADRs. Use [AI Engineering Workflow](../docs/19-ai-engineering-workflow.md) as the detailed routing/lifecycle source. State the task's recommended model/effort; do not claim a prompt changed runtime settings. Expensive escalation stays explicit/user-visible.
+
+Work on one issue/PR at a time. Stop dependent work at evidence or approval gates. Update progress data when state changes, regenerate `STATUS.md`, and run the check plus relevant tests/lint/typecheck. Open/update the PR with scope, historical confidence, changes, checks, risks, blockers, and remaining work. Require independent review where practical and the [Learning Gate](../docs/20-learning-and-pr-teaching.md) before merge readiness. Do not merge or start the next phase automatically. Mark `done` after merge/acceptance in a small tracking PR.
+
+The broader roadmap also includes Phase 9 (v1.1/v1.5), Phase 10 (v2), and experiments; they remain deferred under [the roadmap](../docs/15-roadmap-and-implementation-plan.md), outside v1 progress.

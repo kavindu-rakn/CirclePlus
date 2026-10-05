@@ -68,8 +68,12 @@ See [Era & Fidelity](docs/01-era-and-fidelity.md).
 
 ## Documentation map
 
-Start with [docs/INDEX.md](docs/INDEX.md). AI coding agents must read [AGENTS.md](AGENTS.md) and [plans/CODEX-MASTER-PLAN.md](plans/CODEX-MASTER-PLAN.md) before implementation.
+Start with [docs/INDEX.md](docs/INDEX.md). AI coding agents must read [AGENTS.md](AGENTS.md), [STATUS.md](STATUS.md), and [plans/CODEX-MASTER-PLAN.md](plans/CODEX-MASTER-PLAN.md) before implementation.
 
 ## Status
 
-Documentation-first. No large implementation should begin until the historical reference pack and Phase 0 acceptance criteria are complete.
+Documentation-first; application implementation has not started. Phase 0 evidence gates still apply.
+
+See the [generated progress dashboard](STATUS.md) for current task, completion counts, blockers, next task, model recommendation, and historical confidence. It derives from [portable progress data](project/progress.yaml); viewing or generating it uses no AI allowance. Regenerate locally with `node scripts/generate-status.mjs`; verify with `node scripts/generate-status.mjs --check` (Node 22+, no packages).
+
+Use [AI Engineering Workflow](docs/19-ai-engineering-workflow.md) for task roles/model routing and [Learning and PR Teaching](docs/20-learning-and-pr-teaching.md) for the required developer learning gate.
