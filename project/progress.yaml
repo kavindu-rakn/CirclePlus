@@ -62,7 +62,7 @@
           "id": "p0-ops-01",
           "title": "Coordinated chat handoffs and batch teaching",
           "kind": "planning",
-          "status": "review",
+          "status": "learning_gate",
           "dependencies": [
             "p0-02"
           ],
@@ -72,11 +72,12 @@
           "model": "GPT-6.1 Sol",
           "effort": "Medium",
           "blockers": [
-            "Independent review, direct messaging authorization/capability check, and developer Learning Gate pending."
+            "Developer Learning Gate pending on the final reviewed revision; PR remains draft and unmerged."
           ],
           "sources": [
             "docs/21-coordinated-chat-handoffs.md",
-            "plans/ROLE-PROMPTS.md"
+            "plans/ROLE-PROMPTS.md",
+            "docs/records/pr-2-review-and-activation.md"
           ],
           "completion_evidence": []
         },
