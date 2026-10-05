@@ -77,3 +77,7 @@ Documentation-first; application implementation has not started. Phase 0 evidenc
 See the [generated progress dashboard](STATUS.md) for current task, completion counts, blockers, next task, model recommendation, and historical confidence. It derives from [portable progress data](project/progress.yaml); viewing or generating it uses no AI allowance. Regenerate locally with `node scripts/generate-status.mjs`; verify with `node scripts/generate-status.mjs --check` (Node 22+, no packages).
 
 Use [AI Engineering Workflow](docs/19-ai-engineering-workflow.md) for task roles/model routing and [Learning and PR Teaching](docs/20-learning-and-pr-teaching.md) for the required developer learning gate.
+
+## Coordinated chats
+
+[Coordinated Chat Handoffs](docs/21-coordinated-chat-handoffs.md) lets Control Tower carry bounded role instructions/results through supported app tools after human authorization. Builder/Fixer/Reviewer stay separate; Teacher delivers one lesson with three questions together. [Role Prompts](plans/ROLE-PROMPTS.md) and the [local registry example](project/chat-registry.example.json) eliminate repeated prompt writing. No new paid services or API purchases; existing Codex allowance still applies. Tool/permission checks are required before activation.

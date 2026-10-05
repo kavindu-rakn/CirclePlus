@@ -3,7 +3,7 @@
   "project": "Google+ restoration (name TBD)",
   "version": "v1",
   "current_phase": "p0",
-  "current_task": "p0-02",
+  "current_task": "p0-ops-01",
   "next_task": "p0-03",
   "blockers": [
     "Phase 0 reference coverage and canonical snapshot remain unverified.",
@@ -42,7 +42,7 @@
           "id": "p0-02",
           "title": "AI engineering workflow and portable progress system",
           "kind": "planning",
-          "status": "ready_to_merge",
+          "status": "done",
           "dependencies": [],
           "issue": null,
           "pr": "https://github.com/kavindu-rakn/CirclePlus/pull/1",
@@ -53,6 +53,30 @@
           "sources": [
             "docs/19-ai-engineering-workflow.md",
             "docs/20-learning-and-pr-teaching.md"
+          ],
+          "completion_evidence": [
+            "docs/records/pr-1-acceptance.md"
+          ]
+        },
+        {
+          "id": "p0-ops-01",
+          "title": "Coordinated chat handoffs and batch teaching",
+          "kind": "planning",
+          "status": "review",
+          "dependencies": [
+            "p0-02"
+          ],
+          "issue": null,
+          "pr": null,
+          "historical_confidence": "medium",
+          "model": "GPT-6.1 Sol",
+          "effort": "Medium",
+          "blockers": [
+            "Independent review, direct messaging authorization/capability check, and developer Learning Gate pending."
+          ],
+          "sources": [
+            "docs/21-coordinated-chat-handoffs.md",
+            "plans/ROLE-PROMPTS.md"
           ],
           "completion_evidence": []
         },
@@ -173,7 +197,8 @@
             "p0-04",
             "p0-05",
             "p0-06",
-            "p0-07"
+            "p0-07",
+            "p0-ops-01"
           ],
           "issue": null,
           "pr": null,
@@ -211,7 +236,8 @@
             "p0-05",
             "p0-06",
             "p0-07",
-            "p0-08"
+            "p0-08",
+            "p0-ops-01"
           ],
           "issue": null,
           "pr": null,
@@ -238,7 +264,8 @@
             "p0-05",
             "p0-06",
             "p0-07",
-            "p0-08"
+            "p0-08",
+            "p0-ops-01"
           ],
           "issue": null,
           "pr": null,
@@ -265,7 +292,8 @@
             "p0-05",
             "p0-06",
             "p0-07",
-            "p0-08"
+            "p0-08",
+            "p0-ops-01"
           ],
           "issue": null,
           "pr": null,
@@ -295,7 +323,8 @@
             "p0-08",
             "p1-01",
             "p1-02",
-            "p1-03"
+            "p1-03",
+            "p0-ops-01"
           ],
           "issue": null,
           "pr": null,

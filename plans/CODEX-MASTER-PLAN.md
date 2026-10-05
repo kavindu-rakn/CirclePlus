@@ -166,3 +166,7 @@ Read `AGENTS.md` and `STATUS.md` first, confirm current phase/task/dependencies 
 Work on one issue/PR at a time. Stop dependent work at evidence or approval gates. Update progress data when state changes, regenerate `STATUS.md`, and run the check plus relevant tests/lint/typecheck. Open/update the PR with scope, historical confidence, changes, checks, risks, blockers, and remaining work. Require independent review where practical and the [Learning Gate](../docs/20-learning-and-pr-teaching.md) before merge readiness. Do not merge or start the next phase automatically. Mark `done` after merge/acceptance in a small tracking PR.
 
 The broader roadmap also includes Phase 9 (v1.1/v1.5), Phase 10 (v2), and experiments; they remain deferred under [the roadmap](../docs/15-roadmap-and-implementation-plan.md), outside v1 progress.
+
+## Coordinator contract
+
+Use [Coordinated Chat Handoffs](../docs/21-coordinated-chat-handoffs.md) and [Role Prompts](ROLE-PROMPTS.md). Control Tower verifies actual app tools and human messaging authorization, dispatches existing registered roles, and reads results without developer relay. New chat creation needs explicit authorization. Preserve independent review, separate per-PR Builder/Fixer roles, one writer, two automatic review/fix rounds maximum, batch teaching, and human learning/merge decisions. Do not use new paid infrastructure/APIs/credits or start p0-03/another phase as a setup side effect.

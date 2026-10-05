@@ -66,3 +66,15 @@ State whether the PR is ready for user review/merge. Do not merge automatically 
 - Teaching revision/session and developer confirmation, or explicit mechanical exemption with reason:
 
 Leave this PR at `learning_gate` until the developer confirms understanding. Signal readiness only after all applicable gates pass; `done` is recorded after merge/acceptance.
+
+## Coordinator handoff (keep current)
+
+- Base / current head SHA:
+- Reviewer chat/reference / reviewed SHA / blocking verdict:
+- Accepted/deferred findings / fix-review round count (max two automatic rounds):
+- Changes since review; tracking-only or focused re-review needed:
+- Teacher reference / taught SHA / direct developer confirmation reference:
+- Checks / exact-head hosted run links, or honest unavailable status:
+- Current progress state / unresolved gates / next responsible role:
+
+The coordinator collects role results under human authorization; Builder/Fixer updates this record and progress. No manual transcript relay or new paid coordination services. Learning remains human-confirmed; no automatic merge.
