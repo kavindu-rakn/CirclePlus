@@ -67,7 +67,7 @@
             "p0-02"
           ],
           "issue": null,
-          "pr": null,
+          "pr": "https://github.com/kavindu-rakn/CirclePlus/pull/2",
           "historical_confidence": "medium",
           "model": "GPT-6.1 Sol",
           "effort": "Medium",
