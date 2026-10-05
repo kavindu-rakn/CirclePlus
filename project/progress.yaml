@@ -42,7 +42,7 @@
           "id": "p0-02",
           "title": "AI engineering workflow and portable progress system",
           "kind": "planning",
-          "status": "review",
+          "status": "learning_gate",
           "dependencies": [],
           "issue": null,
           "pr": "https://github.com/kavindu-rakn/CirclePlus/pull/1",
@@ -50,7 +50,7 @@
           "model": "GPT-6.1 Sol",
           "effort": "Medium",
           "blockers": [
-            "Independent review pending, then developer Learning Gate; do not mark done before merge."
+            "Technical review accepted at 528c7d13ca640ee1486979b6baf41eb1664f7676: no blocking findings remain. Developer Learning Gate pending; do not mark done before merge."
           ],
           "sources": [
             "docs/19-ai-engineering-workflow.md",
