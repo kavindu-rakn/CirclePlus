@@ -5,14 +5,42 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { spawnSync } from 'node:child_process';
 import { render, validate, stats, statuses } from './generate-status.mjs';
-const data = JSON.parse(readFileSync(new URL('../project/progress.yaml',import.meta.url),'utf8'));
+import { progressFixture } from './fixtures/progress.mjs';
+const liveData = JSON.parse(readFileSync(new URL('../project/progress.yaml',import.meta.url),'utf8'));
+const data = progressFixture;
 const copy = () => structuredClone(data);
-test('real roadmap validates and renders deterministically without application credit', () => {
+test('live roadmap validates and renders deterministically without fixed counts', () => {
+ assert.doesNotThrow(() => validate(liveData));
+ assert.equal(render(liveData), render(structuredClone(liveData)));
+});
+test('fixed fixture renders deterministically without application credit', () => {
  assert.equal(render(data),render(copy()));
  const v1 = data.phases.filter(p => p.release === 'v1').flatMap(p => p.tasks);
  assert.equal(stats(v1.filter(t => t.kind === 'implementation')).done,0);
  assert.equal(stats(v1).done,1);
  assert.ok(render(data).includes('Application implementation: `[--------------------] 0%'));
+});
+test('legitimate planning and application completion update separate counts', () => {
+ const d=copy();
+ const selected=()=>d.phases.filter(p=>p.release==='v1').flatMap(p=>p.tasks);
+ const application=()=>selected().filter(t=>t.kind==='implementation');
+ const planning=d.phases[0].tasks[1];
+ planning.status='done'; planning.completion_evidence=['accepted planning PR'];
+ d.current_task=null;
+ assert.doesNotThrow(()=>validate(d));
+ assert.equal(stats(selected()).done,2);
+ assert.equal(stats(selected()).percent,33);
+ assert.equal(stats(application()).done,0);
+ assert.match(render(d),/Overall tracked v1 tasks:.*33% \(2\/6\)/);
+ const app=d.phases[1].tasks[0];
+ app.status='done'; app.completion_evidence=['accepted application PR'];
+ assert.doesNotThrow(()=>validate(d));
+ assert.equal(stats(selected()).done,3);
+ assert.equal(stats(selected()).percent,50);
+ assert.equal(stats(application()).done,1);
+ assert.equal(stats(application()).percent,100);
+ assert.match(render(d),/Overall tracked v1 tasks:.*50% \(3\/6\)/);
+ assert.match(render(d),/Application implementation:.*100% \(1\/1\)/);
 });
 test('only done counts; active and remaining form disjoint counts', () => {
  const s=stats(statuses.map(status => ({status})));
