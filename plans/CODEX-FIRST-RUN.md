@@ -28,7 +28,9 @@ Then read `docs/19-ai-engineering-workflow.md` and `docs/20-learning-and-pr-teac
 
 Confirm the current task and dependencies from progress data. State the recommended model/effort, without claiming to change runtime settings. Work on one bounded issue/PR at a time. Stop at evidence/approval gates; no automatic phase advancement.
 
-Your first task is planning only:
+If the current task already has an open PR, finish its review/teaching handoff first. Have Control Tower select `p0-03` before starting the planning work below; do not silently switch tasks.
+
+Your first implementation-planning task is planning only:
 
 - summarize the project constraints in no more than 20 bullets;
 - report any contradictions or missing foundational decisions;
