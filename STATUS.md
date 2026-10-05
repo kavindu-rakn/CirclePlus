@@ -15,7 +15,7 @@ Equal task weight; only `done` counts. Planning is included in overall progress.
 ## Current work
 
 - Phase: **p0 — Archaeology and reference pack**
-- Task: **p0-ops-01 — Coordinated chat handoffs and batch teaching** (learning_gate)
+- Task: **p0-ops-01 — Coordinated chat handoffs and batch teaching** (ready_to_merge)
 - Issue: Not assigned
 - PR: https://github.com/kavindu-rakn/CirclePlus/pull/2
 - Recommended model/effort: GPT-6.1 Sol / Medium
@@ -46,7 +46,7 @@ Model/effort above is a recommendation; verify runtime settings. Evidence confid
 
 - Phase 0 reference coverage and canonical snapshot remain unverified.
 - Meaningful PRs require developer-confirmed learning before merge readiness.
-- p0-ops-01: Developer Learning Gate pending on the final reviewed revision; PR remains draft and unmerged.
+- p0-ops-01: Awaiting the developer's separate merge decision; done requires verified merge and acceptance.
 - p0-08: Raw screenshots and research summaries lack dated per-screen metadata/verified behavior; Phase 0 exit criteria are not evidenced.
 - experimental-01: Separate scope approval required; excluded from v1.
 - experimental-02: Separate scope approval required; excluded from v1.
@@ -61,7 +61,7 @@ Source and completion evidence paths are recorded in the progress source. Unfini
 |---|---|---|---|---|---|
 | p0-01 — Existing documentation/architecture planning pack | done | medium | GPT-6.1 Sol / Medium | — | — |
 | p0-02 — AI engineering workflow and portable progress system | done | medium | GPT-6.1 Sol / Medium | — | https://github.com/kavindu-rakn/CirclePlus/pull/1 |
-| p0-ops-01 — Coordinated chat handoffs and batch teaching | learning_gate | medium | GPT-6.1 Sol / Medium | p0-02 | https://github.com/kavindu-rakn/CirclePlus/pull/2 |
+| p0-ops-01 — Coordinated chat handoffs and batch teaching | ready_to_merge | medium | GPT-6.1 Sol / Medium | p0-02 | https://github.com/kavindu-rakn/CirclePlus/pull/2 |
 | p0-03 — Repository/evidence audit and precise Phase 0/1 backlog | ready | medium | GPT-6.1 Sol / Medium | — | — |
 | p0-04 — Source inventory and dated screenshot records | backlog | unknown | GPT-6.1 Sol / High | p0-03* | — |
 | p0-05 — Desktop/mobile reference and route/page matrix | backlog | unknown | GPT-6.1 Sol / High | p0-03* | — |

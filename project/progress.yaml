@@ -62,7 +62,7 @@
           "id": "p0-ops-01",
           "title": "Coordinated chat handoffs and batch teaching",
           "kind": "planning",
-          "status": "learning_gate",
+          "status": "ready_to_merge",
           "dependencies": [
             "p0-02"
           ],
@@ -72,7 +72,7 @@
           "model": "GPT-6.1 Sol",
           "effort": "Medium",
           "blockers": [
-            "Developer Learning Gate pending on the final reviewed revision; PR remains draft and unmerged."
+            "Awaiting the developer's separate merge decision; done requires verified merge and acceptance."
           ],
           "sources": [
             "docs/21-coordinated-chat-handoffs.md",
