@@ -88,3 +88,9 @@ Vercel preview deployments are useful for visual review.
 - Keep migrations reversible where practical.
 - For risky data migrations, write explicit rollback or recovery notes.
 - Never deploy destructive migration + dependent code without sequencing.
+
+## AI-assisted operations
+
+Follow [AI Engineering Workflow](19-ai-engineering-workflow.md) and [Learning and PR Teaching](20-learning-and-pr-teaching.md). Meaningful PRs require developer-confirmed learning as well as technical review. [STATUS.md](../STATUS.md) is generated from `project/progress.yaml`; regenerate locally and verify freshness before committing task-state changes. GitHub tracking is an optional mirror, not a dependency.
+
+Until the application scaffold exists, run the status generator/check and its Node tests; application lint/typecheck/build checks above remain future requirements, not commands currently available.

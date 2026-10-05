@@ -40,3 +40,18 @@ Files:
 - `docs/reference/reference-capture-template.md`
 - `plans/CODEX-FIRST-RUN.md`
 - `plans/CODEX-MASTER-PLAN.md`
+
+## Operational additions
+
+The original documentation pack above is preserved. Added workflow/tracking artifacts:
+
+- `docs/19-ai-engineering-workflow.md`
+- `docs/20-learning-and-pr-teaching.md`
+- `project/progress.yaml`
+- `STATUS.md` (generated)
+- `scripts/generate-status.mjs`
+- `scripts/generate-status.test.mjs`
+- `.github/workflows/update-status.yml`
+- `.github/ISSUE_TEMPLATE/implementation.yml`
+- `.github/ISSUE_TEMPLATE/bug.yml`
+- `.github/ISSUE_TEMPLATE/historical-research.yml`

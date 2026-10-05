@@ -38,3 +38,12 @@
 ## Architecture decisions
 
 See [`docs/adr/`](adr/README.md).
+
+## AI operations and progress
+
+- [AI Engineering Workflow and Model Routing](19-ai-engineering-workflow.md)
+- [Learning and PR Teaching](20-learning-and-pr-teaching.md)
+- [Generated Project Dashboard](../STATUS.md)
+- [Portable Progress Source](../project/progress.yaml)
+
+`19-open-questions.md` keeps its existing path and links; the workflow document is a separate topic.

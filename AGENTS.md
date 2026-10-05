@@ -144,15 +144,27 @@ No silent scope expansion.
 
 ## Required reading order for a new agent
 
-1. `README.md`
-2. `docs/01-era-and-fidelity.md`
-3. `docs/02-product-requirements.md`
-4. `docs/03-feature-matrix.md`
-5. `docs/05-ui-ux-spec.md`
-6. `docs/06-technical-architecture.md`
-7. `docs/07-domain-and-data-model.md`
-8. `docs/09-auth-privacy-security.md`
-9. `docs/13-testing-and-quality.md`
-10. `plans/CODEX-MASTER-PLAN.md`
+1. `AGENTS.md` and `STATUS.md`
+2. Confirm the task in `project/progress.yaml`
+3. `README.md`
+4. `docs/01-era-and-fidelity.md`
+5. `docs/02-product-requirements.md`
+6. `docs/03-feature-matrix.md`
+7. `docs/05-ui-ux-spec.md`
+8. `docs/06-technical-architecture.md`
+9. `docs/07-domain-and-data-model.md`
+10. `docs/09-auth-privacy-security.md`
+11. `docs/13-testing-and-quality.md`
+12. `plans/CODEX-MASTER-PLAN.md`
 
 Then inspect relevant ADRs.
+
+## AI workflow, routing, and learning
+
+Read this file and [STATUS.md](STATUS.md) first. Confirm the selected task in `project/progress.yaml`, then read the relevant phase docs/ADRs. Work on one bounded issue/PR; do not advance phases automatically. Stop dependent implementation at insufficient historical evidence or explicit approval gates.
+
+Default: **GPT-6.1 Sol / Medium**. Use Sol High for complex state/data flow, feed/realtime work, and hard debugging; Luna Medium/High for well-specified repetitive work; Astra Medium/High for architecture/security/privacy review and critical audits. Extra is an explicit exception; Max/Ultracode are outside the normal workflow. Ambiguity/consequence, not code size, determines effort. Announce costly escalation. A prompt is not proof of a runtime switch: model/effort are runtime/user settings.
+
+Follow [the authoritative workflow and routing guide](docs/19-ai-engineering-workflow.md): Control Tower → Build → Review → Fix → Historical Review where needed → Teaching/Learning Gate → Merge → Progress update. Keep reviewers independent where practical. Control Tower and teaching chats do not edit the repo.
+
+Meaningful PRs require the [Learning Gate](docs/20-learning-and-pr-teaching.md); only the developer can confirm understanding. Mechanical exemptions need an explicit reason. Update progress data with material state changes and run `node scripts/generate-status.mjs` and `node scripts/generate-status.mjs --check`. Mark `done` after merge/acceptance, never because a plan exists. Include changes/tests/risks/remaining work in the PR. Commit each coherent increment with a conventional subject and hyphen-bulleted description; no co-author trailer.

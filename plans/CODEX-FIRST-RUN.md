@@ -9,21 +9,24 @@ You are taking over implementation planning for this repository. Do **not** begi
 First read, in order:
 
 1. `AGENTS.md`
-2. `README.md`
-3. `docs/01-era-and-fidelity.md`
-4. `docs/02-product-requirements.md`
-5. `docs/03-feature-matrix.md`
-6. `docs/05-ui-ux-spec.md`
-7. `docs/06-technical-architecture.md`
-8. `docs/07-domain-and-data-model.md`
-9. `docs/09-auth-privacy-security.md`
-10. `docs/13-testing-and-quality.md`
-11. `docs/15-roadmap-and-implementation-plan.md`
-12. `docs/17-research-evidence-register.md`
-13. `plans/CODEX-MASTER-PLAN.md`
-14. all ADRs in `docs/adr/`
+2. `STATUS.md` and `project/progress.yaml`
+3. `README.md`
+4. `docs/01-era-and-fidelity.md`
+5. `docs/02-product-requirements.md`
+6. `docs/03-feature-matrix.md`
+7. `docs/05-ui-ux-spec.md`
+8. `docs/06-technical-architecture.md`
+9. `docs/07-domain-and-data-model.md`
+10. `docs/09-auth-privacy-security.md`
+11. `docs/13-testing-and-quality.md`
+12. `docs/15-roadmap-and-implementation-plan.md`
+13. `docs/17-research-evidence-register.md`
+14. `plans/CODEX-MASTER-PLAN.md`
+15. all ADRs in `docs/adr/`
 
-Then inspect the current repository.
+Then read `docs/19-ai-engineering-workflow.md` and `docs/20-learning-and-pr-teaching.md`, and inspect the current repository/Git state.
+
+Confirm the current task and dependencies from progress data. State the recommended model/effort, without claiming to change runtime settings. Work on one bounded issue/PR at a time. Stop at evidence/approval gates; no automatic phase advancement.
 
 Your first task is planning only:
 
@@ -37,6 +40,8 @@ Your first task is planning only:
 - explicitly list what you will **not** implement yet.
 
 Do not modernize the interface. Do not introduce Material 3/MUI defaults. Do not add ActivityPub, Hangouts, microservices, AI features, or unrelated product ideas.
+
+Update `project/progress.yaml` as task state changes; run `node scripts/generate-status.mjs`, `node scripts/generate-status.mjs --check`, and relevant validation. Open/update the planning PR and summarize changes, tests, risks, blockers, and remaining work. Complete review and the Learning Gate before signaling ready to merge; do not merge automatically.
 
 Wait for my approval of the plan before starting implementation.
 

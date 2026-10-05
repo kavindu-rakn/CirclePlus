@@ -35,3 +35,11 @@ Include:
 - unresolved questions
 
 Use the repository PR template.
+
+## AI handoffs and Learning Gate
+
+Use [AI Engineering Workflow](docs/19-ai-engineering-workflow.md) for roles/model routing and optional GitHub Projects/Milestones. One bounded task per PR; independent review where practical. Read `AGENTS.md` and `STATUS.md`, then confirm the task in `project/progress.yaml`.
+
+Every meaningful PR requires [teaching and developer-confirmed understanding](docs/20-learning-and-pr-teaching.md) before merge readiness. Record the reviewed revision and Learning Gate completion in the PR. Mechanical exemptions need an explicit reason. The teaching chat never edits the repository.
+
+Update progress data when task state changes; regenerate with `node scripts/generate-status.mjs` and verify with `node scripts/generate-status.mjs --check`. Run `node --test scripts/generate-status.test.mjs` for tracker changes. CI rejects stale dashboards without auto-committing. Record `done` in a tracking PR after merge/acceptance. Viewing `STATUS.md` costs no AI allowance.

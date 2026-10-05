@@ -120,3 +120,9 @@ Limited posts cannot leak through direct URL, Stream, search, or media.
 
 - ActivityPub behind explicit feature boundary
 - optional Hangouts-inspired experience via LiveKit only if separately approved
+
+## Execution tracking
+
+The phases and exit criteria above remain authoritative. [Portable progress data](../project/progress.yaml) breaks them into trackable tasks; [STATUS.md](../STATUS.md) derives counts without an LLM. Planning documents and collected PDFs/images do not complete application tasks or the historical reference gate. Phase 0 includes documentation delivery and this operating workflow; settings remain v1 and are tracked in Phase 6 alongside the related safety/search work (see the existing feature matrix).
+
+Follow [AI Engineering Workflow](19-ai-engineering-workflow.md). Complete the [Learning Gate](20-learning-and-pr-teaching.md) for significant PRs. Do not start a new phase automatically; obtain the existing evidence/approval decisions first.
