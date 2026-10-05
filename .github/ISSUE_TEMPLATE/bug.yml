@@ -1,0 +1,55 @@
+name: "Bug report"
+description: "Reproduce, diagnose, fix, and verify a regression."
+body:
+  - type: markdown
+    attributes:
+      value: "Keep repo progress data authoritative; GitHub tracking is an optional mirror."
+  - type: textarea
+    id: area
+    attributes:
+      label: "Affected phase / feature / version"
+      description: "Task ID, release, environment, and related issue/PR if known."
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: "Reproduction steps"
+      description: "Small reliable sequence; browser/device and relevant preconditions."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: "Expected behavior"
+      description: "Include historical evidence if the behavior is era-dependent."
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: "Actual behavior"
+      description: "What happened and how often?"
+    validations:
+      required: true
+  - type: textarea
+    id: regression
+    attributes:
+      label: "Regression scope"
+      description: "Known good/bad revisions; related features/users/audiences affected."
+    validations:
+      required: true
+  - type: textarea
+    id: attachments
+    attributes:
+      label: "Screenshots / logs"
+      description: "Attach sanitized logs/screenshots. Do not include credentials or private user data."
+    validations:
+      required: false
+  - type: textarea
+    id: routing
+    attributes:
+      label: "Model escalation if needed"
+      description: "Sol High for difficult debugging; Astra Medium/High for unresolved unknowns. Explain why if needed."
+    validations:
+      required: false

@@ -1,0 +1,48 @@
+name: "Historical research"
+description: "Resolve an evidence gap before dependent implementation."
+body:
+  - type: markdown
+    attributes:
+      value: "Keep repo progress data authoritative; GitHub tracking is an optional mirror."
+  - type: textarea
+    id: question
+    attributes:
+      label: "Uncertain UI / behavior question"
+      description: "State the exact uncertainty and affected screen/interaction."
+    validations:
+      required: true
+  - type: textarea
+    id: era
+    attributes:
+      label: "Target era / platform"
+      description: "Late 2016 / early 2017 visual anchor; Nov 2015\u2013mid-2017 feature envelope. Pin date/build/platform."
+    validations:
+      required: true
+  - type: textarea
+    id: needed
+    attributes:
+      label: "Evidence needed"
+      description: "Required artifacts, measurements, interaction recordings, and what they must prove."
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: "Source priority and links"
+      description: "Primary/archived Google \u2192 dated screenshots/recordings \u2192 contemporary coverage \u2192 recollection \u2192 conservative inference."
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: "Confidence outcome"
+      description: "Current and proposed high/medium/low/unknown; what is proven, not proven, conflicting, or still missing."
+    validations:
+      required: true
+  - type: textarea
+    id: blocked
+    attributes:
+      label: "Blocked implementation tasks"
+      description: "Portable task IDs / issues / PRs; block only dependent work."
+    validations:
+      required: true
