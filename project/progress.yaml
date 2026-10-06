@@ -3,7 +3,7 @@
   "project": "Google+ restoration (name TBD)",
   "version": "v1",
   "current_phase": "p0",
-  "current_task": "p0-ops-01",
+  "current_task": null,
   "next_task": "p0-03",
   "blockers": [
     "Phase 0 reference coverage and canonical snapshot remain unverified.",
@@ -62,7 +62,7 @@
           "id": "p0-ops-01",
           "title": "Coordinated chat handoffs and batch teaching",
           "kind": "planning",
-          "status": "ready_to_merge",
+          "status": "done",
           "dependencies": [
             "p0-02"
           ],
@@ -71,15 +71,15 @@
           "historical_confidence": "medium",
           "model": "GPT-6.1 Sol",
           "effort": "Medium",
-          "blockers": [
-            "Awaiting the developer's separate merge decision; done requires verified merge and acceptance."
-          ],
+          "blockers": [],
           "sources": [
             "docs/21-coordinated-chat-handoffs.md",
             "plans/ROLE-PROMPTS.md",
             "docs/records/pr-2-review-and-activation.md"
           ],
-          "completion_evidence": []
+          "completion_evidence": [
+            "docs/records/pr-2-review-and-activation.md"
+          ]
         },
         {
           "id": "p0-03",
