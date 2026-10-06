@@ -15,9 +15,9 @@ Equal task weight; only `done` counts. Planning is included in overall progress.
 ## Current work
 
 - Phase: **p0 — Archaeology and reference pack**
-- Task: **p0-03 — Repository/evidence audit and precise Phase 0/1 backlog** (in_progress)
+- Task: **p0-03 — Repository/evidence audit and precise Phase 0/1 backlog** (review)
 - Issue: Not assigned
-- PR: Not opened
+- PR: https://github.com/kavindu-rakn/CirclePlus/pull/4
 - Recommended model/effort: GPT-6.1 Sol / Medium
 - Historical evidence confidence: medium
 - Dependencies: None
@@ -61,7 +61,7 @@ Source and completion evidence paths are recorded in the progress source. Unfini
 | p0-01 — Existing documentation/architecture planning pack | done | medium | GPT-6.1 Sol / Medium | — | — |
 | p0-02 — AI engineering workflow and portable progress system | done | medium | GPT-6.1 Sol / Medium | — | https://github.com/kavindu-rakn/CirclePlus/pull/1 |
 | p0-ops-01 — Coordinated chat handoffs and batch teaching | done | medium | GPT-6.1 Sol / Medium | p0-02 | https://github.com/kavindu-rakn/CirclePlus/pull/2 |
-| p0-03 — Repository/evidence audit and precise Phase 0/1 backlog | in_progress | medium | GPT-6.1 Sol / Medium | — | — |
+| p0-03 — Repository/evidence audit and precise Phase 0/1 backlog | review | medium | GPT-6.1 Sol / Medium | — | https://github.com/kavindu-rakn/CirclePlus/pull/4 |
 | p0-04 — Source inventory and dated screenshot records | backlog | unknown | GPT-6.1 Sol / High | p0-03* | — |
 | p0-05 — Desktop/mobile reference and route/page matrix | backlog | unknown | GPT-6.1 Sol / High | p0-03* | — |
 | p0-06 — Canonical visual snapshot declaration | backlog | unknown | GPT-6.1 Sol / High | p0-03* | — |
