@@ -11,6 +11,12 @@ Primary research inputs currently available to this repository planning effort:
 
 The PDFs are research summaries, not primary historical artifacts. Claims inside them should be traced to their cited original sources before being treated as pixel-level truth.
 
+## p0-03 audit note (2026-10-06)
+
+The [repository audit](22-repository-evidence-audit.md) inspected the four raw images and the two report files. At baseline main `b415b55a956fa881c7f422dfb78725b2cc9aa427`, `docs/reference/` contains two guides and no per-artifact records. Visible Home/Collections/Communities examples are collection leads; source dates, builds, platform variants and CSS viewports remain unverified. A filename date, PDF export date or device-composite raster size is not a verified product date or viewport. Expanded composer/audience, profile/About, notification tray and other detail/behavior states remain gaps in the raw image set.
+
+The high-confidence conclusions below retain their inherited research confidence; this audit does not independently verify their original citations. Exact visual/interaction claims still require evidence. See the [minimum reference set and gap table](22-repository-evidence-audit.md) and [p0-04 through p0-08 collection/approval plans](../plans/PHASE-0-1-BACKLOG.md). No canonical snapshot, token value or behavioral policy is selected here; Phase 0 exit remains unfulfilled.
+
 ## High-confidence historical conclusions
 
 | Claim | Confidence | Notes |

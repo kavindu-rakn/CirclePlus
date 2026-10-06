@@ -29,6 +29,8 @@
 - [Legal & Branding Notes](18-legal-branding-notes.md)
 - [Open Questions](19-open-questions.md)
 - [Reference Pack Guide](reference/README.md)
+- [p0-03 Repository and Evidence Audit](22-repository-evidence-audit.md)
+- [Precise Phase 0/1 PR Backlog](../plans/PHASE-0-1-BACKLOG.md)
 
 ## Codex
 

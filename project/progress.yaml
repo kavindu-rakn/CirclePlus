@@ -3,8 +3,8 @@
   "project": "Google+ restoration (name TBD)",
   "version": "v1",
   "current_phase": "p0",
-  "current_task": null,
-  "next_task": "p0-03",
+  "current_task": "p0-03",
+  "next_task": "p0-04",
   "blockers": [
     "Phase 0 reference coverage and canonical snapshot remain unverified.",
     "Meaningful PRs require developer-confirmed learning before merge readiness."
@@ -85,7 +85,7 @@
           "id": "p0-03",
           "title": "Repository/evidence audit and precise Phase 0/1 backlog",
           "kind": "planning",
-          "status": "ready",
+          "status": "in_progress",
           "dependencies": [],
           "issue": null,
           "pr": null,
@@ -95,7 +95,9 @@
           "blockers": [],
           "sources": [
             "docs/15-roadmap-and-implementation-plan.md",
-            "plans/CODEX-MASTER-PLAN.md"
+            "plans/CODEX-MASTER-PLAN.md",
+            "docs/22-repository-evidence-audit.md",
+            "plans/PHASE-0-1-BACKLOG.md"
           ],
           "completion_evidence": []
         },
