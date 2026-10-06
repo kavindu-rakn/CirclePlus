@@ -4,7 +4,9 @@ Every significant PR needs a teaching session before it is ready to merge from t
 
 ## Lesson format
 
-Explain briefly in simple language, then go deeper where the developer needs it:
+Default: one short lesson followed by three numbered questions, all in the same response. The developer answers all three in one reply and may include explicit understanding confirmation there. Correct/recheck only the gaps; do not require another confirmation if the developer already gave one and understanding is demonstrated. Aim for a 5–10 minute lesson for small PRs; expand only for meaningful complexity.
+
+Start with one concrete end-to-end example, then introduce important file/function names as needed. Define unfamiliar terms immediately. Summarize the following relevant topics briefly; provide deeper architecture/alternative/interview detail on request or where necessary to understand risks:
 
 1. **Problem solved:** concrete before/after behavior and acceptance criteria.
 2. **Architecture fit:** why this exists in the restoration; which domain/phase it serves and which historical behavior it preserves.
@@ -15,9 +17,9 @@ Explain briefly in simple language, then go deeper where the developer needs it:
 7. **Decisions:** why this implementation was chosen, meaningful alternatives, cost/complexity trade-offs, and historical evidence confidence.
 8. **Failure and debugging:** likely failures, symptoms, where to inspect, how to reproduce, and tests that catch regressions.
 9. **Interview/viva explanation:** the developer should describe the problem, architecture placement, flow, permissions, decisions, and one failure scenario without reading the diff.
-10. **Comprehension:** ask 3–8 questions, wait for answers, correct gaps, and revisit weak areas. Do not mark understanding complete based on an assistant's own answers.
+10. **Comprehension:** ask three questions together (3–8 only if complexity warrants more), wait for the developer's batch reply, correct gaps, and revisit only weak areas. Do not mark understanding complete based on an assistant's own answers.
 
-Possible questions (choose 3–8 relevant to the PR):
+Possible questions (choose three relevant to the PR by default):
 
 - What problem does this change solve, and what remains outside scope?
 - Walk one user action from click to persisted result and back.
@@ -41,7 +43,7 @@ For this workflow PR: explain why `learning_gate` is not `done`, how the percent
 - [ ] 3–8 questions answered; gaps corrected and rechecked.
 - [ ] Developer confirms understanding on the final revision.
 
-The developer posts a brief completion record in the PR: revision, teaching chat/session reference if available, questions covered, gaps resolved, confirmation. Build/Fix or the developer updates `project/progress.yaml` and regenerates `STATUS.md`. The teaching chat provides the lesson and record text only.
+Teacher produces a brief completion record: revision, teaching chat/session reference if available, questions covered, gaps resolved, and direct developer confirmation reference. Within human-authorized coordination, Control Tower reads the Teacher chat; Builder/Fixer posts the record in the PR, updates `project/progress.yaml`, and regenerates `STATUS.md`. The developer does not copy the record between chats. Teacher provides the lesson/record only and never edits the repo or advances state. If tools/authorization are missing, report the specific blocker rather than falsely claiming automatic handoff.
 
 Small mechanical PRs may be explicitly exempted by the developer with a reason (for example, typo-only correction with no behavior or architecture change). Record the reason in the PR; never assume exemption because the diff is short. This workflow/generator PR is significant and is not exempt.
 

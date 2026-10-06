@@ -94,3 +94,7 @@ Vercel preview deployments are useful for visual review.
 Follow [AI Engineering Workflow](19-ai-engineering-workflow.md) and [Learning and PR Teaching](20-learning-and-pr-teaching.md). Meaningful PRs require developer-confirmed learning as well as technical review. [STATUS.md](../STATUS.md) is generated from `project/progress.yaml`; regenerate locally and verify freshness before committing task-state changes. GitHub tracking is an optional mirror, not a dependency.
 
 Until the application scaffold exists, run the status generator/check and its Node tests; application lint/typecheck/build checks above remain future requirements, not commands currently available.
+
+## Coordinated role execution
+
+[Coordinated Chat Handoffs](21-coordinated-chat-handoffs.md) replaces developer message relaying with authorized Control Tower dispatch/read/wait. Use [Role Prompts](../plans/ROLE-PROMPTS.md), exact-revision PR handoffs, one writer, and a two-round fix/re-review limit. No new paid services, API charges, or background watcher are required. Pause for the human Learning Gate and merge decision.

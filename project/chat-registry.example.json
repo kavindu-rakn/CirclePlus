@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "repository_path": "C:/path/to/CirclePlus",
+  "authorization": {
+    "source_thread_id": null,
+    "source_turn_reference": null,
+    "scope": "Only explicitly human-authorized approved project tasks; verify source before messaging.",
+    "create_new_chats": false
+  },
+  "persistent_roles": {
+    "control_tower": null,
+    "teacher": null,
+    "guide": null,
+    "historian": null
+  },
+  "per_pr_roles": {},
+  "entry_format": {
+    "thread_id": "actual ID from list_threads",
+    "host_id": "actual host",
+    "title": "exact listed title"
+  },
+  "notes": "Local routing only. Do not commit actual personal chat IDs; validate recipients before dispatch."
+}

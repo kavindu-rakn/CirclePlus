@@ -55,3 +55,12 @@ The original documentation pack above is preserved. Added workflow/tracking arti
 - `.github/ISSUE_TEMPLATE/implementation.yml`
 - `.github/ISSUE_TEMPLATE/bug.yml`
 - `.github/ISSUE_TEMPLATE/historical-research.yml`
+
+## Coordinated handoff additions
+
+- `docs/21-coordinated-chat-handoffs.md`
+- `plans/ROLE-PROMPTS.md`
+- `project/chat-registry.example.json`
+- `docs/records/pr-1-acceptance.md`
+
+Personal chat routing stays in ignored `project/chat-registry.local.json`.

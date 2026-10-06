@@ -14,7 +14,7 @@ This is the authoritative workflow and model-routing guide. Product scope, histo
 | Bug — issue #X | One bug/cluster | Reproduce → diagnose → fix → regression test | Yes |
 | Historical/UI Review | Persistent or one PR | Compare references at matching viewports, record evidence confidence and deviations | Prefer none; request evidence/doc changes from Build/Fix |
 
-Use a fresh review context where practical. Give the reviewer the issue, base/head commits, diff, evidence, acceptance criteria, and validation results. Let the reviewer reach conclusions before reading the builder's rationale. Critical PRs use Sol/Luna to build and Astra to independently review. Separate chats are human workflow roles; they do not automatically create subagents or change models.
+Use a fresh review context where practical. Give the reviewer the issue, base/head commits, diff, evidence, acceptance criteria, and validation results. Let the reviewer reach conclusions before reading the builder's rationale. Critical PRs use Sol/Luna to build and Astra to independently review. Separate chats retain distinct contexts. Control Tower can coordinate them through supported app tools after direct human authorization; use [Coordinated Chat Handoffs](21-coordinated-chat-handoffs.md) and [Role Prompts](../plans/ROLE-PROMPTS.md). They do not automatically share whole histories or change models.
 
 ## Canonical PR lifecycle
 
@@ -25,11 +25,11 @@ Control Tower → Build → Review → Fix → Historical Review where needed �
 3. Inspect Git status/branch/remotes. Preserve unrelated work. Create a focused branch and PR; update the PR as review and fixes proceed.
 4. Move the task through `in_progress`, `review`, `learning_gate`, and `ready_to_merge` only when their gates are satisfied. A bug fix can return it to review. Historical review blocks only affected work.
 5. Obtain independent review; fix accepted findings; compare substantial UI changes with dated references. Insufficient/blocked evidence prevents large dependent implementation. Record gaps in the [evidence register](17-research-evidence-register.md) and research issues. No silent scope expansion or phase advancement.
-6. Complete the [Learning Gate](20-learning-and-pr-teaching.md) on the final reviewed revision. The developer records the result; the teaching chat never edits the repository. Green tests alone do not complete learning.
+6. Complete the [Learning Gate](20-learning-and-pr-teaching.md) on the final reviewed revision. The developer answers and explicitly confirms understanding; Control Tower retrieves the record and Builder/Fixer posts it. The teaching chat never edits the repository. Green tests alone do not complete learning.
 7. Signal ready to merge and leave merging to the developer unless explicitly authorized. Record `done` only after merge and acceptance, with evidence and the merged PR link.
 8. Update progress in the implementation PR at every material state change and regenerate the dashboard. After merge, use a small tracking PR for the `done` transition; never assume CI advances state. Do not begin the next phase automatically.
 
-For each handoff include task ID, PR link, base/head revision, what changed, tests, risks, blockers, remaining work, and the next responsible role. New commits affecting taught behavior require a short follow-up lesson/review.
+Control Tower dispatches and reads handoffs directly within human-authorized scope; the developer is not the message relay. For each handoff include task ID, PR link, base/head revision, what changed, tests, risks, blockers, remaining work, and the next responsible role. New commits affecting taught behavior require a short follow-up lesson/review.
 
 ## Authoritative model routing
 
@@ -77,3 +77,7 @@ Run from the repository root. Edit progress data, never the generated dashboard.
 Percentage = completed tasks / all tracked tasks in the selected release, with equal task weight and only `done` receiving credit. Overall means v1 (Phases 0–8), including planning; application-only completion is shown separately. Later releases/experiments remain visible outside that denominator. It is task completion, not effort spent or a forecast. When splitting tasks, preserve scope/source and expect the denominator to change. No manual percentage overrides.
 
 CI checks data integrity, generator tests, and dashboard freshness on PRs and pushes. It never commits or advances task state. A stale dashboard fails CI: regenerate locally and commit both files. Release and phase exit criteria still control advancement, regardless of percentage.
+
+## Coordinated operation
+
+Use [Coordinated Chat Handoffs](21-coordinated-chat-handoffs.md) for runtime tool/authorization checks, local routing, exact-revision PR evidence, one writer, and bounded review/fix loops. No new paid services/APIs/subscriptions. Existing Codex allowance is still consumed; stop rather than buy credits or enable a billable fallback. This is a documented workflow, not an always-running watcher.

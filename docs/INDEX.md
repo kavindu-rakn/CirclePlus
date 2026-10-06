@@ -47,3 +47,7 @@ See [`docs/adr/`](adr/README.md).
 - [Portable Progress Source](../project/progress.yaml)
 
 `19-open-questions.md` keeps its existing path and links; the workflow document is a separate topic.
+
+- [Coordinated Chat Handoffs](21-coordinated-chat-handoffs.md)
+- [Reusable Role Prompts](../plans/ROLE-PROMPTS.md)
+- [Local Chat Registry Example](../project/chat-registry.example.json)

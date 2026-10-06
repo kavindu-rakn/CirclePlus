@@ -24,7 +24,7 @@ First read, in order:
 14. `plans/CODEX-MASTER-PLAN.md`
 15. all ADRs in `docs/adr/`
 
-Then read `docs/19-ai-engineering-workflow.md` and `docs/20-learning-and-pr-teaching.md`, and inspect the current repository/Git state.
+Then read `docs/19-ai-engineering-workflow.md`, `docs/20-learning-and-pr-teaching.md`, `docs/21-coordinated-chat-handoffs.md`, and `plans/ROLE-PROMPTS.md`, and inspect the current repository/Git state.
 
 Confirm the current task and dependencies from progress data. State the recommended model/effort, without claiming to change runtime settings. Work on one bounded issue/PR at a time. Stop at evidence/approval gates; no automatic phase advancement.
 
@@ -48,3 +48,5 @@ Update `project/progress.yaml` as task state changes; run `node scripts/generate
 Wait for my approval of the plan before starting implementation.
 
 ---
+
+For a coordinated run, verify app tools and direct human messaging authorization first. Control Tower supplies the bounded task prompt and collects role results; the developer is not a transcript courier. Missing role chats/tools are explicit setup blockers. No new paid service, API usage, credits, or automatic phase advancement.
