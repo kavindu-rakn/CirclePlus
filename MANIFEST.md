@@ -64,3 +64,8 @@ The original documentation pack above is preserved. Added workflow/tracking arti
 - `docs/records/pr-1-acceptance.md`
 
 Personal chat routing stays in ignored `project/chat-registry.local.json`.
+
+## p0-03 planning additions
+
+- `docs/22-repository-evidence-audit.md`
+- `plans/PHASE-0-1-BACKLOG.md`

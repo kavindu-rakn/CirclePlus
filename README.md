@@ -74,6 +74,8 @@ Start with [docs/INDEX.md](docs/INDEX.md). AI coding agents must read [AGENTS.md
 
 Documentation-first; application implementation has not started. Phase 0 evidence gates still apply.
 
+The [repository/evidence audit](docs/22-repository-evidence-audit.md) inventories the planning baseline and historical gaps. The [Phase 0/1 PR backlog](plans/PHASE-0-1-BACKLOG.md) proposes bounded next steps; it does not approve implementation or complete the reference gate.
+
 See the [generated progress dashboard](STATUS.md) for current task, completion counts, blockers, next task, model recommendation, and historical confidence. It derives from [portable progress data](project/progress.yaml); viewing or generating it uses no AI allowance. Regenerate locally with `node scripts/generate-status.mjs`; verify with `node scripts/generate-status.mjs --check` (Node 22+, no packages).
 
 Use [AI Engineering Workflow](docs/19-ai-engineering-workflow.md) for task roles/model routing and [Learning and PR Teaching](docs/20-learning-and-pr-teaching.md) for the required developer learning gate.

@@ -8,20 +8,20 @@ Overall tracked v1 tasks: `[#-------------------] 5% (3/55)`
 
 Application implementation: `[--------------------] 0% (0/46)`
 
-Done: **3** · In progress/review/learning/ready to merge: **0** · Remaining backlog/ready/blocked: **52**
+Done: **3** · In progress/review/learning/ready to merge: **1** · Remaining backlog/ready/blocked: **51**
 
 Equal task weight; only `done` counts. Planning is included in overall progress. Later releases/experiments are excluded. Percentages are rounded task counts, not effort estimates.
 
 ## Current work
 
 - Phase: **p0 — Archaeology and reference pack**
-- Task: None selected
+- Task: **p0-03 — Repository/evidence audit and precise Phase 0/1 backlog** (ready_to_merge)
 - Issue: Not assigned
-- PR: Not opened
-- Recommended model/effort: None
-- Historical evidence confidence: unknown
+- PR: https://github.com/kavindu-rakn/CirclePlus/pull/4
+- Recommended model/effort: GPT-6.1 Sol / Medium
+- Historical evidence confidence: medium
 - Dependencies: None
-- Next task: p0-03 — Repository/evidence audit and precise Phase 0/1 backlog (ready)
+- Next task: p0-04 — Source inventory and dated screenshot records (backlog)
 
 Model/effort above is a recommendation; verify runtime settings. Evidence confidence does not equal phase approval.
 
@@ -29,7 +29,7 @@ Model/effort above is a recommendation; verify runtime settings. Evidence confid
 
 | Phase | Release | Completion | Active | Remaining |
 |---|---|---|---:|---:|
-| p0 — Archaeology and reference pack | v1 | 33% (3/9) | 0 | 6 |
+| p0 — Archaeology and reference pack | v1 | 33% (3/9) | 1 | 5 |
 | p1 — Repository foundation + historical design system | v1 | 0% (0/4) | 0 | 4 |
 | p2 — Stream and publishing primitives | v1 | 0% (0/9) | 0 | 9 |
 | p3 — Profiles, follows, audiences | v1 | 0% (0/5) | 0 | 5 |
@@ -46,6 +46,7 @@ Model/effort above is a recommendation; verify runtime settings. Evidence confid
 
 - Phase 0 reference coverage and canonical snapshot remain unverified.
 - Meaningful PRs require developer-confirmed learning before merge readiness.
+- p0-03: Separate human merge authorization remains pending; done requires verified merge and acceptance.
 - p0-08: Raw screenshots and research summaries lack dated per-screen metadata/verified behavior; Phase 0 exit criteria are not evidenced.
 - experimental-01: Separate scope approval required; excluded from v1.
 - experimental-02: Separate scope approval required; excluded from v1.
@@ -61,7 +62,7 @@ Source and completion evidence paths are recorded in the progress source. Unfini
 | p0-01 — Existing documentation/architecture planning pack | done | medium | GPT-6.1 Sol / Medium | — | — |
 | p0-02 — AI engineering workflow and portable progress system | done | medium | GPT-6.1 Sol / Medium | — | https://github.com/kavindu-rakn/CirclePlus/pull/1 |
 | p0-ops-01 — Coordinated chat handoffs and batch teaching | done | medium | GPT-6.1 Sol / Medium | p0-02 | https://github.com/kavindu-rakn/CirclePlus/pull/2 |
-| p0-03 — Repository/evidence audit and precise Phase 0/1 backlog | ready | medium | GPT-6.1 Sol / Medium | — | — |
+| p0-03 — Repository/evidence audit and precise Phase 0/1 backlog | ready_to_merge | medium | GPT-6.1 Sol / Medium | — | https://github.com/kavindu-rakn/CirclePlus/pull/4 |
 | p0-04 — Source inventory and dated screenshot records | backlog | unknown | GPT-6.1 Sol / High | p0-03* | — |
 | p0-05 — Desktop/mobile reference and route/page matrix | backlog | unknown | GPT-6.1 Sol / High | p0-03* | — |
 | p0-06 — Canonical visual snapshot declaration | backlog | unknown | GPT-6.1 Sol / High | p0-03* | — |
