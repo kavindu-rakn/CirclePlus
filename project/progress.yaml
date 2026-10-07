@@ -3,7 +3,7 @@
   "project": "Google+ restoration (name TBD)",
   "version": "v1",
   "current_phase": "p0",
-  "current_task": "p0-03",
+  "current_task": null,
   "next_task": "p0-04",
   "blockers": [
     "Phase 0 reference coverage and canonical snapshot remain unverified.",
@@ -85,16 +85,14 @@
           "id": "p0-03",
           "title": "Repository/evidence audit and precise Phase 0/1 backlog",
           "kind": "planning",
-          "status": "ready_to_merge",
+          "status": "done",
           "dependencies": [],
           "issue": null,
           "pr": "https://github.com/kavindu-rakn/CirclePlus/pull/4",
           "historical_confidence": "medium",
           "model": "GPT-6.1 Sol",
           "effort": "Medium",
-          "blockers": [
-            "Separate human merge authorization remains pending; done requires verified merge and acceptance."
-          ],
+          "blockers": [],
           "sources": [
             "docs/15-roadmap-and-implementation-plan.md",
             "plans/CODEX-MASTER-PLAN.md",
@@ -102,7 +100,9 @@
             "plans/PHASE-0-1-BACKLOG.md",
             "docs/records/pr-4-review-and-learning.md"
           ],
-          "completion_evidence": []
+          "completion_evidence": [
+            "docs/records/pr-4-review-and-learning.md"
+          ]
         },
         {
           "id": "p0-04",

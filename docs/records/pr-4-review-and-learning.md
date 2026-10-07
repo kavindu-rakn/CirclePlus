@@ -36,7 +36,9 @@ On 2026-10-07 (Asia/Colombo), Fixer directly read the persistent CirclePlus Teac
 
 The readiness follow-up changes only this record, the selected task's status/blocker and generated `STATUS.md`. Audit/backlog content, evidence, workflow, generator and application behavior are unchanged after both review and teaching. This records already verified outcomes and requires no repeated full review or lesson. The final pushed readiness SHA, fresh checks and CI links belong in the PR handoff.
 
-## Remaining gates and writer handoff
+## Readiness-stage gates and writer handoff
+
+The following describes readiness before merge; verified merge and acceptance below supersede the pending PR #4 merge state.
 
 - `p0-03` moves from `learning_gate` to `ready_to_merge`; completion evidence remains empty and no completion credit is earned.
 - Learning and plan approval are satisfied. Control Tower collects the final readiness handoff for the separate human merge decision; Fixer does not infer return-message authorization.
@@ -45,3 +47,14 @@ The readiness follow-up changes only this record, the selected task's status/blo
 - Phase remains `p0`; `p0-04` remains the unstarted backlog suggestion, not a selected task. No phase advancement or downstream implementation is authorized.
 
 Builder released the checkout before this sole Fixer tracking increment. Fixer releases writer ownership after the pushed handoff; Reviewer, Teacher and Control Tower remain non-writers. Coordination uses existing allowance and existing free CI only, with no new services, credits, paid runners or model escalation.
+
+## Verified merge, acceptance and completion tracking
+
+- PR #4 merged at `2026-10-07T06:50:59Z` (2026-10-07 12:20:59 Asia/Colombo), as merge commit `c2769ae5770f42eb1ba86e4b5be2ea9cd16a414f`.
+- Final readiness head: `0c7a1a18e8f845983f6df765325d4384d7e868cd`. Exact-head [PR CI](https://github.com/kavindu-rakn/CirclePlus/actions/runs/37583014145) and [push CI](https://github.com/kavindu-rakn/CirclePlus/actions/runs/37583011271) passed without retries. Independent review, learning and separate plan approval above were verified before merge.
+- Fixer directly verified the developer's explicit PR #4 merge authorization and acceptance in Control Tower, then merged with expected-head protection. GitHub reported merged state/time/commit, and fetched `origin/main` matched that merge commit. Private source references remain in ignored routing data; no private conversation IDs or quotations are published.
+- `p0-03` is therefore `done`, with this record as completion evidence. This records a merged and accepted planning task; application implementation remains 0% and historical research/phase gates remain unresolved.
+- The completion-only branch `codex/p0-03-completion-tracking` starts at the verified merged main. It changes only this record, `project/progress.yaml` and generated `STATUS.md`; no audit/backlog content, evidence, workflow, generator, application or schema behavior changes. The draft tracking PR and final exact-head checks belong in its PR handoff.
+- `current_task` is `null` because the validator disallows a completed current task. Phase stays `p0`; `p0-04` remains only an unselected, unstarted backlog suggestion. Its satisfied dependency is not permission to start it or Phase 1.
+- The new tracking PR still needs its own independent review, explicit learning disposition and separate merge decision. PR #3's mechanical exemption applies only to PR #3; none is assumed here. No new roadmap task is created, and no further tracking-of-tracking PR is required merely to close this bookkeeping PR.
+- PR #4 role entries are retired locally after the closure handoff. Fixer releases writer ownership; no downstream role is dispatched and no return-message authorization is inferred.
