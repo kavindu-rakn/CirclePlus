@@ -23,14 +23,24 @@ Original external historical citations were not reverified. PDF inspection was n
 
 The follow-up to the reviewed head changes only this durable record, `project/progress.yaml` and generated `STATUS.md`; the ignored local chat registry also records verified role identities. Audit/backlog content, historical evidence, workflow, generator, fixtures and application behavior are untouched. This comparison supports teaching the final tracking revision without another full technical review. Any later substantive change requires focused re-review and, if already taught, teaching follow-up.
 
-The current teaching candidate is the final pushed commit containing this tracking increment, identified by its full SHA and fresh checks in the PR description. It is a candidate, not a taught or developer-confirmed revision. The independent-review prerequisite is satisfied for the substantive plan, with this limited post-review comparison recorded. Private chat/turn references remain in ignored local routing data; the PR handoff identifies the review source and exact revisions.
+The tracking revision `587a15686ad0e948d035b604d029dc7d0c141a4c` was subsequently taught and developer-confirmed as recorded below. The independent-review prerequisite is satisfied for the substantive plan, with this limited post-review comparison recorded. Private chat/turn references remain in ignored local routing data; the PR handoff identifies the review source and exact revisions.
+
+## Completed learning and separate plan approval
+
+On 2026-10-07 (Asia/Colombo), Fixer directly read the persistent CirclePlus Teacher chat's lesson, all three developer answers, Teacher's clarification and the developer's final separate confirmations for taught revision `587a15686ad0e948d035b604d029dc7d0c141a4c`.
+
+- Learning Gate completed: answers demonstrated why raw images need verified provenance/platform/date and browser geometry; why planning completion does not mean an app exists or a phase can start; and why passing CI checks consistency rather than historical truth, with source records/measurement methods as the debugging path.
+- Teacher clarified that Phase 1 also requires passing Phase 0 exit gates and explicit start approval. Teacher accepted the answers with no further unresolved comprehension gaps, and the developer directly confirmed understanding of this revision.
+- Audit/backlog plan separately approved: the developer directly approved the proposed plan. This does not select later canonical desktop/mobile variants, privacy/UX policy, branding/assets or auth/local DB choices, authorize downstream work, or authorize merge.
+- This is a completed meaningful-PR Learning Gate, not a mechanical exemption. PR #3's exemption was not reused. Private confirmation references remain in the ignored registry; no private IDs or conversation quotations are published.
+
+The readiness follow-up changes only this record, the selected task's status/blocker and generated `STATUS.md`. Audit/backlog content, evidence, workflow, generator and application behavior are unchanged after both review and teaching. This records already verified outcomes and requires no repeated full review or lesson. The final pushed readiness SHA, fresh checks and CI links belong in the PR handoff.
 
 ## Remaining gates and writer handoff
 
-- `p0-03` moves from `review` to `learning_gate`; completion evidence remains empty and no completion credit is earned.
-- Control Tower collects the final revision and arranges Teacher's lesson. Teacher must receive the final candidate, reviewed SHA and this comparison; Fixer does not dispatch Teacher or assume return-message authorization.
-- Developer must answer Teacher's questions and explicitly confirm understanding. PR #3's mechanical exemption does not apply to this meaningful audit/backlog PR.
-- Developer plan approval and separate merge authorization remain pending. PR #4 stays draft, not `ready_to_merge` or `done`; merge/acceptance must be verified before completion.
+- `p0-03` moves from `learning_gate` to `ready_to_merge`; completion evidence remains empty and no completion credit is earned.
+- Learning and plan approval are satisfied. Control Tower collects the final readiness handoff for the separate human merge decision; Fixer does not infer return-message authorization.
+- Mark PR #4 ready only after final-head checks and hosted CI pass; otherwise retain draft and report pending checks. Separate human merge authorization remains pending, and merge/acceptance must be verified before `done`.
 - Phase 0 provenance, dated Home desktop/mobile references, canonical snapshot, token measurements and behavior/exit gates remain unresolved. Later branding/assets, auth/local DB and explicit phase decisions retain their owners in the [audit](../22-repository-evidence-audit.md) and [backlog](../../plans/PHASE-0-1-BACKLOG.md).
 - Phase remains `p0`; `p0-04` remains the unstarted backlog suggestion, not a selected task. No phase advancement or downstream implementation is authorized.
 

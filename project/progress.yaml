@@ -85,7 +85,7 @@
           "id": "p0-03",
           "title": "Repository/evidence audit and precise Phase 0/1 backlog",
           "kind": "planning",
-          "status": "learning_gate",
+          "status": "ready_to_merge",
           "dependencies": [],
           "issue": null,
           "pr": "https://github.com/kavindu-rakn/CirclePlus/pull/4",
@@ -93,7 +93,7 @@
           "model": "GPT-6.1 Sol",
           "effort": "Medium",
           "blockers": [
-            "Developer-confirmed Learning Gate and plan approval remain pending; merge requires separate authorization."
+            "Separate human merge authorization remains pending; done requires verified merge and acceptance."
           ],
           "sources": [
             "docs/15-roadmap-and-implementation-plan.md",

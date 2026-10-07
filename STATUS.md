@@ -15,7 +15,7 @@ Equal task weight; only `done` counts. Planning is included in overall progress.
 ## Current work
 
 - Phase: **p0 — Archaeology and reference pack**
-- Task: **p0-03 — Repository/evidence audit and precise Phase 0/1 backlog** (learning_gate)
+- Task: **p0-03 — Repository/evidence audit and precise Phase 0/1 backlog** (ready_to_merge)
 - Issue: Not assigned
 - PR: https://github.com/kavindu-rakn/CirclePlus/pull/4
 - Recommended model/effort: GPT-6.1 Sol / Medium
@@ -46,7 +46,7 @@ Model/effort above is a recommendation; verify runtime settings. Evidence confid
 
 - Phase 0 reference coverage and canonical snapshot remain unverified.
 - Meaningful PRs require developer-confirmed learning before merge readiness.
-- p0-03: Developer-confirmed Learning Gate and plan approval remain pending; merge requires separate authorization.
+- p0-03: Separate human merge authorization remains pending; done requires verified merge and acceptance.
 - p0-08: Raw screenshots and research summaries lack dated per-screen metadata/verified behavior; Phase 0 exit criteria are not evidenced.
 - experimental-01: Separate scope approval required; excluded from v1.
 - experimental-02: Separate scope approval required; excluded from v1.
@@ -62,7 +62,7 @@ Source and completion evidence paths are recorded in the progress source. Unfini
 | p0-01 — Existing documentation/architecture planning pack | done | medium | GPT-6.1 Sol / Medium | — | — |
 | p0-02 — AI engineering workflow and portable progress system | done | medium | GPT-6.1 Sol / Medium | — | https://github.com/kavindu-rakn/CirclePlus/pull/1 |
 | p0-ops-01 — Coordinated chat handoffs and batch teaching | done | medium | GPT-6.1 Sol / Medium | p0-02 | https://github.com/kavindu-rakn/CirclePlus/pull/2 |
-| p0-03 — Repository/evidence audit and precise Phase 0/1 backlog | learning_gate | medium | GPT-6.1 Sol / Medium | — | https://github.com/kavindu-rakn/CirclePlus/pull/4 |
+| p0-03 — Repository/evidence audit and precise Phase 0/1 backlog | ready_to_merge | medium | GPT-6.1 Sol / Medium | — | https://github.com/kavindu-rakn/CirclePlus/pull/4 |
 | p0-04 — Source inventory and dated screenshot records | backlog | unknown | GPT-6.1 Sol / High | p0-03* | — |
 | p0-05 — Desktop/mobile reference and route/page matrix | backlog | unknown | GPT-6.1 Sol / High | p0-03* | — |
 | p0-06 — Canonical visual snapshot declaration | backlog | unknown | GPT-6.1 Sol / High | p0-03* | — |
