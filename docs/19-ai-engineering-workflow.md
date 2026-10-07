@@ -6,19 +6,22 @@ This is the authoritative workflow and model-routing guide. Product scope, histo
 
 | Chat/task | Lifetime | Responsibility | Repository edits |
 |---|---|---|---|
+| Guide | Persistent | Explain project/workflow choices and help the developer make decisions | None |
 | Control Tower | Whole project | Select phase/task, coordinate dependencies, route models, explain scope | None; hand changes to Build/Fix |
 | Build — PR #X | One bounded PR | Implement the selected issue with acceptance criteria and tests | Yes |
 | Teach Me This Project | Persistent | Teach the final PR in simple language, connect architecture, trace files/functions/data flow/design decisions/failure modes, quiz the developer | Never |
 | Review — PR #X | One PR | Independently review correctness, tests, privacy, and fidelity | None |
-| Fix — PR #X | Same PR or focused follow-up | Apply accepted findings and rerun affected checks | Yes |
+| Fix — PR #X | One PR | Apply accepted findings and rerun affected checks | Yes |
 | Bug — issue #X | One bug/cluster | Reproduce → diagnose → fix → regression test | Yes |
-| Historical/UI Review | Persistent or one PR | Compare references at matching viewports, record evidence confidence and deviations | Prefer none; request evidence/doc changes from Build/Fix |
+| Historian | Persistent; create when needed and authorized | Review historical/UI evidence, compare dated references at matching viewports, report confidence and deviations | Never; request evidence/doc changes from Build/Fix |
 
 Use a fresh review context where practical. Give the reviewer the issue, base/head commits, diff, evidence, acceptance criteria, and validation results. Let the reviewer reach conclusions before reading the builder's rationale. Critical PRs use Sol/Luna to build and Astra to independently review. Separate chats retain distinct contexts. Control Tower can coordinate them through supported app tools after direct human authorization; use [Coordinated Chat Handoffs](21-coordinated-chat-handoffs.md) and [Role Prompts](../plans/ROLE-PROMPTS.md). They do not automatically share whole histories or change models.
 
+Completed per-PR roles are never reused for another PR. Keep the newest verified Builder, Fixer, and Reviewer independently, including when a bookkeeping PR has no Builder. Older finished roles follow the [recoverable cleanup rule](21-coordinated-chat-handoffs.md#recoverable-chat-cleanup); persistent roles stay available.
+
 ## Canonical PR lifecycle
 
-Control Tower → Build → Review → Fix → Historical Review where needed → Teaching/Learning Gate → Merge → Progress update.
+Control Tower → Build → Review → Fix → Historian where needed → Teaching/Learning Gate → Merge → Progress update.
 
 1. Read `AGENTS.md` and `STATUS.md`, then confirm the task in `project/progress.yaml`. Read the relevant phase documents and ADRs.
 2. Select one approved task. State scope, non-goals, acceptance criteria, dependencies, evidence confidence, and recommended model/effort. Do not claim the runtime changed.
@@ -50,7 +53,7 @@ Ambiguity and consequence determine reasoning effort, not lines of code. Use str
 
 A prompt saying “use GPT-6.1 Sol Medium” expresses intent. It does not prove that the active chat switched model or effort. Select/verify them in the runtime/user settings. An agent must report the recommendation separately from its known active settings, and say when active settings are unknown.
 
-Inspection found no existing `.codex/` configuration, custom roles, or installed-version contract in this repository. No runtime configuration is added in this update. Builder, reviewer, tester (checks and regression evidence), and historian (dated source/evidence comparison) remain intended roles.
+Inspection found no existing `.codex/` configuration, custom roles, or installed-version contract in this repository. No runtime configuration is added in this update. Builder, Reviewer, tester (checks and regression evidence), and Historian (dated source/evidence comparison) describe responsibilities; persistent chats use the registry and authorization rules above.
 
 The [official Codex subagent documentation](https://learn.chatgpt.com/docs/agent-configuration/subagents), checked 2026-10-05, documents project-local `.codex/agents/<name>.toml` files with `name`, `description`, and `developer_instructions`; supported optional fields include `model`, `model_reasoning_effort`, and `sandbox_mode`. `.codex/config.toml` supports `[agents]` defaults. Custom role files can override model/effort; omitted settings inherit runtime settings. These configure spawned subagents, not permanent sidebar chats or the current parent chat. A supported explicit spawn request can select a subagent model, subject to client support and applicable instructions.
 
