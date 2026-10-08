@@ -3,7 +3,7 @@
   "project": "Google+ restoration (name TBD)",
   "version": "v1",
   "current_phase": "p0",
-  "current_task": null,
+  "current_task": "p0-04",
   "next_task": "p0-04",
   "blockers": [
     "Phase 0 reference coverage and canonical snapshot remain unverified.",
@@ -108,13 +108,13 @@
           "id": "p0-04",
           "title": "Source inventory and dated screenshot records",
           "kind": "research",
-          "status": "backlog",
+          "status": "learning_gate",
           "dependencies": [
             "p0-03"
           ],
           "issue": null,
-          "pr": null,
-          "historical_confidence": "unknown",
+          "pr": "https://github.com/kavindu-rakn/CirclePlus/pull/7",
+          "historical_confidence": "medium",
           "model": "GPT-6.1 Sol",
           "effort": "High",
           "blockers": [],
@@ -124,7 +124,9 @@
             "docs/17-research-evidence-register.md",
             "initial-research-done/Gemini-GPlus.pdf",
             "initial-research-done/Perplexity-GPlus.pdf",
-            "gplus-original-screenshots/"
+            "gplus-original-screenshots/",
+            "docs/reference/source-inventory.md",
+            "docs/records/pr-7-review-and-learning.md"
           ],
           "completion_evidence": []
         },

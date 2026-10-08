@@ -23,6 +23,12 @@ Do not commit copyrighted material unless repository licensing/usage permits it.
 
 Each reference should have a companion metadata record using `reference-capture-template.md`.
 
+## Current inventory
+
+The [p0-04 source inventory](source-inventory.md) links all six supplied inputs and six additional source/candidate records, with date meanings, claim limits, citation tracing and explicit acquisition blockers. Year folders reflect verified source context; `undated/` keeps reports and artifacts whose historical date is unresolved. Existing originals stay in their original directories.
+
+This is a bounded provenance pack. Target-era coverage, canonical approval and token measurements remain separate gated tasks.
+
 ## First collection targets
 
 - Home Stream desktop
