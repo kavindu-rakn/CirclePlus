@@ -15,13 +15,13 @@ Equal task weight; only `done` counts. Planning is included in overall progress.
 ## Current work
 
 - Phase: **p0 — Archaeology and reference pack**
-- Task: **p0-04 — Source inventory and dated screenshot records** (review)
+- Task: **p0-04 — Source inventory and dated screenshot records** (learning_gate)
 - Issue: Not assigned
 - PR: https://github.com/kavindu-rakn/CirclePlus/pull/7
 - Recommended model/effort: GPT-6.1 Sol / High
 - Historical evidence confidence: medium
 - Dependencies: p0-03
-- Next task: p0-04 — Source inventory and dated screenshot records (review)
+- Next task: p0-04 — Source inventory and dated screenshot records (learning_gate)
 
 Model/effort above is a recommendation; verify runtime settings. Evidence confidence does not equal phase approval.
 
@@ -62,7 +62,7 @@ Source and completion evidence paths are recorded in the progress source. Unfini
 | p0-02 — AI engineering workflow and portable progress system | done | medium | GPT-6.1 Sol / Medium | — | https://github.com/kavindu-rakn/CirclePlus/pull/1 |
 | p0-ops-01 — Coordinated chat handoffs and batch teaching | done | medium | GPT-6.1 Sol / Medium | p0-02 | https://github.com/kavindu-rakn/CirclePlus/pull/2 |
 | p0-03 — Repository/evidence audit and precise Phase 0/1 backlog | done | medium | GPT-6.1 Sol / Medium | — | https://github.com/kavindu-rakn/CirclePlus/pull/4 |
-| p0-04 — Source inventory and dated screenshot records | review | medium | GPT-6.1 Sol / High | p0-03 | https://github.com/kavindu-rakn/CirclePlus/pull/7 |
+| p0-04 — Source inventory and dated screenshot records | learning_gate | medium | GPT-6.1 Sol / High | p0-03 | https://github.com/kavindu-rakn/CirclePlus/pull/7 |
 | p0-05 — Desktop/mobile reference and route/page matrix | backlog | unknown | GPT-6.1 Sol / High | p0-03 | — |
 | p0-06 — Canonical visual snapshot declaration | backlog | unknown | GPT-6.1 Sol / High | p0-03 | — |
 | p0-07 — Initial design tokens with evidence confidence | backlog | unknown | GPT-6.1 Sol / High | p0-03 | — |

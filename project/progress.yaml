@@ -108,7 +108,7 @@
           "id": "p0-04",
           "title": "Source inventory and dated screenshot records",
           "kind": "research",
-          "status": "review",
+          "status": "learning_gate",
           "dependencies": [
             "p0-03"
           ],
@@ -125,7 +125,8 @@
             "initial-research-done/Gemini-GPlus.pdf",
             "initial-research-done/Perplexity-GPlus.pdf",
             "gplus-original-screenshots/",
-            "docs/reference/source-inventory.md"
+            "docs/reference/source-inventory.md",
+            "docs/records/pr-7-review-and-learning.md"
           ],
           "completion_evidence": []
         },
