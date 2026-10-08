@@ -114,7 +114,7 @@
           ],
           "issue": null,
           "pr": null,
-          "historical_confidence": "unknown",
+          "historical_confidence": "medium",
           "model": "GPT-6.1 Sol",
           "effort": "High",
           "blockers": [],
@@ -124,7 +124,8 @@
             "docs/17-research-evidence-register.md",
             "initial-research-done/Gemini-GPlus.pdf",
             "initial-research-done/Perplexity-GPlus.pdf",
-            "gplus-original-screenshots/"
+            "gplus-original-screenshots/",
+            "docs/reference/source-inventory.md"
           ],
           "completion_evidence": []
         },
