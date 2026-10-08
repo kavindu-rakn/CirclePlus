@@ -108,12 +108,12 @@
           "id": "p0-04",
           "title": "Source inventory and dated screenshot records",
           "kind": "research",
-          "status": "in_progress",
+          "status": "review",
           "dependencies": [
             "p0-03"
           ],
           "issue": null,
-          "pr": null,
+          "pr": "https://github.com/kavindu-rakn/CirclePlus/pull/7",
           "historical_confidence": "medium",
           "model": "GPT-6.1 Sol",
           "effort": "High",
