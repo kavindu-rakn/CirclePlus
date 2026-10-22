@@ -108,7 +108,7 @@
           "id": "p0-04",
           "title": "Source inventory and dated screenshot records",
           "kind": "research",
-          "status": "learning_gate",
+          "status": "ready_to_merge",
           "dependencies": [
             "p0-03"
           ],
