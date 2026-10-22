@@ -2,7 +2,7 @@
 
 ## Source set
 
-Primary research inputs currently available to this repository planning effort:
+Research inputs currently available to this repository planning effort:
 
 1. **Gemini Deep Research report:** `Gemini-GPlus.pdf`
 2. **Perplexity report:** `Perplexity-GPlus.pdf`
@@ -17,7 +17,15 @@ The [repository audit](22-repository-evidence-audit.md) inspected the four raw i
 
 The high-confidence conclusions below retain their inherited research confidence; this audit does not independently verify their original citations. Exact visual/interaction claims still require evidence. See the [minimum reference set and gap table](22-repository-evidence-audit.md) and [p0-04 through p0-08 collection/approval plans](../plans/PHASE-0-1-BACKLOG.md). No canonical snapshot, token value or behavioral policy is selected here; Phase 0 exit remains unfulfilled.
 
-## High-confidence historical conclusions
+## p0-04 provenance note (2026-10-08)
+
+The [source inventory](reference/source-inventory.md) now supplies twelve claim-limited REF records for the six existing inputs and six additional sources/candidates. Originals are preserved. The responsive Home device composite matches Google's 2015 web case study; both supplied Android browse images match the November 18, 2015 Android Police gallery. The NDTV-named composite's source remains unknown. Source/publication dates do not establish exact screenshot dates, app builds, CSS viewports or DPR.
+
+Bounded citation checks qualify the reports: Google's redesign announcement is November 17, 2015; its web notification center was announced August 30, 2016 with rollout in coming weeks. The February 21, 2017 Google-bar article explicitly excludes Google+ from the observed refresh. Google's January 17, 2017 announcement schedules Events for January 24; this is not independent proof of completed rollout. See the inventory's citation table, source records and access/failure log for the supporting locators and limits.
+
+The table below is retained as inherited planning research, not a claim that p0-04 revalidated every conclusion. In particular, the target era is a project choice; report convergence does not prove every screen persisted unchanged. Circles, decoupling, exact notification/Events behavior and pixel-level details still need claim-specific evidence before implementation. Missing target-era Home pairs and core states are explicit acquisition blockers. No canonical snapshot, geometry, token or ambiguous UX policy is approved by this inventory; Phase 0 exit remains unfulfilled.
+
+## Inherited historical conclusions
 
 | Claim | Confidence | Notes |
 |---|---|---|
