@@ -42,7 +42,7 @@ On 2026-10-22 (Asia/Colombo), Fixer directly read the persistent Teacher chat's 
 
 The readiness increment changes only this record, p0-04's status and generated `STATUS.md`. Historical inventory/reference content, source claims, confidence, dependencies, raw assets and application behavior remain identical to the taught revision. This records verified outcomes and requires no repeated lesson or substantive review. Final readiness SHA, fresh checks and hosted CI belong in the PR handoff.
 
-## Remaining evidence and human gates
+## Readiness checkpoint (superseded by verified completion below)
 
 The inventory's [G1-G5 acquisition gaps](../reference/source-inventory.md#explicit-acquisition-blockers-and-handoff) remain: composite origin; compatible target-era desktop/mobile Home pair; core interaction states; archive/media/reuse limits; and platform/build compatibility. These constrain later coverage, canonical selection, token measurements, behavior decisions and Phase 1. No downstream task is started or approved.
 
@@ -52,3 +52,16 @@ The inventory's [G1-G5 acquisition gaps](../reference/source-inventory.md#explic
 - Phase remains `p0`; counts stay 4/55 overall and 0/46 application. p0-05 remains unstarted; all other task states/dependencies are unchanged.
 
 Builder released writer ownership before this sole Fixer increment. Fixer releases ownership after its pushed readiness handoff; Control Tower collects the result for the separate human merge decision. Reviewer, Historian, Teacher and Control Tower remain non-writers. Private routing/review/learning references stay only in the ignored local registry; no outgoing inter-chat message, archival, new PR or paid service is part of this increment.
+
+## Verified merge, acceptance and p0-04 completion
+
+Updated 2026-10-22 (Asia/Colombo). The readiness section above preserves the earlier checkpoint; its pending-merge/acceptance and unstarted-next-task statements are superseded by this section.
+
+- GitHub independently reports PR #7 merged at `2026-10-22T14:23:36Z` (19:53:36 Asia/Colombo), merge commit `89aabb6bde0c3b53b21ff3c9ec9a40c8359de6ab`, approved head `38cc4fe7b9a1dfb4ae35e5e798e7e945ba0a008b`.
+- Builder fetched live `origin/main`, verified that exact merge SHA, its expected base/head parents and tree equality with the approved head. Git commit time is one second earlier than GitHub's recorded merge time; the latter is the merge-event timestamp above.
+- Builder directly read the developer's separate acceptance after merge on October 22. The [public acceptance summary](https://github.com/kavindu-rakn/CirclePlus/pull/7#issuecomment-6343436534) records the outcome without private routing references or conversation quotations. Original review and completed learning evidence above is retained.
+- Only p0-04 earns completion credit: 5/55 overall (9%), application 0/46. This durable record is its completion evidence. The transition is proposed on the fresh p0-05 branch until that PR merges; it is not yet main's progress state.
+- The developer separately authorized p0-05 after closure. Its fresh Builder records this coherent completion/task-selection increment before new research, using the consolidation allowed by [the coordinated workflow](../21-coordinated-chat-handoffs.md#coordinator-run). p0-05 has its own review, Historian, learning and merge gates; no exemption is inferred.
+- Phase stays p0; no other task status/dependency changes. G1-G5 remain evidence constraints, not completion claims or canonical approval. No p0-06 or Phase 1 work is authorized here.
+
+The previous writer released ownership. The fresh p0-05 Builder owns the next bounded research PR; Control Tower remains non-writer and collects closure/role handoffs. No chat is archived by this increment.

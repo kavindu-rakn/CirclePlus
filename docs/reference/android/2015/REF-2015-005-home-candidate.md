@@ -32,3 +32,7 @@ local_asset: "none; locator only"
 Directly viewed in the live gallery. DOM image source uses `nexus2cee_2015-11-18-18.59.46.png` with publisher resize parameters; served raster 421 x 748. Original asset dimensions were not acquired. This is a bounded additional core-mobile candidate, not the selected canonical reference. Related: REF-2015-001/002/003.
 
 [Inventory and acquisition gaps](../../source-inventory.md).
+
+## p0-05 follow-up, 2026-10-23
+
+Builder re-inspected slide 4 in the publisher's expanded viewer. The same Home state is visible; the expanded viewer served a 1080 x 1920 derivative, distinct from the earlier 421 x 748 inline derivative. Neither establishes original device resolution/dp/DPR. The visible snackbar is an appearance, not a verified refresh transition. New companion [drawer](REF-2015-006-drawer.md), [owner-profile](REF-2015-007-profile.md) and [settings](REF-2015-008-settings.md) states remain 2015 Android comparisons only. Original p0-04 findings and limits above are retained.
