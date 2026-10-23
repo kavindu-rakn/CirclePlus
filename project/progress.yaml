@@ -136,12 +136,12 @@
           "id": "p0-05",
           "title": "Desktop/mobile reference and route/page matrix",
           "kind": "research",
-          "status": "in_progress",
+          "status": "review",
           "dependencies": [
             "p0-03"
           ],
           "issue": null,
-          "pr": null,
+          "pr": "https://github.com/kavindu-rakn/CirclePlus/pull/8",
           "historical_confidence": "medium",
           "model": "GPT-6.1 Sol",
           "effort": "High",
