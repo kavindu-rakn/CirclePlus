@@ -136,7 +136,7 @@
           "id": "p0-05",
           "title": "Desktop/mobile reference and route/page matrix",
           "kind": "research",
-          "status": "review",
+          "status": "learning_gate",
           "dependencies": [
             "p0-03"
           ],
@@ -155,7 +155,8 @@
             "docs/04-information-architecture.md",
             "docs/22-repository-evidence-audit.md",
             "docs/reference/source-inventory.md",
-            "docs/reference/route-page-matrix.md"
+            "docs/reference/route-page-matrix.md",
+            "docs/records/pr-8-review-and-learning.md"
           ],
           "completion_evidence": []
         },
