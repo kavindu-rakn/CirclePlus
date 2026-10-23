@@ -142,14 +142,20 @@
           ],
           "issue": null,
           "pr": null,
-          "historical_confidence": "unknown",
+          "historical_confidence": "medium",
           "model": "GPT-6.1 Sol",
           "effort": "High",
-          "blockers": [],
+          "blockers": [
+            "Matrix M1-M12: target-era Home pair, client/state coverage and source/policy gaps remain; canonical selection and affected downstream work stay gated."
+          ],
           "sources": [
             "docs/15-roadmap-and-implementation-plan.md",
             "plans/CODEX-MASTER-PLAN.md",
-            "docs/17-research-evidence-register.md"
+            "docs/17-research-evidence-register.md",
+            "docs/04-information-architecture.md",
+            "docs/22-repository-evidence-audit.md",
+            "docs/reference/source-inventory.md",
+            "docs/reference/route-page-matrix.md"
           ],
           "completion_evidence": []
         },

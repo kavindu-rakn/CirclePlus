@@ -25,6 +25,14 @@ Bounded citation checks qualify the reports: Google's redesign announcement is N
 
 The table below is retained as inherited planning research, not a claim that p0-04 revalidated every conclusion. In particular, the target era is a project choice; report convergence does not prove every screen persisted unchanged. Circles, decoupling, exact notification/Events behavior and pixel-level details still need claim-specific evidence before implementation. Missing target-era Home pairs and core states are explicit acquisition blockers. No canonical snapshot, geometry, token or ambiguous UX policy is approved by this inventory; Phase 0 exit remains unfulfilled.
 
+## p0-05 coverage and uncertainty note (2026-10-23)
+
+The [route/page/state matrix](reference/route-page-matrix.md) maps all sixteen proposed implementation routes and the eight audit groups, separately for desktop web, mobile web, native Android, iOS and tablet. The twelve existing records remain the starting evidence; four bounded additions supply 2015 Android drawer/owner-profile/settings comparisons and a January 2017 annotated comment comparison. All four supplied images were inspected at their original local raster sizes; original files are unchanged.
+
+The January comparison now visibly renders on Google's page, refining p0-04's image-visibility gap. It is a static annotation, not a recording; pictured `See all comments` differs from article `View more comments`, and the mobile client/build remains unidentified. Direct media navigation remains blocked, with no source-sized original acquired. Android stills establish appearances, not tap outcomes, target-era persistence, mobile-web navigation, audience authority or an About/follow flow. These are claim-specific limits, not new approved UX decisions.
+
+Matrix gaps M1-M12 refine G1-G5 and name owners/dependent gates. A compatible target-era Home pair, expanded composer/audience, detail/join/follow/notification states and later People/Search/settings/report/block/iOS/tablet evidence remain missing. The 2015 web composite and Android Home are comparison candidates only. No breakpoint, geometry token, canonical platform/variant, privacy policy or phase advancement is approved. Mapping completeness is not historical coverage completeness; p0-06 and p0-08 gates remain.
+
 ## Inherited historical conclusions
 
 | Claim | Confidence | Notes |

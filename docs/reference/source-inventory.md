@@ -97,3 +97,7 @@ The inventory is ready for independent technical/historical review. The followin
 | G5 — platform/version limits | iOS/tablet and later Android/native versus mobile-web compatibility, exact pictured builds where material | Later approved coverage/canonical work; no blended platform baseline inferred here |
 
 No route/state matrix, canonical approval, token measurement, schema or application work was performed. p0-04 remains unfinished until review, Learning Gate and explicit merge/acceptance; downstream tasks are not started by this inventory.
+
+## Later handoff updates
+
+The paragraph above preserves p0-04's original handoff. PR #7 subsequently completed review/learning, merged and received developer acceptance; see the [durable completion record](../records/pr-7-review-and-learning.md#verified-merge-acceptance-and-p0-04-completion). Its closure is proposed on the separately authorized p0-05 branch. The [p0-05 matrix](route-page-matrix.md) supplies later coverage mapping and four additional records, including newly visible January comment media. Those later findings do not retroactively change the original access log, the twelve-record inventory or G1-G5's original meaning. Canonical approval and Phase 0 exit remain separate.
