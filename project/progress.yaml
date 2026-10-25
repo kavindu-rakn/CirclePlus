@@ -136,7 +136,7 @@
           "id": "p0-05",
           "title": "Desktop/mobile reference and route/page matrix",
           "kind": "research",
-          "status": "learning_gate",
+          "status": "ready_to_merge",
           "dependencies": [
             "p0-03"
           ],
