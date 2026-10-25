@@ -3,8 +3,8 @@
   "project": "Google+ restoration (name TBD)",
   "version": "v1",
   "current_phase": "p0",
-  "current_task": "p0-04",
-  "next_task": "p0-04",
+  "current_task": "p0-05",
+  "next_task": "p0-05",
   "blockers": [
     "Phase 0 reference coverage and canonical snapshot remain unverified.",
     "Meaningful PRs require developer-confirmed learning before merge readiness."
@@ -108,7 +108,7 @@
           "id": "p0-04",
           "title": "Source inventory and dated screenshot records",
           "kind": "research",
-          "status": "ready_to_merge",
+          "status": "done",
           "dependencies": [
             "p0-03"
           ],
@@ -128,26 +128,35 @@
             "docs/reference/source-inventory.md",
             "docs/records/pr-7-review-and-learning.md"
           ],
-          "completion_evidence": []
+          "completion_evidence": [
+            "docs/records/pr-7-review-and-learning.md"
+          ]
         },
         {
           "id": "p0-05",
           "title": "Desktop/mobile reference and route/page matrix",
           "kind": "research",
-          "status": "backlog",
+          "status": "ready_to_merge",
           "dependencies": [
             "p0-03"
           ],
           "issue": null,
-          "pr": null,
-          "historical_confidence": "unknown",
+          "pr": "https://github.com/kavindu-rakn/CirclePlus/pull/8",
+          "historical_confidence": "medium",
           "model": "GPT-6.1 Sol",
           "effort": "High",
-          "blockers": [],
+          "blockers": [
+            "Matrix M1-M12: target-era Home pair, client/state coverage and source/policy gaps remain; canonical selection and affected downstream work stay gated."
+          ],
           "sources": [
             "docs/15-roadmap-and-implementation-plan.md",
             "plans/CODEX-MASTER-PLAN.md",
-            "docs/17-research-evidence-register.md"
+            "docs/17-research-evidence-register.md",
+            "docs/04-information-architecture.md",
+            "docs/22-repository-evidence-audit.md",
+            "docs/reference/source-inventory.md",
+            "docs/reference/route-page-matrix.md",
+            "docs/records/pr-8-review-and-learning.md"
           ],
           "completion_evidence": []
         },

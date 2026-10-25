@@ -29,6 +29,8 @@ The [p0-04 source inventory](source-inventory.md) links all six supplied inputs 
 
 This is a bounded provenance pack. Target-era coverage, canonical approval and token measurements remain separate gated tasks.
 
+The [p0-05 route/page/state matrix](route-page-matrix.md) maps all proposed routes and eight core groups across desktop web, mobile web, Android, iOS and tablet. It adds four bounded comparison/state records to the original twelve, preserves gaps and owners, and distinguishes visible stills from documented transitions. No canonical snapshot or token values are selected.
+
 ## First collection targets
 
 - Home Stream desktop

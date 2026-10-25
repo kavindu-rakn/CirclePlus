@@ -18,6 +18,8 @@ Circles should not be promoted to an early-Google+ primary destination unless hi
 
 These are modern implementation routes, not claims about Google's original URLs.
 
+The [p0-05 route/page/state matrix](reference/route-page-matrix.md) maps every proposed route to evidence or an explicit acquisition blocker, with independent web/native/platform coverage. It does not approve a canonical layout or turn the planned flows below into verified historical behavior.
+
 ```text
 /
 /home
