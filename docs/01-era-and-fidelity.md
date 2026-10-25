@@ -10,6 +10,8 @@ The project covers the **New Google+** generation beginning with the November 20
 
 **Late 2016 / early 2017** is the canonical visual baseline.
 
+This is the approved era anchor, not approval of a precise build/platform/viewport combination. The [p0-06 decision brief](reference/canonical-snapshot.md) records the blocked exact-snapshot selection, source limits and three unapproved research paths. No canonical candidate has been selected.
+
 This captures the recognizable red Material-era toolbar, card-based Stream, Communities/Collections emphasis, mobile FAB/navigation patterns, and mature notification experience without anchoring the restoration to the decline/shutdown state.
 
 ### Feature envelope

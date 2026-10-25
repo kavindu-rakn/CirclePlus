@@ -33,6 +33,14 @@ The January comparison now visibly renders on Google's page, refining p0-04's im
 
 Matrix gaps M1-M12 refine G1-G5 and name owners/dependent gates. A compatible target-era Home pair, expanded composer/audience, detail/join/follow/notification states and later People/Search/settings/report/block/iOS/tablet evidence remain missing. The 2015 web composite and Android Home are comparison candidates only. No breakpoint, geometry token, canonical platform/variant, privacy policy or phase advancement is approved. Mapping completeness is not historical coverage completeness; p0-06 and p0-08 gates remain.
 
+## p0-06 snapshot preparation and blocked decision (2026-10-25)
+
+The [canonical snapshot brief](reference/canonical-snapshot.md) cannot honestly present compatible target-era desktop/mobile Home combinations from the acquired material. It records three unapproved next research paths: Q4 2016 web/web, post-density-change Q1 2017 web/web, or a separately approved target-era native-inspired phone adaptation. The late-2016/early-2017 anchor remains unchanged; an older 2015 pair is not a substitute. M1/M2 and consequential human canonical approval remain blockers; M3-M12 still gate affected components.
+
+Two focused records add [REF-2016-002](reference/web/2016/REF-2016-002-december-walkthrough-lead.md), a December walkthrough **lead** with an explicit March 2019 article update/edited slides, and [REF-2017-004](reference/web/2017/REF-2017-004-photo-zoom-comparison.md), the now-visible January web photo comparison. Neither supplies Home compatibility. The latter is a page-scaled static illustration with a 720 × 405 delivered raster; direct media navigation was blocked and no source-sized original acquired. January comment client/build/label uncertainty is unchanged. Archive replay/availability retrieval failed; no archive capture date accepted. August onboarding artwork is not Home. Earlier access logs/confidence and raw originals remain preserved; no new media redistributed.
+
+Overall preparation confidence is medium for source organization/limits, unknown for an exact selectable snapshot. Only p0-05 mapping closure gains completion credit from verified merge and approval to move on; p0-06 stays blocked with empty completion evidence. Canonical approval, teaching, merge, token measurement, privacy decisions and Phase 0 exit remain separate gates.
+
 ## Inherited historical conclusions
 
 | Claim | Confidence | Notes |

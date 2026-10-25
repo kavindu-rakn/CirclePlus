@@ -31,3 +31,7 @@ confidence: "high for announcement; unknown for exact pictured build/viewport"
 The browser exposed image alt Hiding low quality comments, served dimensions 1200 x 603, and Paris full and zoom, 720 x 405; these are publisher derivatives, not CSS product viewports. The first image did not render visibly in the inspected page area; direct media navigation was blocked by the browser. The images therefore remain acquisition leads, not verified visual evidence. The source text is usable. This primary date/feature boundary supports later snapshot research; it does not choose the canonical variant.
 
 [Inventory and acquisition gaps](../../source-inventory.md).
+
+## p0-06 follow-up, 2026-10-25
+
+Both illustrations rendered on-page after scrolling. [REF-2017-003](../../interactions/REF-2017-003-comment-comparison.md) retains the annotated comment-state/client/label limits; new [REF-2017-004](REF-2017-004-photo-zoom-comparison.md) records visible photo full/zoom appearance. Natural delivered rasters were 1200 × 603 and 720 × 405, page-scaled; direct photo-media navigation was blocked. This refines media visibility only, preserving this record's earlier access checkpoint, unknown original capture/build/viewport and absence of a Home/density comparison.

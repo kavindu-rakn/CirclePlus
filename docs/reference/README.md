@@ -33,6 +33,8 @@ The [p0-05 route/page/state matrix](route-page-matrix.md) maps all proposed rout
 
 ## First collection targets
 
+The [p0-06 canonical snapshot brief](canonical-snapshot.md) records a blocked selection and three next research paths, not approved combinations. Its two new REF records distinguish a later-edited December walkthrough lead from the visibly inspected January photo illustration. See the brief's acquisition log and outstanding approval/viewport/platform gates.
+
 - Home Stream desktop
 - Home Stream mobile
 - expanded composer

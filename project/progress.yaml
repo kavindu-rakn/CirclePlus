@@ -164,20 +164,25 @@
           "id": "p0-06",
           "title": "Canonical visual snapshot declaration",
           "kind": "research",
-          "status": "in_progress",
+          "status": "blocked",
           "dependencies": [
             "p0-03"
           ],
           "issue": null,
           "pr": null,
-          "historical_confidence": "unknown",
+          "historical_confidence": "medium",
           "model": "GPT-6.1 Sol",
           "effort": "High",
-          "blockers": [],
+          "blockers": [
+            "M1/M2: compatible target-era desktop/mobile Home pair and build/viewport contexts remain missing; three research paths are unapproved, direct human canonical choice is pending."
+          ],
           "sources": [
             "docs/15-roadmap-and-implementation-plan.md",
             "plans/CODEX-MASTER-PLAN.md",
-            "docs/17-research-evidence-register.md"
+            "docs/17-research-evidence-register.md",
+            "docs/reference/canonical-snapshot.md",
+            "docs/reference/route-page-matrix.md",
+            "docs/reference/source-inventory.md"
           ],
           "completion_evidence": []
         },

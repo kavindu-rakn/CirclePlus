@@ -8,20 +8,20 @@ Overall tracked v1 tasks: `[##------------------] 11% (6/55)`
 
 Application implementation: `[--------------------] 0% (0/46)`
 
-Done: **6** · In progress/review/learning/ready to merge: **1** · Remaining backlog/ready/blocked: **48**
+Done: **6** · In progress/review/learning/ready to merge: **0** · Remaining backlog/ready/blocked: **49**
 
 Equal task weight; only `done` counts. Planning is included in overall progress. Later releases/experiments are excluded. Percentages are rounded task counts, not effort estimates.
 
 ## Current work
 
 - Phase: **p0 — Archaeology and reference pack**
-- Task: **p0-06 — Canonical visual snapshot declaration** (in_progress)
+- Task: **p0-06 — Canonical visual snapshot declaration** (blocked)
 - Issue: Not assigned
 - PR: Not opened
 - Recommended model/effort: GPT-6.1 Sol / High
-- Historical evidence confidence: unknown
+- Historical evidence confidence: medium
 - Dependencies: p0-03
-- Next task: p0-06 — Canonical visual snapshot declaration (in_progress)
+- Next task: p0-06 — Canonical visual snapshot declaration (blocked)
 
 Model/effort above is a recommendation; verify runtime settings. Evidence confidence does not equal phase approval.
 
@@ -29,7 +29,7 @@ Model/effort above is a recommendation; verify runtime settings. Evidence confid
 
 | Phase | Release | Completion | Active | Remaining |
 |---|---|---|---:|---:|
-| p0 — Archaeology and reference pack | v1 | 67% (6/9) | 1 | 2 |
+| p0 — Archaeology and reference pack | v1 | 67% (6/9) | 0 | 3 |
 | p1 — Repository foundation + historical design system | v1 | 0% (0/4) | 0 | 4 |
 | p2 — Stream and publishing primitives | v1 | 0% (0/9) | 0 | 9 |
 | p3 — Profiles, follows, audiences | v1 | 0% (0/5) | 0 | 5 |
@@ -46,6 +46,7 @@ Model/effort above is a recommendation; verify runtime settings. Evidence confid
 
 - Phase 0 reference coverage and canonical snapshot remain unverified.
 - Meaningful PRs require developer-confirmed learning before merge readiness.
+- p0-06: M1/M2: compatible target-era desktop/mobile Home pair and build/viewport contexts remain missing; three research paths are unapproved, direct human canonical choice is pending.
 - p0-08: Raw screenshots and research summaries lack dated per-screen metadata/verified behavior; Phase 0 exit criteria are not evidenced.
 - experimental-01: Separate scope approval required; excluded from v1.
 - experimental-02: Separate scope approval required; excluded from v1.
@@ -64,7 +65,7 @@ Source and completion evidence paths are recorded in the progress source. Unfini
 | p0-03 — Repository/evidence audit and precise Phase 0/1 backlog | done | medium | GPT-6.1 Sol / Medium | — | https://github.com/kavindu-rakn/CirclePlus/pull/4 |
 | p0-04 — Source inventory and dated screenshot records | done | medium | GPT-6.1 Sol / High | p0-03 | https://github.com/kavindu-rakn/CirclePlus/pull/7 |
 | p0-05 — Desktop/mobile reference and route/page matrix | done | medium | GPT-6.1 Sol / High | p0-03 | https://github.com/kavindu-rakn/CirclePlus/pull/8 |
-| p0-06 — Canonical visual snapshot declaration | in_progress | unknown | GPT-6.1 Sol / High | p0-03 | — |
+| p0-06 — Canonical visual snapshot declaration | blocked | medium | GPT-6.1 Sol / High | p0-03 | — |
 | p0-07 — Initial design tokens with evidence confidence | backlog | unknown | GPT-6.1 Sol / High | p0-03 | — |
 | p0-08 — Unresolved behavior list and sufficient core-screen evidence | backlog | unknown | GPT-6.1 Sol / High | p0-01, p0-02, p0-03, p0-04, p0-05, p0-06*, p0-07*, p0-ops-01 | — |
 
