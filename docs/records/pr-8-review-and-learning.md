@@ -27,7 +27,7 @@ This increment adds this review record, changes only p0-05 from `review` to `lea
 
 Builder checks the exact changed-file/manifest delta, record links/source paths, 24 tracker tests, dashboard freshness and whitespace before commit/push. Final teaching-candidate SHA, fresh check results and exact-head CI status belong in the PR handoff. This truthful tracking-only comparison requires no repeated full review or source acquisition; any later substantive change needs a focused review.
 
-## Completed learning and authorized readiness
+## Completed learning and authorized readiness (pre-merge checkpoint)
 
 On 2026-10-25, Builder directly read the persistent Teacher's lesson, actual developer answers, explicit understanding confirmation and completion record. The developer answered all three questions correctly on October 23: a missing detail screen stays missing, Android evidence cannot establish the website's appearance, and this PR maps evidence rather than building screens. Teacher completed the Learning Gate for taught revision `3111b2a73d82ca7b91b9eeb74198553391698e28`, with no remaining comprehension gaps. This is completed meaningful-PR learning, not an exemption. No private IDs, conversation quotations or transcripts are published.
 
@@ -39,3 +39,15 @@ Builder also directly read the developer's October 25 combined instruction appro
 - This Builder does not start p0-06. After verified merge, Control Tower may dispatch a fresh Builder for that already authorized research task and consolidate later completion bookkeeping there. No bookkeeping-only PR, standalone acceptance claim or p0-05 done transition is made here.
 
 Builder releases sole writer ownership after the authorized merge or a blocked handoff. Reviewer, Historian, Teacher and Control Tower remain non-writers. No outgoing inter-chat message, new chat/PR, archival, canonical selection or next-task implementation is part of this readiness increment.
+
+## Verified merge and p0-05 closure
+
+Verified on 2026-10-25 (Asia/Colombo). This section supersedes the pending merge/start instructions above, which describe the earlier readiness checkpoint.
+
+- PR #8 merged at `2026-10-25T14:09:01Z` (19:39:01 Colombo) as `a3c1bad1c7f6461b81cee69f5e0722f5af892299`.
+- Parents are reviewed base `89aabb6bde0c3b53b21ff3c9ec9a40c8359de6ab` and authorized readiness head `484873979181d62ff8564a69058a662c61e00cf6`. Merge and readiness trees both equal `f7d34c8104537a55f56ca76b3fe7204f6e9fb91f`.
+- The prior Builder's completed handoff and public PR record verify 24/24 tests, both exact-head CI runs passing, completed learning and writer release. The new Builder independently verified live PR merge metadata, fetched main, parents/tree, the Teacher's actual answers/confirmation and the developer's combined merge/next-task authorization.
+- The developer approved merging the completed research and moving to p0-06 after learning. This is acceptance for moving on, not a separate acceptance quotation or canonical approval. Private authorization references remain in the ignored registry.
+- p0-05 is complete **as a route/state mapping artifact**. M1-M12 remain historical acquisition/policy gaps; completion does not assert complete screen coverage or select a visual baseline.
+
+Under the [consolidation rule](../21-coordinated-chat-handoffs.md#coordinator-run), this closure is proposed in the already authorized p0-06 research PR. Only p0-05 gains completion credit; p0-04 stays done. Proposed progress is 6/55 (11%), application 0/46. Main's tracker retains its pre-closure state until this new PR merges. p0-06 is selected in progress for research/decision preparation only; its canonical approval, learning, merge and completion gates remain separate. Phase stays p0; no p0-07 or application work is authorized.

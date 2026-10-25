@@ -3,8 +3,8 @@
   "project": "Google+ restoration (name TBD)",
   "version": "v1",
   "current_phase": "p0",
-  "current_task": "p0-05",
-  "next_task": "p0-05",
+  "current_task": "p0-06",
+  "next_task": "p0-06",
   "blockers": [
     "Phase 0 reference coverage and canonical snapshot remain unverified.",
     "Meaningful PRs require developer-confirmed learning before merge readiness."
@@ -136,7 +136,7 @@
           "id": "p0-05",
           "title": "Desktop/mobile reference and route/page matrix",
           "kind": "research",
-          "status": "ready_to_merge",
+          "status": "done",
           "dependencies": [
             "p0-03"
           ],
@@ -145,9 +145,7 @@
           "historical_confidence": "medium",
           "model": "GPT-6.1 Sol",
           "effort": "High",
-          "blockers": [
-            "Matrix M1-M12: target-era Home pair, client/state coverage and source/policy gaps remain; canonical selection and affected downstream work stay gated."
-          ],
+          "blockers": [],
           "sources": [
             "docs/15-roadmap-and-implementation-plan.md",
             "plans/CODEX-MASTER-PLAN.md",
@@ -158,13 +156,15 @@
             "docs/reference/route-page-matrix.md",
             "docs/records/pr-8-review-and-learning.md"
           ],
-          "completion_evidence": []
+          "completion_evidence": [
+            "docs/records/pr-8-review-and-learning.md"
+          ]
         },
         {
           "id": "p0-06",
           "title": "Canonical visual snapshot declaration",
           "kind": "research",
-          "status": "backlog",
+          "status": "in_progress",
           "dependencies": [
             "p0-03"
           ],
