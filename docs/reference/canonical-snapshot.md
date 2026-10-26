@@ -2,6 +2,8 @@
 
 Prepared 2026-10-25 (Asia/Colombo), against merged main `a3c1bad1c7f6461b81cee69f5e0722f5af892299`. Phase 0 research only. **No candidate is selected or approved.** The [late-2016/early-2017 anchor](../01-era-and-fidelity.md#visual-anchor) and [ADR-0001](../adr/0001-historical-target-and-fidelity.md) remain unchanged.
 
+The [October 27 visual decision package](visual-decision-package.md) makes existing comparisons and the missing Home pair visible in two private local pages. Its two unselected options are to retain the current evidence requirement or consider a specifically scoped reconstruction exception later. Preparation does not adopt an exception or replace the blocked brief below.
+
 The current evidence cannot honestly supply 2–3 compatible, dated desktop/mobile Home combinations. This is the fallback decision brief permitted by the task: three bounded **next research paths**, not canonical selections. Starting p0-06 approved preparation; it did not approve an era change, native/web mixture, viewport, or reconstruction. A document or merged research PR cannot complete p0-06 without the developer's actual canonical approval.
 
 ## What is available for comparison

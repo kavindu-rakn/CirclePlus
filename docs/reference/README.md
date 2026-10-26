@@ -35,6 +35,8 @@ The [p0-05 route/page/state matrix](route-page-matrix.md) maps all proposed rout
 
 The [p0-06 canonical snapshot brief](canonical-snapshot.md) records a blocked selection and three next research paths, not approved combinations. Its two new REF records distinguish a later-edited December walkthrough lead from the visibly inspected January photo illustration. See the brief's acquisition log and outstanding approval/viewport/platform gates.
 
+The [visual decision package](visual-decision-package.md) explains how to render two private local comparison pages from existing images. Target-era Home gaps remain empty; 2015 web, native Android and unknown-client material stay distinct. The two decision proposals are unselected; no reconstruction exception or canonical baseline is approved.
+
 - Home Stream desktop
 - Home Stream mobile
 - expanded composer

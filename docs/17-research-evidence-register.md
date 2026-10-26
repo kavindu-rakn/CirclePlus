@@ -49,6 +49,10 @@ The [Path B log](reference/canonical-snapshot.md#bounded-path-b-result-2026-10-2
 
 The [assessment](reference/supplied-links-assessment.md) treats a privately supplied generated document as untrusted research leads, not historical or operational authority. It deduplicates 45 bibliography rows into 34 unique complete annotation targets, distinguishes split/raw URL strings from real sources, and checks three families. New [REF-2016-003](reference/web/2016/REF-2016-003-october-web-account.md) verifies a dated firsthand web-layout account in text only. Archive requests did not yield a verified replay; guide indexes point to older entries; browser/image access limits do not prove source absence. No responsive/capture/build/DPR/compatibility inference is approved. M1/M2 and human canonical choice remain blocked; originals and previous record confidence are preserved.
 
+## Visual decision preparation (2026-10-27)
+
+The [visual decision package](reference/visual-decision-package.md) renders existing images privately, with explicit raster crops/resizing, date/platform limits and empty target-era Home placeholders. Two options are proposed: retain the current faithful web evidence requirement, or later approve a narrowly scoped 2015-derived web Home reconstruction exception. Borrowings and structural-continuity inference are named, not adopted; January's density boundary remains a risk. No new source evidence, token/geometry decision or native/web equivalence is asserted. The six originals and twenty REF records remain unchanged. p0-06, canonical approval and dependent implementation remain blocked.
+
 ## Inherited historical conclusions
 
 | Claim | Confidence | Notes |
