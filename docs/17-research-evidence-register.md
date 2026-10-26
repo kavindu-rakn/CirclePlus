@@ -33,6 +33,38 @@ The January comparison now visibly renders on Google's page, refining p0-04's im
 
 Matrix gaps M1-M12 refine G1-G5 and name owners/dependent gates. A compatible target-era Home pair, expanded composer/audience, detail/join/follow/notification states and later People/Search/settings/report/block/iOS/tablet evidence remain missing. The 2015 web composite and Android Home are comparison candidates only. No breakpoint, geometry token, canonical platform/variant, privacy policy or phase advancement is approved. Mapping completeness is not historical coverage completeness; p0-06 and p0-08 gates remain.
 
+## p0-06 snapshot preparation and blocked decision (2026-10-25)
+
+The [canonical snapshot brief](reference/canonical-snapshot.md) cannot honestly present compatible target-era desktop/mobile Home combinations from the acquired material. It records three unapproved next research paths: Q4 2016 web/web, post-density-change Q1 2017 web/web, or a separately approved target-era native-inspired phone adaptation. The late-2016/early-2017 anchor remains unchanged; an older 2015 pair is not a substitute. M1/M2 and consequential human canonical approval remain blockers; M3-M12 still gate affected components.
+
+Two focused records add [REF-2016-002](reference/web/2016/REF-2016-002-december-walkthrough-lead.md), a December walkthrough **lead** with an explicit March 2019 article update/edited slides, and [REF-2017-004](reference/web/2017/REF-2017-004-photo-zoom-comparison.md), the now-visible January web photo comparison. Neither supplies Home compatibility. The latter is a page-scaled static illustration with a 720 × 405 delivered raster; direct media navigation was blocked and no source-sized original acquired. January comment client/build/label uncertainty is unchanged. Archive replay/availability retrieval failed; no archive capture date accepted. August onboarding artwork is not Home. Earlier access logs/confidence and raw originals remain preserved; no new media redistributed.
+
+Overall preparation confidence is medium for source organization/limits, unknown for an exact selectable snapshot. Only p0-05 mapping closure gains completion credit from verified merge and approval to move on; p0-06 stays blocked with empty completion evidence. Canonical approval, teaching, merge, token measurement, privacy decisions and Phase 0 exit remain separate gates.
+
+## Bounded Path B exclusion/access result (2026-10-26)
+
+The [Path B log](reference/canonical-snapshot.md#bounded-path-b-result-2026-10-26) preserves the completed three-search/four-page limit. [REF-2017-005](reference/web/2017/REF-2017-005-classic-image-exclusion.md) records an inspected Classic illustration in January coverage, excluded from the New Home baseline. Article publication is not screenshot capture/build evidence. A browser-observation timeout is recorded as a capability limit, not source absence. No compatible desktop/narrow/mobile-web Home combination or canonical choice was verified; p0-06 and affected downstream work remain blocked. Prior REF IDs/confidence and raw originals are preserved.
+
+## Supplied-link triage and partial written evidence (2026-10-26)
+
+The [assessment](reference/supplied-links-assessment.md) treats a privately supplied generated document as untrusted research leads, not historical or operational authority. It deduplicates 45 bibliography rows into 34 unique complete annotation targets, distinguishes split/raw URL strings from real sources, and checks three families. New [REF-2016-003](reference/web/2016/REF-2016-003-october-web-account.md) verifies a dated firsthand web-layout account in text only. Archive requests did not yield a verified replay; guide indexes point to older entries; browser/image access limits do not prove source absence. No responsive/capture/build/DPR/compatibility inference is approved. M1/M2 and human canonical choice remain blocked; originals and previous record confidence are preserved.
+
+## Visual decision preparation (2026-10-27)
+
+The initial [visual decision package](reference/visual-decision-package.md) rendered existing images privately, with explicit raster crops/resizing, date/platform limits and empty target-era Home placeholders. It presented two options without adopting either at preparation time. This dated checkpoint is superseded only by the narrow approval below; January's density boundary, source uncertainty and missing imagery remain factual.
+
+## Approved web Home structure and pending baseline (2026-10-27)
+
+The developer directly approved B for **web Home structure only**: REF-2015-001 desktop red toolbar, left navigation, compact composer and card columns; phone-web single-column feed and red compose pencil. This is approved project borrowing/continuity inference, not evidence of target-era persistence. Native navigation and the unknown composite are excluded. No exact geometry, historical CSS/DPR/build/capture date, unseen interaction, expanded composer/audience/privacy or other route is approved; the global era anchor is unchanged.
+
+At this checkpoint WEB-HOME-01 proposed the exact existing source/crops/excluded regions and modern project test contexts of 1280 × 800 desktop / 390 × 844 phone CSS pixels at project DPR 1. The baseline decision was still pending then; the subsequent approval below supersedes only that decision status, not historical evidence limits.
+
+## Approved WEB-HOME-01 baseline and learning handoff (2026-10-27)
+
+After independent technical/Historian PASS at `c77ecea5272740aee5b7c9ba25c5ed7ceddd0ee4`, the developer approved the complete unchanged [WEB-HOME-01 baseline](reference/visual-decision-package.md#web-home-01-approved-baseline): REF-2015-001, documented raster crops and exclusions, desktop 1280 × 800 / phone 390 × 844 CSS validation at project DPR 1, the disclosed 2015-derived compatibility risk and remaining gates. This is the chosen scoped reconstructed web Home baseline. Neither that decision nor B's earlier structure approval needs reconfirmation.
+
+No source confidence is upgraded: exact capture/build/historical CSS viewport/DPR and persistence into the target era remain unknown. Target-era Home images are still missing evidence, not a renewed prerequisite for this approved scope. Native navigation, unknown-composite borrowing, occluded/OS/device regions, unseen interactions, exact geometry/tokens and other routes remain excluded or gated as documented. January's density risk remains. All six originals and twenty REF records are unchanged. p0-06 moves to `learning_gate` with empty completion evidence; final-delta verification precedes teaching. Developer understanding, merge, acceptance, p0-07, tokens/application work and Phase 1 remain unapproved.
+
 ## Inherited historical conclusions
 
 | Claim | Confidence | Notes |

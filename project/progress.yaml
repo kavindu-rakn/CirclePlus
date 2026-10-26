@@ -3,10 +3,10 @@
   "project": "Google+ restoration (name TBD)",
   "version": "v1",
   "current_phase": "p0",
-  "current_task": "p0-05",
-  "next_task": "p0-05",
+  "current_task": "p0-06",
+  "next_task": "p0-06",
   "blockers": [
-    "Phase 0 reference coverage and canonical snapshot remain unverified.",
+    "Phase 0 reference coverage and exit remain incomplete; WEB-HOME-01 is approved only as a reconstructed web Home structural baseline.",
     "Meaningful PRs require developer-confirmed learning before merge readiness."
   ],
   "phases": [
@@ -136,7 +136,7 @@
           "id": "p0-05",
           "title": "Desktop/mobile reference and route/page matrix",
           "kind": "research",
-          "status": "ready_to_merge",
+          "status": "done",
           "dependencies": [
             "p0-03"
           ],
@@ -145,9 +145,7 @@
           "historical_confidence": "medium",
           "model": "GPT-6.1 Sol",
           "effort": "High",
-          "blockers": [
-            "Matrix M1-M12: target-era Home pair, client/state coverage and source/policy gaps remain; canonical selection and affected downstream work stay gated."
-          ],
+          "blockers": [],
           "sources": [
             "docs/15-roadmap-and-implementation-plan.md",
             "plans/CODEX-MASTER-PLAN.md",
@@ -158,26 +156,31 @@
             "docs/reference/route-page-matrix.md",
             "docs/records/pr-8-review-and-learning.md"
           ],
-          "completion_evidence": []
+          "completion_evidence": [
+            "docs/records/pr-8-review-and-learning.md"
+          ]
         },
         {
           "id": "p0-06",
           "title": "Canonical visual snapshot declaration",
           "kind": "research",
-          "status": "backlog",
+          "status": "learning_gate",
           "dependencies": [
             "p0-03"
           ],
           "issue": null,
-          "pr": null,
-          "historical_confidence": "unknown",
+          "pr": "https://github.com/kavindu-rakn/CirclePlus/pull/9",
+          "historical_confidence": "medium",
           "model": "GPT-6.1 Sol",
           "effort": "High",
           "blockers": [],
           "sources": [
             "docs/15-roadmap-and-implementation-plan.md",
             "plans/CODEX-MASTER-PLAN.md",
-            "docs/17-research-evidence-register.md"
+            "docs/17-research-evidence-register.md",
+            "docs/reference/canonical-snapshot.md",
+            "docs/reference/route-page-matrix.md",
+            "docs/reference/source-inventory.md"
           ],
           "completion_evidence": []
         },
