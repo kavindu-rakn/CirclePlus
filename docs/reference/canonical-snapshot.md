@@ -58,6 +58,25 @@ October 25, 2026 is the **access date**, never the capture date. Bounded primary
 
 This pass narrowed version boundaries and found a concrete acquisition lead, but did **not** close M1/M2 or create a source-sized target Home pair. It is not an exhaustive search or a claim that such evidence does not exist. Further acquisition is a bounded coordinator decision, not an automatic new task or phase.
 
+## Bounded Path B result, 2026-10-26
+
+**No compatible post-density-change desktop/mobile-web Home pair was verified.** This in-anchor research priority selected no baseline. The pass used exactly three targeted searches and four unique source pages; it ends at that cap, not with a claim that references do not exist. Access date is October 26, 2026, not any screenshot's capture date.
+
+Searches: `"Google+" "January 2017" "white space" screenshots`; `"Google+" "2017" "mobile web" Home`; `"Google+" "January 17, 2017" redesign home`. Results included old mobile redesigns, unrelated Google Search/Feed stories, and January coverage. Search dates/snippets were not accepted as capture/build/platform evidence. No more searches, December recording, native galleries, old PDFs or unrelated component acquisition were used.
+
+| Four source pages inspected / attempted | Result for M1/M2 |
+|---|---|
+| [Google January announcement](https://blog.google/products-and-platforms/products/google-plus/making-googleplus-work-better-for-you/) | Primary text available; retains the announced density/rollout boundary in REF-2017-001. Existing comment/photo illustrations remain component evidence, not a newly acquired Home pair. A fresh browser observation of this page was not confirmed after the later combined browser call timed out |
+| [TechRadar January coverage](https://www.techradar.com/news/say-goodbye-to-classic-google-on-january-24) | Text and on-page hero inspected. Article identifies the top image as Classic; delivered raster 397 × 223, enlarged on-page. New [REF-2017-005](web/2017/REF-2017-005-classic-image-exclusion.md) preserves this exclusion, not target-era New Home geometry |
+| [TechCrunch](https://techcrunch.com/2017/01/17/google-plus-updates/) | Loaded article exposed no Home image; not accepted as a visual reference |
+| [VentureBeat](https://venturebeat.com/2017/01/17/google-is-killing-the-classic-google-on-january-24/) | Caption identifies Classic; DOM image metadata 1012 × 512. Artifact pixels were not visually verified before a browser-observation timeout; no positive visual candidate accepted |
+
+VentureBeat's dated locator redirected to `/technology/google-is-killing-the-classic-google-on-january-24` in text retrieval and `/business/google-is-killing-the-classic-google-on-january-24` in the browser. These are observed source migrations, not historical product routes. Its publication date and labelled Classic image do not establish the requested New Home. No second image download or access workaround was attempted.
+
+The final combined browser scroll/image-observation and primary-page-open call timed out. No subsequent page state or pixels from that call are claimed, and no recovery loop was attempted. This is a browser capability/observation limit, not proof that either source or its historical artifacts are inaccessible. Text retrieval remained usable. No new media was redistributed; the six originals and eighteen prior REF IDs remain unchanged, with one new exclusion record.
+
+The actionable missing artifacts are still: **an identified Q1-2017 consumer New Google+ desktop Home after the announced density change, its narrow web state, and a compatible mobile-web Home/navigation capture**. Each needs a source locator, publication versus capture/build context, usable crop/scale and known viewport/DPR or explicit unknowns. Neither Classic imagery nor unidentified/native phone illustrations satisfy these requirements. No pair, CSS values, completed rollout date or human canonical approval is inferred. p0-06 remains blocked, proposed progress 6/55 (11%), application 0/46; this pass adds no completion credit or further task authorization.
+
 ## Gates and completion record still required
 
 **p0-06 remains blocked: compatible target-era Home evidence and direct canonical choice are absent.** The decision brief may undergo technical/Historian review while dependent work remains stopped. Overall confidence is medium for organizing sources/limits, unknown for a selectable exact build/platform/viewport combination.

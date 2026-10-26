@@ -41,6 +41,10 @@ Two focused records add [REF-2016-002](reference/web/2016/REF-2016-002-december-
 
 Overall preparation confidence is medium for source organization/limits, unknown for an exact selectable snapshot. Only p0-05 mapping closure gains completion credit from verified merge and approval to move on; p0-06 stays blocked with empty completion evidence. Canonical approval, teaching, merge, token measurement, privacy decisions and Phase 0 exit remain separate gates.
 
+## Bounded Path B exclusion/access result (2026-10-26)
+
+The [Path B log](reference/canonical-snapshot.md#bounded-path-b-result-2026-10-26) preserves the completed three-search/four-page limit. [REF-2017-005](reference/web/2017/REF-2017-005-classic-image-exclusion.md) records an inspected Classic illustration in January coverage, excluded from the New Home baseline. Article publication is not screenshot capture/build evidence. A browser-observation timeout is recorded as a capability limit, not source absence. No compatible desktop/narrow/mobile-web Home combination or canonical choice was verified; p0-06 and affected downstream work remain blocked. Prior REF IDs/confidence and raw originals are preserved.
+
 ## Inherited historical conclusions
 
 | Claim | Confidence | Notes |
