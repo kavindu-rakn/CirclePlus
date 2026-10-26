@@ -77,6 +77,12 @@ The final combined browser scroll/image-observation and primary-page-open call t
 
 The actionable missing artifacts are still: **an identified Q1-2017 consumer New Google+ desktop Home after the announced density change, its narrow web state, and a compatible mobile-web Home/navigation capture**. Each needs a source locator, publication versus capture/build context, usable crop/scale and known viewport/DPR or explicit unknowns. Neither Classic imagery nor unidentified/native phone illustrations satisfy these requirements. No pair, CSS values, completed rollout date or human canonical approval is inferred. p0-06 remains blocked, proposed progress 6/55 (11%), application 0/46; this pass adds no completion credit or further task authorization.
 
+## Supplied-link assessment, 2026-10-26
+
+The [bounded assessment](supplied-links-assessment.md) inventories a privately supplied generated lead document, deduplicates its bibliography against the nineteen prior REF records and checks three source families. It adds [REF-2016-003](web/2016/REF-2016-003-october-web-account.md), a dated firsthand **written** web account; image pixels and a Home pair were not verified. Date-pinned Wayback requests failed in text retrieval; two guide URLs resolve to indexes with relevant 2015 entries. Neither URL timestamps, generated conclusions nor current responsive rendering establish historical captures or compatible mobile web.
+
+This is partial source/triage progress, not canonical approval or closure of M1/M2. The original supplied file/extracts remain private and unchanged; no new media redistributed. Prior nineteen REF IDs/confidence and six original repository inputs remain preserved. Exact unresolved artifact requirements and unvisited-link statuses are in the assessment; no broad follow-on acquisition or downstream task is automatically started.
+
 ## Gates and completion record still required
 
 **p0-06 remains blocked: compatible target-era Home evidence and direct canonical choice are absent.** The decision brief may undergo technical/Historian review while dependent work remains stopped. Overall confidence is medium for organizing sources/limits, unknown for a selectable exact build/platform/viewport combination.

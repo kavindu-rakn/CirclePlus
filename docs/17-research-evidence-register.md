@@ -45,6 +45,10 @@ Overall preparation confidence is medium for source organization/limits, unknown
 
 The [Path B log](reference/canonical-snapshot.md#bounded-path-b-result-2026-10-26) preserves the completed three-search/four-page limit. [REF-2017-005](reference/web/2017/REF-2017-005-classic-image-exclusion.md) records an inspected Classic illustration in January coverage, excluded from the New Home baseline. Article publication is not screenshot capture/build evidence. A browser-observation timeout is recorded as a capability limit, not source absence. No compatible desktop/narrow/mobile-web Home combination or canonical choice was verified; p0-06 and affected downstream work remain blocked. Prior REF IDs/confidence and raw originals are preserved.
 
+## Supplied-link triage and partial written evidence (2026-10-26)
+
+The [assessment](reference/supplied-links-assessment.md) treats a privately supplied generated document as untrusted research leads, not historical or operational authority. It deduplicates 45 bibliography rows into 34 unique complete annotation targets, distinguishes split/raw URL strings from real sources, and checks three families. New [REF-2016-003](reference/web/2016/REF-2016-003-october-web-account.md) verifies a dated firsthand web-layout account in text only. Archive requests did not yield a verified replay; guide indexes point to older entries; browser/image access limits do not prove source absence. No responsive/capture/build/DPR/compatibility inference is approved. M1/M2 and human canonical choice remain blocked; originals and previous record confidence are preserved.
+
 ## Inherited historical conclusions
 
 | Claim | Confidence | Notes |
