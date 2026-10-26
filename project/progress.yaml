@@ -174,7 +174,7 @@
           "model": "GPT-6.1 Sol",
           "effort": "High",
           "blockers": [
-            "M1/M2: compatible target-era desktop/mobile Home pair and build/viewport contexts remain missing; three research paths are unapproved, direct human canonical choice is pending."
+            "Web Home structure exception B approved on 2026-10-27 using REF-2015-001 only. WEB-HOME-01 concrete baseline/crop/exclusion and modern project viewport plan (1280x800 desktop, 390x844 phone, project DPR 1) await review and final human approval; p0-06 remains blocked. M1/M2 target-era images and historical build/CSS viewport/DPR remain unknown; other component gates unchanged."
           ],
           "sources": [
             "docs/15-roadmap-and-implementation-plan.md",

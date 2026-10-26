@@ -1,10 +1,18 @@
-# p0-06 canonical snapshot decision brief — blocked, no selection
+# p0-06 canonical brief — structure exception approved, baseline pending
 
-Prepared 2026-10-25 (Asia/Colombo), against merged main `a3c1bad1c7f6461b81cee69f5e0722f5af892299`. Phase 0 research only. **No candidate is selected or approved.** The [late-2016/early-2017 anchor](../01-era-and-fidelity.md#visual-anchor) and [ADR-0001](../adr/0001-historical-target-and-fidelity.md) remain unchanged.
+Prepared 2026-10-25 (Asia/Colombo), against merged main `a3c1bad1c7f6461b81cee69f5e0722f5af892299`; decision updated 2026-10-27. **The developer approved option B for web Home structure only. The specific baseline/viewport plan remains pending.** The [late-2016/early-2017 anchor](../01-era-and-fidelity.md#visual-anchor) and [ADR-0001](../adr/0001-historical-target-and-fidelity.md) continue to apply outside this named exception.
 
-The [October 27 visual decision package](visual-decision-package.md) makes existing comparisons and the missing Home pair visible in two private local pages. Its two unselected options are to retain the current evidence requirement or consider a specifically scoped reconstruction exception later. Preparation does not adopt an exception or replace the blocked brief below.
+## Approved web Home structure exception, 2026-10-27
 
-The current evidence cannot honestly supply 2–3 compatible, dated desktop/mobile Home combinations. This is the fallback decision brief permitted by the task: three bounded **next research paths**, not canonical selections. Starting p0-06 approved preparation; it did not approve an era change, native/web mixture, viewport, or reconstruction. A document or merged research PR cannot complete p0-06 without the developer's actual canonical approval.
+Direct human approval permits a **2015-derived web Home structure reconstruction** using REF-2015-001: desktop red toolbar, left navigation, compact composer and card columns; phone-web single-column feed and red compose pencil. Structural continuity is approved project borrowing/inference, never evidence that this layout persisted into the target era. This approval needs no reconfirmation.
+
+The exception excludes native/Android navigation and the unknown composite; exact dimensions, historical CSS viewport/DPR/build/capture date, unseen interactions, expanded composer/audience/privacy and other routes remain outside it. There is no global era change, token/application authorization, p0-07 start, learning completion or merge permission.
+
+The [updated visual package](visual-decision-package.md#web-home-01-consolidated-baseline-proposal) prepares **WEB-HOME-01**, one concrete structural baseline proposal using the named source/crops/exclusions and proposed 1280 × 800 desktop / 390 × 844 phone CSS validation at project DPR 1. Those are chosen modern test contexts, not recovered historical measurements. That consolidated proposal remains pending; p0-06 stays blocked with empty completion evidence.
+
+## Original research checkpoint, 2026-10-25 to 2026-10-26
+
+The evidence did not supply 2–3 compatible, dated desktop/mobile Home combinations. The following preserved fallback brief offered three bounded **research paths**, not canonical selections. Starting p0-06 initially approved preparation only; the later structure exception above is a separate, narrower decision. Target-era images remain missing, but they are no longer a prerequisite for the specifically approved structural borrowing. A document or merged research PR cannot complete p0-06 without the remaining actual canonical approval.
 
 ## What is available for comparison
 
@@ -29,7 +37,7 @@ All paths require free, permitted evidence acquisition followed by independent h
 | **B — Q1 2017 consumer desktop web + mobile web**, after the announced density change | REF-2017-001 establishes a version boundary, not a rollout-finished date. Acquire identifiable post-update Home on both web sizes; REF-2017-003/004 remain component-only evidence | Fits the anchor and documents the denser variant, but needs more Home acquisition than the inspected January illustrations provide. Do not call January 24 the universal build date. Developer must approve actual post-change visual context and any feature-envelope exceptions |
 | **C — target-era desktop web + explicitly native-inspired phone adaptation** | Acquire a Q4-2016/Q1-2017 desktop Home and separately dated Android Home/drawer/navigation sequence; 2015 REF-2015-005/006 are comparison inputs only. No identified target iOS or tablet baseline exists | Could preserve remembered Android navigation, but the result would be a project adaptation on phone web, not historical mobile web. Requires **explicit approval of the platform deviation** plus approval of concrete dated references; does not remove the mobile-web/iOS/tablet gaps or prove native/web compatibility |
 
-Path A is the recommended **research revisit**, because a dated walkthrough lead exists; it is not a recommended canonical selection. Path B remains a valid in-anchor acquisition target. Path C is conditional on a separate adaptation decision. An older November 2015 pair is deliberately excluded from these in-anchor paths: selecting it would require an explicit unapproved era deviation under ADR-0001, not a claim that it meets the present target.
+At the original checkpoint, Path A was the recommended **research revisit**, Path B an in-anchor acquisition target and Path C conditional on a separate platform adaptation. These research-path letters are distinct from the later visual package's option B. November 2015 was excluded from these in-anchor acquisition paths; the October 27 exception now permits only the named web Home structural borrowing. It does not turn 2015 into target-era proof or authorize another research pass.
 
 ## Compatibility rules and excluded variants
 
@@ -87,11 +95,11 @@ This is partial source/triage progress, not canonical approval or closure of M1/
 
 ## Gates and completion record still required
 
-**p0-06 remains blocked: compatible target-era Home evidence and direct canonical choice are absent.** The decision brief may undergo technical/Historian review while dependent work remains stopped. Overall confidence is medium for organizing sources/limits, unknown for a selectable exact build/platform/viewport combination.
+**p0-06 remains blocked: the structure exception is approved, but WEB-HOME-01's specific baseline/viewport proposal and final canonical approval remain pending.** Target-era Home images are still missing; that gap is disclosed rather than reimposed on the approved structural borrowing. Source confidence is unchanged; historical build/CSS viewport/DPR remain unknown.
 
-- **Control Tower / next authorized coverage Builder:** choose a bounded revisit from A–C and acquire/inspect the actual artifacts; supply stable REF IDs, publication versus capture/build context, full/narrow desktop and phone states, crop/scale and known viewport/DPR or explicit unknowns. Do not replace unknown historical viewports with invented measurements; if reconstruction viewports are proposed, label and seek approval as project contexts.
-- **Independent Reviewer and persistent Historian:** assess the exact brief/REF revision, provenance, compatibility, contradictions and limits before the developer is asked to select an actual option. No outgoing role dispatch from this Builder.
-- **Developer:** approve the actual dated platform/viewport set, compatibility/exclusion rules and consequential deviations only after concrete reviewable evidence/options exist. A choice of research path alone does not meet this canonical approval gate.
-- **Later gates:** [M3–M12](route-page-matrix.md#missing-acquisitions-accountable-owners-and-dependent-gates) continue to block affected post/composer/audience/Collections/Communities/profile/notifications/People/settings/safety work. M1/M2 gate Home, native/web identity and responsive comparison. No p0-07 token work, scaffold/schema/dependencies, privacy policy, p0-08 pass or Phase 1 start follows.
+- **Builder:** prepare WEB-HOME-01 and its updated local board; no new acquisition or implementation. Keep source raster measurements separate from future token work.
+- **Independent Reviewer and persistent Historian:** review the exact approval/proposal/tracker/render delta and preserved source limits. Earlier reviews do not pre-approve this revision. No outgoing role dispatch from this Builder.
+- **Developer:** after review, accept or amend the single consolidated WEB-HOME-01 source/crop/context/exclusion statement. The already approved structure exception is not asked again.
+- **Later gates:** [M3–M12](route-page-matrix.md#missing-acquisitions-accountable-owners-and-dependent-gates) continue to block affected components/behavior. M1/M2 target-era images remain missing; the scoped exception changes only the permitted basis for a web Home structural proposal. It does not resolve native/web identity, historical geometry or unobserved responsive behavior. No token work, scaffold/schema/dependencies, p0-08 pass or Phase 1 start follows.
 
-Future acceptance must add a real approval record with selected dated references, client contexts, viewport/scale treatment, explicit exclusions/deviations and unresolved component gates. Completion evidence is currently empty. Independent review, developer learning, merge approval and eventual task acceptance remain separate; this draft has no merge authorization.
+The structure-only approval is recorded above. Future acceptance must still record actual consolidated baseline/viewport approval; completion evidence is currently empty. Independent review, developer learning, merge approval and eventual task acceptance remain separate; this draft has no merge authorization.

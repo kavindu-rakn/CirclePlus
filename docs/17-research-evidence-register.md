@@ -51,7 +51,13 @@ The [assessment](reference/supplied-links-assessment.md) treats a privately supp
 
 ## Visual decision preparation (2026-10-27)
 
-The [visual decision package](reference/visual-decision-package.md) renders existing images privately, with explicit raster crops/resizing, date/platform limits and empty target-era Home placeholders. Two options are proposed: retain the current faithful web evidence requirement, or later approve a narrowly scoped 2015-derived web Home reconstruction exception. Borrowings and structural-continuity inference are named, not adopted; January's density boundary remains a risk. No new source evidence, token/geometry decision or native/web equivalence is asserted. The six originals and twenty REF records remain unchanged. p0-06, canonical approval and dependent implementation remain blocked.
+The initial [visual decision package](reference/visual-decision-package.md) rendered existing images privately, with explicit raster crops/resizing, date/platform limits and empty target-era Home placeholders. It presented two options without adopting either at preparation time. This dated checkpoint is superseded only by the narrow approval below; January's density boundary, source uncertainty and missing imagery remain factual.
+
+## Approved web Home structure and pending baseline (2026-10-27)
+
+The developer directly approved B for **web Home structure only**: REF-2015-001 desktop red toolbar, left navigation, compact composer and card columns; phone-web single-column feed and red compose pencil. This is approved project borrowing/continuity inference, not evidence of target-era persistence. Native navigation and the unknown composite are excluded. No exact geometry, historical CSS/DPR/build/capture date, unseen interaction, expanded composer/audience/privacy or other route is approved; the global era anchor is unchanged.
+
+[WEB-HOME-01](reference/visual-decision-package.md#web-home-01-consolidated-baseline-proposal) proposes the exact existing source/crops/excluded regions and modern project test contexts of 1280 × 800 desktop / 390 × 844 phone CSS pixels at project DPR 1. Those contexts are deliberately chosen, not recovered measurements, and await consolidated baseline/viewport approval. The private board now distinguishes approved structure from that pending proposal. The six originals and twenty REF records/confidence remain unchanged. p0-06 remains blocked with empty completion evidence; tokens, p0-07, application work, learning completion, merge and Phase 1 remain unauthorized.
 
 ## Inherited historical conclusions
 

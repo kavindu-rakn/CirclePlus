@@ -46,7 +46,7 @@ Model/effort above is a recommendation; verify runtime settings. Evidence confid
 
 - Phase 0 reference coverage and canonical snapshot remain unverified.
 - Meaningful PRs require developer-confirmed learning before merge readiness.
-- p0-06: M1/M2: compatible target-era desktop/mobile Home pair and build/viewport contexts remain missing; three research paths are unapproved, direct human canonical choice is pending.
+- p0-06: Web Home structure exception B approved on 2026-10-27 using REF-2015-001 only. WEB-HOME-01 concrete baseline/crop/exclusion and modern project viewport plan (1280x800 desktop, 390x844 phone, project DPR 1) await review and final human approval; p0-06 remains blocked. M1/M2 target-era images and historical build/CSS viewport/DPR remain unknown; other component gates unchanged.
 - p0-08: Raw screenshots and research summaries lack dated per-screen metadata/verified behavior; Phase 0 exit criteria are not evidenced.
 - experimental-01: Separate scope approval required; excluded from v1.
 - experimental-02: Separate scope approval required; excluded from v1.

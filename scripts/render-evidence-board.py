@@ -97,7 +97,7 @@ class Board:
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
     loaded = {}
-    manifest = {"purpose": "Private decision aid; no canonical choice or approval", "coordinate_system": "Original raster pixels; crop boxes are left/top inclusive, right/bottom exclusive", "assets": {}, "placements": {}}
+    manifest = {"purpose": "Private decision aid; web Home structure exception approved, WEB-HOME-01 baseline pending", "decision_date": "2026-10-27", "approved_scope": "REF-2015-001 web Home structure only; not historical persistence", "proposal": {"id": "WEB-HOME-01", "state": "pending consolidated baseline/viewport approval", "project_css_viewports": {"desktop": [1280, 800], "phone": [390, 844]}, "project_dpr": 1, "historical_css_viewport_dpr": "unknown"}, "coordinate_system": "Original raster pixels; crop boxes are left/top inclusive, right/bottom exclusive", "assets": {}, "placements": {}}
     for key, (name, expected) in INPUTS.items():
         path = ASSETS / name
         actual = sha256(path.read_bytes()).hexdigest()
@@ -106,7 +106,7 @@ def main():
         loaded[key] = Image.open(path).convert("RGB")
         manifest["assets"][key] = {"path": path.relative_to(ROOT).as_posix(), "sha256": actual, "raster_size": list(loaded[key].size)}
 
-    a = Board(2540, 1, "What we can see. What is still missing.", "Prepared 2026-10-27 / comparison evidence only / no target-era Home pair verified")
+    a = Board(2540, 1, "What we can see. What is still missing.", "Updated 2026-10-27 / web Home structure approved / baseline pending / target-era pair still missing")
     for x, title in [(60, "TARGET: DESKTOP WEB HOME"), (980, "TARGET: MOBILE WEB HOME")]:
         a.panel((x, 210, x + 880, 439), fill="#FFF5E5", outline="#B8863B")
         a.text(title, x + 24, 228, 832, size=30, bold=True, color=AMBER)
@@ -146,10 +146,10 @@ def main():
     a.footer("All scale values describe this board's raster presentation, never a historical CSS viewport. Original files unchanged.")
     a.save("01-evidence-and-gaps.png")
 
-    b = Board(2100, 2, "Two choices to consider. Neither is selected.", "PROPOSALS ONLY / preparation does not authorize reconstruction, tokens, app work or merge")
-    b.text("The late-2016 / early-2017 visual anchor remains unchanged today.", 60, 211, 1800, size=34, bold=True)
-    b.text("Both columns below are decision notes, not historical screenshots or product mockups.", 60, 265, 1800, size=29, color=MUTED)
-    for x, title, subtitle, tint, stroke in [(60, "A / Keep the evidence requirement", "Preserve the current fidelity gate", "#F3F8FA", "#728596"), (990, "B / Consider a narrow exception", "Explicit 2015-derived web reconstruction proposal", "#FFF7E9", "#B8863B")]:
+    b = Board(2100, 2, "Structure approved. Specific baseline proposed.", "B approved for web Home structure only / WEB-HOME-01 pending / no tokens, app work or merge")
+    b.text("One bounded decision recorded. One consolidated proposal remains.", 60, 211, 1800, size=34, bold=True)
+    b.text("Decision notes only, not historical screenshots or a product mockup. Updated 2026-10-27.", 60, 265, 1800, size=29, color=MUTED)
+    for x, title, subtitle, tint, stroke in [(60, "APPROVED / web Home structure", "Named 2015-derived reconstruction exception", "#EDF8F4", "#176358"), (990, "PENDING / WEB-HOME-01", "One source/crop/exclusion and viewport proposal", "#FFF7E9", "#B8863B")]:
         b.panel((x, 335, x + 870, 1815), fill=tint, outline=stroke)
         b.text(title, x + 28, 363, 814, size=36, bold=True)
         b.text(subtitle, x + 28, 427, 814, size=28, color=MUTED, bottom=525)
@@ -158,19 +158,19 @@ def main():
         b.text(heading, x, y, 802, size=29, bold=True, color=TEAL if x < 900 else AMBER)
         return b.text(body, x, y + 48, 802, size=29, bottom=bottom)
 
-    section(88, 560, "WHAT YOU WOULD AUTHORIZE", "Keep dated, compatible target-era desktop web and mobile web Home evidence as a prerequisite. Any further acquisition needs its own bounded authorization.", 815)
-    section(88, 875, "WHAT STAYS BLOCKED", "No canonical Home pair, geometry, tokens or dependent application work. Native Android and 2015 web stay comparison inputs. Existing missing states remain open.", 1135)
-    section(88, 1190, "TRADE-OFF", "Strongest fidelity boundary. Time to find usable evidence is unknown, and another bounded search may still fail. No promise that the missing pair can be recovered.", 1450)
-    section(88, 1505, "NEXT HUMAN DECISION", "Approve a specific research scope later if desired. A found pair would still need platform/date/scale review and your explicit canonical approval.", 1770)
+    section(88, 560, "APPROVAL RECORDED / 2026-10-27", "REF-2015-001 web Home structure: desktop red toolbar, left navigation, compact composer and card columns; phone-web single feed column and red compose pencil.", 815)
+    section(88, 875, "PROJECT INFERENCE, NOT NEW EVIDENCE", "The developer permits 2015-derived structural borrowing. This does not prove persistence into late 2016 / early 2017 or supply the missing target-era Home images. Other routes retain the original era anchor.", 1175)
+    section(88, 1210, "OUTSIDE THIS APPROVAL", "Native navigation, unknown composite, exact geometry/tokens, unseen behavior, expanded composer, audience/privacy and other routes. No p0-07, application implementation, learning completion, merge or Phase 1.", 1495)
+    section(88, 1525, "NO RECONFIRMATION OF B NEEDED", "The structure exception is already approved. The remaining decision is the single concrete baseline and test-context proposal on the right, after independent review. No new source hunt is required to prepare it.", 1795)
 
-    section(1018, 560, "EXACT BORROWINGS PROPOSED", "Only visible REF-2015-001 web structures: desktop red toolbar, left navigation, compact composer and card columns; phone single-column Home and red compose pencil.", 825)
-    section(1018, 875, "INFERENCE / LIMIT OF THE EXCEPTION", "Treat those 2015 structures as a project reconstruction basis for Home on web, not proof of target-era persistence. Responsive continuity is inferred; exact dimensions, breakpoints and behavior stay undecided.", 1175)
-    section(1018, 1210, "RISKS / EXCLUSIONS", "January 2017's announced density change may conflict with the 2015 geometry. No native bottom destinations or unknown composite borrowing. No exception for missing composer, audience, privacy or other states.", 1495)
-    section(1018, 1525, "APPROVAL WOULD STILL BE NEEDED", "First approve this named scope and fidelity exception; then approve an explicit web baseline, exact unresolved decisions and viewport plan. This board authorizes none of those steps.", 1795)
+    section(1018, 560, "SOURCE / DOCUMENTED RASTER CROPS", "REF-2015-001, one 1600 x 1020 composite. Desktop [234,104,1305,772); phone [1172,376,1474,907). Same visible structure as page 1. No covered or unseen content reconstructed.", 825)
+    section(1018, 875, "PROPOSED MODERN VALIDATION CONTEXTS", "Desktop 1280 x 800 CSS: left rail, compact composer, two card columns. Phone 390 x 844 CSS: one column and pencil, no persistent side rail or native bottom destinations. Project DPR 1 for both, not historical DPR.", 1175)
+    section(1018, 1210, "RISK / EXCLUDED REGIONS", "Exclude hardware frames, phone OS keys, occluded desktop area and unseen below-fold content. January 2017 density may differ. No historical CSS sizes, breakpoint, drawer behavior or tokens inferred from these crops.", 1495)
+    section(1018, 1525, "ONE REMAINING DECISION AFTER REVIEW", "Approve WEB-HOME-01 source/crops/exclusions and both project test sizes together, accepting the 2015-derived risk. Historical geometry and component/interaction/privacy gaps stay gated. This proposal is not yet approved.", 1795)
 
-    b.text("Evidence guardrails applying to both choices", 60, 1860, 1800, size=32, bold=True)
-    b.text("October 2016's up-to-three-column account is text only (REF-2016-003). January's density announcement is not a measured Home image (REF-2017-001). Neither fills the empty pair on page 1.", 60, 1911, 1800, size=28, color=MUTED, bottom=2010)
-    b.footer("p0-06 stays BLOCKED / 6 of 55 tracked tasks / 0 of 46 application tasks / p0-07 unstarted / no selection or adoption")
+    b.text("Test sizes are project choices, not recovered historical viewports", 60, 1860, 1800, size=32, bold=True)
+    b.text("1280 x 800 gives a concrete multi-column desktop check; 390 x 844 gives a narrow phone fitting/overflow check. Neither viewport has been tested in an app. Other sizes and breakpoints remain unresolved.", 60, 1911, 1800, size=28, color=MUTED, bottom=2010)
+    b.footer("p0-06 BLOCKED / structure exception approved / final baseline pending / 6 of 55 tasks / app 0 of 46 / p0-07 unstarted")
     b.save("02-decision-options.png")
 
     for name in ["01-evidence-and-gaps.png", "02-decision-options.png"]:
@@ -179,9 +179,9 @@ def main():
     (OUT / "render-manifest.json").write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
     sections = "\n".join(f'<section><h2>{escape(title)}</h2><a href="{name}"><img src="{name}" alt="{escape(alt)}"></a><p><a href="{name}">Open full-resolution PNG</a></p></section>' for name, title, alt in [
         ("01-evidence-and-gaps.png", "1. Existing images and target-era gaps", "Two missing target-era web Home placeholders, 2015 desktop and phone web crops, native Android browse comparisons and an unknown composite; all dated and qualified."),
-        ("02-decision-options.png", "2. Two unselected choices", "Keep the existing evidence gate, or consider a narrowly scoped 2015-derived web Home reconstruction exception. No approval or adoption."),
+        ("02-decision-options.png", "2. Approved structure and pending WEB-HOME-01", "Approved 2015-derived web Home structure borrowing beside a pending source/crop/exclusion and modern project viewport proposal. No final baseline or implementation approval."),
     ])
-    (OUT / "index.html").write_text('<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Private p0-06 visual decision package</title><style>body{font:18px system-ui,sans-serif;background:#edf0f3;color:#202936;margin:24px auto;max-width:1920px;padding:0 16px}img{display:block;width:100%;height:auto}a{color:#176358}section{margin:32px 0}h1{font-size:28px}</style><h1>Private p0-06 visual decision package</h1><p>Prepared 2026-10-27. Images remain local. No external requests, scripts or fonts. Click each page for readable full resolution. No canonical choice or reconstruction approved.</p>' + sections + '</html>\n', encoding="utf-8")
+    (OUT / "index.html").write_text('<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Private p0-06 visual decision package</title><style>body{font:18px system-ui,sans-serif;background:#edf0f3;color:#202936;margin:24px auto;max-width:1920px;padding:0 16px}img{display:block;width:100%;height:auto}a{color:#176358}section{margin:32px 0}h1{font-size:28px}</style><h1>Private p0-06 visual decision package</h1><p>Updated 2026-10-27. B approved for web Home structure only; WEB-HOME-01 baseline/viewport proposal pending. Images remain local. No external requests, scripts or fonts. Click each page for readable full resolution. No tokens, application work or merge authorized.</p>' + sections + '</html>\n', encoding="utf-8")
     print(f"Rendered two PNG pages, local index.html and render-manifest.json in {OUT.relative_to(ROOT)}")
 
 

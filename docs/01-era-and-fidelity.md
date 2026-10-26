@@ -10,7 +10,7 @@ The project covers the **New Google+** generation beginning with the November 20
 
 **Late 2016 / early 2017** is the canonical visual baseline.
 
-This is the approved era anchor, not approval of a precise build/platform/viewport combination. The [p0-06 decision brief](reference/canonical-snapshot.md) records the blocked exact-snapshot selection, source limits and three unapproved research paths. No canonical candidate has been selected.
+This is the approved era anchor, not approval of a precise build/platform/viewport combination. On 2026-10-27 the developer approved a named **2015-derived web Home structure exception**: REF-2015-001 desktop toolbar/navigation/compact composer/card columns and phone-web single column/compose pencil. This is project borrowing, not proof of later persistence or a global era change. The [p0-06 brief](reference/canonical-snapshot.md#approved-web-home-structure-exception-2026-10-27) records that approval; the specific WEB-HOME-01 baseline/viewport proposal remains pending and p0-06 blocked. Other routes, native navigation, geometry/tokens and behavior are outside the exception.
 
 This captures the recognizable red Material-era toolbar, card-based Stream, Communities/Collections emphasis, mobile FAB/navigation patterns, and mature notification experience without anchoring the restoration to the decline/shutdown state.
 
