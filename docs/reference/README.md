@@ -35,7 +35,7 @@ The [p0-05 route/page/state matrix](route-page-matrix.md) maps all proposed rout
 
 The [p0-06 canonical snapshot brief](canonical-snapshot.md) records a blocked selection and three next research paths, not approved combinations. Its two new REF records distinguish a later-edited December walkthrough lead from the visibly inspected January photo illustration. See the brief's acquisition log and outstanding approval/viewport/platform gates.
 
-The [visual decision package](visual-decision-package.md) records the developer's October 27 approval of B for web Home structure only and prepares one consolidated WEB-HOME-01 baseline/viewport proposal for later approval. Its private pages distinguish approved structural borrowing from pending source/crop/test-context choices. Target-era Home gaps remain empty; 2015 web, native Android and unknown-client material stay distinct. No tokens, behavior, application work or final canonical approval follows.
+The [visual decision package](visual-decision-package.md) records the developer's October 27 approvals of B for web Home structure and the complete WEB-HOME-01 source/crop/exclusion/test-context baseline. Private pages now show the approved reconstruction and pending Learning Gate. Target-era Home gaps remain empty; 2015 web, native Android and unknown-client material stay distinct. The missing image pair is not a renewed prerequisite for this scoped baseline. No tokens, behavior, application work, learning completion or merge follows.
 
 - Home Stream desktop
 - Home Stream mobile

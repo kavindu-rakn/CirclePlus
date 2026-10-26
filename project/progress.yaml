@@ -6,7 +6,7 @@
   "current_task": "p0-06",
   "next_task": "p0-06",
   "blockers": [
-    "Phase 0 reference coverage and canonical snapshot remain unverified.",
+    "Phase 0 reference coverage and exit remain incomplete; WEB-HOME-01 is approved only as a reconstructed web Home structural baseline.",
     "Meaningful PRs require developer-confirmed learning before merge readiness."
   ],
   "phases": [
@@ -164,7 +164,7 @@
           "id": "p0-06",
           "title": "Canonical visual snapshot declaration",
           "kind": "research",
-          "status": "blocked",
+          "status": "learning_gate",
           "dependencies": [
             "p0-03"
           ],
@@ -173,9 +173,7 @@
           "historical_confidence": "medium",
           "model": "GPT-6.1 Sol",
           "effort": "High",
-          "blockers": [
-            "Web Home structure exception B approved on 2026-10-27 using REF-2015-001 only. WEB-HOME-01 concrete baseline/crop/exclusion and modern project viewport plan (1280x800 desktop, 390x844 phone, project DPR 1) await review and final human approval; p0-06 remains blocked. M1/M2 target-era images and historical build/CSS viewport/DPR remain unknown; other component gates unchanged."
-          ],
+          "blockers": [],
           "sources": [
             "docs/15-roadmap-and-implementation-plan.md",
             "plans/CODEX-MASTER-PLAN.md",

@@ -97,7 +97,7 @@ class Board:
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
     loaded = {}
-    manifest = {"purpose": "Private decision aid; web Home structure exception approved, WEB-HOME-01 baseline pending", "decision_date": "2026-10-27", "approved_scope": "REF-2015-001 web Home structure only; not historical persistence", "proposal": {"id": "WEB-HOME-01", "state": "pending consolidated baseline/viewport approval", "project_css_viewports": {"desktop": [1280, 800], "phone": [390, 844]}, "project_dpr": 1, "historical_css_viewport_dpr": "unknown"}, "coordinate_system": "Original raster pixels; crop boxes are left/top inclusive, right/bottom exclusive", "assets": {}, "placements": {}}
+    manifest = {"purpose": "Private decision aid; WEB-HOME-01 scoped baseline approved; developer learning pending", "decision_date": "2026-10-27", "approved_scope": "REF-2015-001 web Home structure only; not historical persistence", "baseline": {"id": "WEB-HOME-01", "state": "approved on 2026-10-27; learning pending", "project_css_viewports": {"desktop": [1280, 800], "phone": [390, 844]}, "project_dpr": 1, "historical_css_viewport_dpr": "unknown"}, "coordinate_system": "Original raster pixels; crop boxes are left/top inclusive, right/bottom exclusive", "assets": {}, "placements": {}}
     for key, (name, expected) in INPUTS.items():
         path = ASSETS / name
         actual = sha256(path.read_bytes()).hexdigest()
@@ -106,7 +106,7 @@ def main():
         loaded[key] = Image.open(path).convert("RGB")
         manifest["assets"][key] = {"path": path.relative_to(ROOT).as_posix(), "sha256": actual, "raster_size": list(loaded[key].size)}
 
-    a = Board(2540, 1, "What we can see. What is still missing.", "Updated 2026-10-27 / web Home structure approved / baseline pending / target-era pair still missing")
+    a = Board(2540, 1, "What we can see. What is still missing.", "Updated 2026-10-27 / WEB-HOME-01 approved / learning pending / target-era pair still missing")
     for x, title in [(60, "TARGET: DESKTOP WEB HOME"), (980, "TARGET: MOBILE WEB HOME")]:
         a.panel((x, 210, x + 880, 439), fill="#FFF5E5", outline="#B8863B")
         a.text(title, x + 24, 228, 832, size=30, bold=True, color=AMBER)
@@ -146,31 +146,31 @@ def main():
     a.footer("All scale values describe this board's raster presentation, never a historical CSS viewport. Original files unchanged.")
     a.save("01-evidence-and-gaps.png")
 
-    b = Board(2100, 2, "Structure approved. Specific baseline proposed.", "B approved for web Home structure only / WEB-HOME-01 pending / no tokens, app work or merge")
-    b.text("One bounded decision recorded. One consolidated proposal remains.", 60, 211, 1800, size=34, bold=True)
+    b = Board(2100, 2, "WEB-HOME-01 approved. Learning is pending.", "B structure and WEB-HOME-01 approved / no learning completion, tokens, app work or merge")
+    b.text("Both decisions recorded. Learning and merge remain separate.", 60, 211, 1800, size=34, bold=True)
     b.text("Decision notes only, not historical screenshots or a product mockup. Updated 2026-10-27.", 60, 265, 1800, size=29, color=MUTED)
-    for x, title, subtitle, tint, stroke in [(60, "APPROVED / web Home structure", "Named 2015-derived reconstruction exception", "#EDF8F4", "#176358"), (990, "PENDING / WEB-HOME-01", "One source/crop/exclusion and viewport proposal", "#FFF7E9", "#B8863B")]:
+    for x, title, subtitle, tint, stroke in [(60, "APPROVED / web Home structure", "Named 2015-derived reconstruction exception", "#EDF8F4", "#176358"), (990, "APPROVED / WEB-HOME-01", "Reviewed source/crops/exclusions and test contexts", "#EDF8F4", "#176358")]:
         b.panel((x, 335, x + 870, 1815), fill=tint, outline=stroke)
         b.text(title, x + 28, 363, 814, size=36, bold=True)
         b.text(subtitle, x + 28, 427, 814, size=28, color=MUTED, bottom=525)
 
     def section(x, y, heading, body, bottom):
-        b.text(heading, x, y, 802, size=29, bold=True, color=TEAL if x < 900 else AMBER)
+        b.text(heading, x, y, 802, size=29, bold=True, color=TEAL)
         return b.text(body, x, y + 48, 802, size=29, bottom=bottom)
 
     section(88, 560, "APPROVAL RECORDED / 2026-10-27", "REF-2015-001 web Home structure: desktop red toolbar, left navigation, compact composer and card columns; phone-web single feed column and red compose pencil.", 815)
     section(88, 875, "PROJECT INFERENCE, NOT NEW EVIDENCE", "The developer permits 2015-derived structural borrowing. This does not prove persistence into late 2016 / early 2017 or supply the missing target-era Home images. Other routes retain the original era anchor.", 1175)
     section(88, 1210, "OUTSIDE THIS APPROVAL", "Native navigation, unknown composite, exact geometry/tokens, unseen behavior, expanded composer, audience/privacy and other routes. No p0-07, application implementation, learning completion, merge or Phase 1.", 1495)
-    section(88, 1525, "NO RECONFIRMATION OF B NEEDED", "The structure exception is already approved. The remaining decision is the single concrete baseline and test-context proposal on the right, after independent review. No new source hunt is required to prepare it.", 1795)
+    section(88, 1525, "NO RECONFIRMATION OF B NEEDED", "The structure exception and complete reviewed baseline are approved. No repeated source/crop/viewport decision is needed. Next: verify this record update, then Teacher and developer learning. No new source hunt.", 1795)
 
     section(1018, 560, "SOURCE / DOCUMENTED RASTER CROPS", "REF-2015-001, one 1600 x 1020 composite. Desktop [234,104,1305,772); phone [1172,376,1474,907). Same visible structure as page 1. No covered or unseen content reconstructed.", 825)
-    section(1018, 875, "PROPOSED MODERN VALIDATION CONTEXTS", "Desktop 1280 x 800 CSS: left rail, compact composer, two card columns. Phone 390 x 844 CSS: one column and pencil, no persistent side rail or native bottom destinations. Project DPR 1 for both, not historical DPR.", 1175)
+    section(1018, 875, "APPROVED MODERN VALIDATION CONTEXTS", "Desktop 1280 x 800 CSS: left rail, compact composer, two card columns. Phone 390 x 844 CSS: one column and pencil, no persistent side rail or native bottom destinations. Project DPR 1 for both, not historical DPR.", 1175)
     section(1018, 1210, "RISK / EXCLUDED REGIONS", "Exclude hardware frames, phone OS keys, occluded desktop area and unseen below-fold content. January 2017 density may differ. No historical CSS sizes, breakpoint, drawer behavior or tokens inferred from these crops.", 1495)
-    section(1018, 1525, "ONE REMAINING DECISION AFTER REVIEW", "Approve WEB-HOME-01 source/crops/exclusions and both project test sizes together, accepting the 2015-derived risk. Historical geometry and component/interaction/privacy gaps stay gated. This proposal is not yet approved.", 1795)
+    section(1018, 1525, "BASELINE APPROVAL RECORDED / 2026-10-27", "The developer approved the unchanged reviewed source/crops/exclusions and both project test sizes, with the 2015-derived risk disclosed. Historical geometry and component/interaction/privacy gaps remain gated.", 1795)
 
     b.text("Test sizes are project choices, not recovered historical viewports", 60, 1860, 1800, size=32, bold=True)
     b.text("1280 x 800 gives a concrete multi-column desktop check; 390 x 844 gives a narrow phone fitting/overflow check. Neither viewport has been tested in an app. Other sizes and breakpoints remain unresolved.", 60, 1911, 1800, size=28, color=MUTED, bottom=2010)
-    b.footer("p0-06 BLOCKED / structure exception approved / final baseline pending / 6 of 55 tasks / app 0 of 46 / p0-07 unstarted")
+    b.footer("p0-06 LEARNING GATE / WEB-HOME-01 approved / not done or merge-ready / 6 of 55 tasks / app 0 of 46 / p0-07 unstarted")
     b.save("02-decision-options.png")
 
     for name in ["01-evidence-and-gaps.png", "02-decision-options.png"]:
@@ -179,9 +179,9 @@ def main():
     (OUT / "render-manifest.json").write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
     sections = "\n".join(f'<section><h2>{escape(title)}</h2><a href="{name}"><img src="{name}" alt="{escape(alt)}"></a><p><a href="{name}">Open full-resolution PNG</a></p></section>' for name, title, alt in [
         ("01-evidence-and-gaps.png", "1. Existing images and target-era gaps", "Two missing target-era web Home placeholders, 2015 desktop and phone web crops, native Android browse comparisons and an unknown composite; all dated and qualified."),
-        ("02-decision-options.png", "2. Approved structure and pending WEB-HOME-01", "Approved 2015-derived web Home structure borrowing beside a pending source/crop/exclusion and modern project viewport proposal. No final baseline or implementation approval."),
+        ("02-decision-options.png", "2. Approved WEB-HOME-01 and pending Learning Gate", "Approved 2015-derived web Home structure and complete WEB-HOME-01 source/crop/exclusion and modern project viewport baseline. Developer learning pending; no implementation or merge approval."),
     ])
-    (OUT / "index.html").write_text('<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Private p0-06 visual decision package</title><style>body{font:18px system-ui,sans-serif;background:#edf0f3;color:#202936;margin:24px auto;max-width:1920px;padding:0 16px}img{display:block;width:100%;height:auto}a{color:#176358}section{margin:32px 0}h1{font-size:28px}</style><h1>Private p0-06 visual decision package</h1><p>Updated 2026-10-27. B approved for web Home structure only; WEB-HOME-01 baseline/viewport proposal pending. Images remain local. No external requests, scripts or fonts. Click each page for readable full resolution. No tokens, application work or merge authorized.</p>' + sections + '</html>\n', encoding="utf-8")
+    (OUT / "index.html").write_text('<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Private p0-06 visual decision package</title><style>body{font:18px system-ui,sans-serif;background:#edf0f3;color:#202936;margin:24px auto;max-width:1920px;padding:0 16px}img{display:block;width:100%;height:auto}a{color:#176358}section{margin:32px 0}h1{font-size:28px}</style><h1>Private p0-06 visual decision package</h1><p>Updated 2026-10-27. B structure and complete WEB-HOME-01 baseline/test contexts approved; developer learning pending. Images remain local. No external requests, scripts or fonts. Click each page for readable full resolution. No learning completion, tokens, application work or merge authorized.</p>' + sections + '</html>\n', encoding="utf-8")
     print(f"Rendered two PNG pages, local index.html and render-manifest.json in {OUT.relative_to(ROOT)}")
 
 

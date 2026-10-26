@@ -1,6 +1,6 @@
-# p0-06 canonical brief — structure exception approved, baseline pending
+# p0-06 canonical brief — WEB-HOME-01 approved, learning pending
 
-Prepared 2026-10-25 (Asia/Colombo), against merged main `a3c1bad1c7f6461b81cee69f5e0722f5af892299`; decision updated 2026-10-27. **The developer approved option B for web Home structure only. The specific baseline/viewport plan remains pending.** The [late-2016/early-2017 anchor](../01-era-and-fidelity.md#visual-anchor) and [ADR-0001](../adr/0001-historical-target-and-fidelity.md) continue to apply outside this named exception.
+Prepared 2026-10-25 (Asia/Colombo), against merged main `a3c1bad1c7f6461b81cee69f5e0722f5af892299`; decision updated 2026-10-27. **The developer approved WEB-HOME-01 and its test contexts, following B's structure-only approval.** This is the chosen scoped web Home structural baseline; p0-06 is at `learning_gate`, not complete. The [late-2016/early-2017 anchor](../01-era-and-fidelity.md#visual-anchor) and [ADR-0001](../adr/0001-historical-target-and-fidelity.md) continue to apply outside this named exception.
 
 ## Approved web Home structure exception, 2026-10-27
 
@@ -8,7 +8,13 @@ Direct human approval permits a **2015-derived web Home structure reconstruction
 
 The exception excludes native/Android navigation and the unknown composite; exact dimensions, historical CSS viewport/DPR/build/capture date, unseen interactions, expanded composer/audience/privacy and other routes remain outside it. There is no global era change, token/application authorization, p0-07 start, learning completion or merge permission.
 
-The [updated visual package](visual-decision-package.md#web-home-01-consolidated-baseline-proposal) prepares **WEB-HOME-01**, one concrete structural baseline proposal using the named source/crops/exclusions and proposed 1280 × 800 desktop / 390 × 844 phone CSS validation at project DPR 1. Those are chosen modern test contexts, not recovered historical measurements. That consolidated proposal remains pending; p0-06 stays blocked with empty completion evidence.
+## Approved WEB-HOME-01 baseline, 2026-10-27
+
+The developer approved the complete previously reviewed WEB-HOME-01 proposal at `c77ecea5272740aee5b7c9ba25c5ed7ceddd0ee4`: REF-2015-001, documented crops/exclusions, desktop **1280 × 800 CSS pixels** and phone **390 × 844 CSS pixels**, both **project DPR 1**, with the disclosed 2015-derived reconstruction risk and remaining gates. No approved value or scope changed. These are modern project validation contexts, not recovered historical measurements.
+
+The [approved baseline record](visual-decision-package.md#web-home-01-approved-baseline) fixes the desktop crop `[234,104,1305,772)` and phone crop `[1172,376,1474,907)`, including visible occlusion/OS-key context but excluding those regions from product reconstruction. Source capture/build/historical CSS viewport/DPR remain unknown. Native navigation and the unknown composite remain excluded. January's density boundary and unobserved geometry/behavior/component/privacy limits remain attached to affected later work.
+
+This approval resolves p0-06's baseline-decision blocker; the missing target-era pair is not a renewed prerequisite for this specifically approved reconstructed baseline. It remains an evidence limitation. Both structure and baseline decisions are settled within their scope; no further approval of those same decisions is required. Completion evidence stays empty while p0-06 awaits learning and later merge/acceptance.
 
 ## Original research checkpoint, 2026-10-25 to 2026-10-26
 
@@ -95,11 +101,11 @@ This is partial source/triage progress, not canonical approval or closure of M1/
 
 ## Gates and completion record still required
 
-**p0-06 remains blocked: the structure exception is approved, but WEB-HOME-01's specific baseline/viewport proposal and final canonical approval remain pending.** Target-era Home images are still missing; that gap is disclosed rather than reimposed on the approved structural borrowing. Source confidence is unchanged; historical build/CSS viewport/DPR remain unknown.
+**p0-06 is at `learning_gate`: WEB-HOME-01 and its contexts are approved; developer learning is pending.** Target-era Home images remain missing evidence, not a renewed approval blocker for this scoped baseline. Source confidence is unchanged; historical build/CSS viewport/DPR remain unknown. The prior exact-head technical/Historian PASS verdicts cover the unchanged proposal at `c77ecea`; this new approval/tracking/render-label delta still needs focused verification before Teacher.
 
-- **Builder:** prepare WEB-HOME-01 and its updated local board; no new acquisition or implementation. Keep source raster measurements separate from future token work.
-- **Independent Reviewer and persistent Historian:** review the exact approval/proposal/tracker/render delta and preserved source limits. Earlier reviews do not pre-approve this revision. No outgoing role dispatch from this Builder.
-- **Developer:** after review, accept or amend the single consolidated WEB-HOME-01 source/crop/context/exclusion statement. The already approved structure exception is not asked again.
+- **Builder:** record the approval, update private board labels and prepare a truthful teaching handoff; no new acquisition or implementation. Keep source raster measurements separate from future token work.
+- **Independent Reviewer and persistent Historian:** verify the approval/tracking/render-label delta against the previously reviewed proposal and preserved limits. Earlier reviews do not pre-approve this revision. No outgoing role dispatch from this Builder.
+- **Teacher / developer:** after focused verification, teach the final revision using input → validation → private render / public tracking → CI, with three batch questions and actual developer confirmation. Neither the baseline approval nor an assistant's explanation completes the Learning Gate.
 - **Later gates:** [M3–M12](route-page-matrix.md#missing-acquisitions-accountable-owners-and-dependent-gates) continue to block affected components/behavior. M1/M2 target-era images remain missing; the scoped exception changes only the permitted basis for a web Home structural proposal. It does not resolve native/web identity, historical geometry or unobserved responsive behavior. No token work, scaffold/schema/dependencies, p0-08 pass or Phase 1 start follows.
 
-The structure-only approval is recorded above. Future acceptance must still record actual consolidated baseline/viewport approval; completion evidence is currently empty. Independent review, developer learning, merge approval and eventual task acceptance remain separate; this draft has no merge authorization.
+Both scoped approvals are recorded above. Completion evidence is currently empty; independent verification, developer-confirmed learning, explicit merge approval and eventual task acceptance remain separate. This draft has no merge authorization, no `ready_to_merge` transition and no p0-07 or Phase 1 authorization.
