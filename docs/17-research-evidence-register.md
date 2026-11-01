@@ -65,6 +65,10 @@ After independent technical/Historian PASS at `c77ecea5272740aee5b7c9ba25c5ed7ce
 
 No source confidence is upgraded: exact capture/build/historical CSS viewport/DPR and persistence into the target era remain unknown. Target-era Home images are still missing evidence, not a renewed prerequisite for this approved scope. Native navigation, unknown-composite borrowing, occluded/OS/device regions, unseen interactions, exact geometry/tokens and other routes remain excluded or gated as documented. January's density risk remains. All six originals and twenty REF records are unchanged. p0-06 moves to `learning_gate` with empty completion evidence; final-delta verification precedes teaching. Developer understanding, merge, acceptance, p0-07, tokens/application work and Phase 1 remain unapproved.
 
+## Learning complete and readiness update (2026-11-01)
+
+The [verified review/learning record](records/pr-9-review-and-learning.md) records all three correct developer answers and explicit understanding at taught head `b5e937dd94f3fe35be4711f9109f0a46f08676f5`, with no comprehension gaps. This supersedes the prior learning-pending checkpoint only: WEB-HOME-01, six originals, twenty REF files/confidence, renderer and dated October 27 boards remain unchanged. p0-06 moves only to `ready_to_merge`; completion evidence stays empty, counts remain 6/55 and application 0/46, p0-07 stays unstarted. Merge/acceptance and later work remain separately unapproved; no source-confidence or era upgrade follows learning.
+
 ## Inherited historical conclusions
 
 | Claim | Confidence | Notes |

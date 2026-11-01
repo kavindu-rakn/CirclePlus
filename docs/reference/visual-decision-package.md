@@ -1,5 +1,7 @@
 # p0-06 visual package — approved WEB-HOME-01 baseline
 
+**Readiness update, 2026-11-01:** learning is complete at `b5e937dd94f3fe35be4711f9109f0a46f08676f5`; p0-06 is `ready_to_merge`, not done or merged. See the [verified review/learning record](../records/pr-9-review-and-learning.md). The October 27 learning-pending text, renderer and private boards below are preserved as dated snapshots; this update supersedes only their lifecycle labels. Source/crops/exclusions/test contexts and remaining evidence limits are unchanged. No further baseline decision or understanding confirmation is required.
+
 Updated 2026-10-27 after direct human approval of **WEB-HOME-01 with its documented test sizes**, following the earlier B structure-only approval. The developer approved the complete previously reviewed source/crop/exclusion/context proposal. Both decisions are recorded; neither needs reconfirmation. **WEB-HOME-01 is the chosen scoped web Home structural baseline.** p0-06 is at `learning_gate`, completion evidence empty, p0-07 unstarted. The [canonical brief](canonical-snapshot.md#approved-web-home-01-baseline-2026-10-27) records approval and remaining gates.
 
 ## Approved borrowing and factual limits

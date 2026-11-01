@@ -1,4 +1,6 @@
-# p0-06 canonical brief — WEB-HOME-01 approved, learning pending
+# p0-06 canonical brief — WEB-HOME-01 approved, learning complete
+
+**Readiness update, 2026-11-01:** the developer completed the meaningful Learning Gate at `b5e937dd94f3fe35be4711f9109f0a46f08676f5`. The [review/learning record](../records/pr-9-review-and-learning.md) verifies all three correct answers and explicit understanding. p0-06 is `ready_to_merge`, with completion evidence empty; PR merge and p0-07 remain unapproved. This dated update supersedes the October 27 learning-pending handoff below without changing the baseline, sources or historical limits.
 
 Prepared 2026-10-25 (Asia/Colombo), against merged main `a3c1bad1c7f6461b81cee69f5e0722f5af892299`; decision updated 2026-10-27. **The developer approved WEB-HOME-01 and its test contexts, following B's structure-only approval.** This is the chosen scoped web Home structural baseline; p0-06 is at `learning_gate`, not complete. The [late-2016/early-2017 anchor](../01-era-and-fidelity.md#visual-anchor) and [ADR-0001](../adr/0001-historical-target-and-fidelity.md) continue to apply outside this named exception.
 
@@ -99,7 +101,7 @@ The [bounded assessment](supplied-links-assessment.md) inventories a privately s
 
 This is partial source/triage progress, not canonical approval or closure of M1/M2. The original supplied file/extracts remain private and unchanged; no new media redistributed. Prior nineteen REF IDs/confidence and six original repository inputs remain preserved. Exact unresolved artifact requirements and unvisited-link statuses are in the assessment; no broad follow-on acquisition or downstream task is automatically started.
 
-## Gates and completion record still required
+## October 27 learning-handoff checkpoint — superseded by readiness update
 
 **p0-06 is at `learning_gate`: WEB-HOME-01 and its contexts are approved; developer learning is pending.** Target-era Home images remain missing evidence, not a renewed approval blocker for this scoped baseline. Source confidence is unchanged; historical build/CSS viewport/DPR remain unknown. The prior exact-head technical/Historian PASS verdicts cover the unchanged proposal at `c77ecea`; this new approval/tracking/render-label delta still needs focused verification before Teacher.
 

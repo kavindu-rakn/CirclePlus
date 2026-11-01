@@ -164,7 +164,7 @@
           "id": "p0-06",
           "title": "Canonical visual snapshot declaration",
           "kind": "research",
-          "status": "learning_gate",
+          "status": "ready_to_merge",
           "dependencies": [
             "p0-03"
           ],
