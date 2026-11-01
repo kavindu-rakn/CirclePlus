@@ -31,3 +31,7 @@ confidence: "high for announced features/timing; unknown for exact visual build"
 Primary follow-up to Perplexity p. 3’s September 2016 narrative. Announced August 30, with future rollout language: September availability is possible but not dated for any particular account here. The page’s Google+ onboarding image was located but not analyzed as an interaction recording. Preserve the distinction between the dedicated web notifications center and the cross-product Google-bar panel (REF-2017-002).
 
 [Inventory and acquisition gaps](../../source-inventory.md).
+
+## p0-06 follow-up, 2026-10-25
+
+Text and media rechecked in the live browser. The `Google+ onboarding` GIF visibly shows blue telescope/G+ artwork. Its observed URL is `https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/onboarding-animate_CbopD7A.gif`; image elements reported natural sizes 530 × 265 (hero) and 397 × 198 (inline). These are delivered browser observations, not product viewports; no complete animation sequence was audited. No Home screenshot or notification center state was acquired from this graphic. The original announcement confidence and rollout limits remain unchanged.
