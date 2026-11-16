@@ -17,7 +17,7 @@ Equal task weight; only `done` counts. Planning is included in overall progress.
 - Phase: **p0 — Archaeology and reference pack**
 - Task: **p0-07 — Initial design tokens with evidence confidence** (review)
 - Issue: Not assigned
-- PR: Not opened
+- PR: https://github.com/kavindu-rakn/CirclePlus/pull/10
 - Recommended model/effort: GPT-6.1 Sol / High
 - Historical evidence confidence: medium
 - Dependencies: p0-03
@@ -65,7 +65,7 @@ Source and completion evidence paths are recorded in the progress source. Unfini
 | p0-04 — Source inventory and dated screenshot records | done | medium | GPT-6.1 Sol / High | p0-03 | https://github.com/kavindu-rakn/CirclePlus/pull/7 |
 | p0-05 — Desktop/mobile reference and route/page matrix | done | medium | GPT-6.1 Sol / High | p0-03 | https://github.com/kavindu-rakn/CirclePlus/pull/8 |
 | p0-06 — Canonical visual snapshot declaration | done | medium | GPT-6.1 Sol / High | p0-03 | https://github.com/kavindu-rakn/CirclePlus/pull/9 |
-| p0-07 — Initial design tokens with evidence confidence | review | medium | GPT-6.1 Sol / High | p0-03 | — |
+| p0-07 — Initial design tokens with evidence confidence | review | medium | GPT-6.1 Sol / High | p0-03 | https://github.com/kavindu-rakn/CirclePlus/pull/10 |
 | p0-08 — Unresolved behavior list and sufficient core-screen evidence | backlog | unknown | GPT-6.1 Sol / High | p0-01, p0-02, p0-03, p0-04, p0-05, p0-06, p0-07*, p0-ops-01 | — |
 
 ### p1 — Repository foundation + historical design system
