@@ -3,7 +3,7 @@
   "project": "Google+ restoration (name TBD)",
   "version": "v1",
   "current_phase": "p0",
-  "current_task": null,
+  "current_task": "p0-07",
   "next_task": "p0-07",
   "blockers": [
     "Phase 0 reference coverage and exit remain incomplete; WEB-HOME-01 is approved only as a reconstructed web Home structural baseline.",
@@ -191,20 +191,21 @@
           "id": "p0-07",
           "title": "Initial design tokens with evidence confidence",
           "kind": "research",
-          "status": "backlog",
+          "status": "review",
           "dependencies": [
             "p0-03"
           ],
           "issue": null,
           "pr": null,
-          "historical_confidence": "unknown",
+          "historical_confidence": "medium",
           "model": "GPT-6.1 Sol",
           "effort": "High",
           "blockers": [],
           "sources": [
             "docs/15-roadmap-and-implementation-plan.md",
             "plans/CODEX-MASTER-PLAN.md",
-            "docs/17-research-evidence-register.md"
+            "docs/17-research-evidence-register.md",
+            "docs/reference/tokens/initial-tokens.md"
           ],
           "completion_evidence": []
         },

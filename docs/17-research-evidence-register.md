@@ -69,6 +69,10 @@ No source confidence is upgraded: exact capture/build/historical CSS viewport/DP
 
 The [verified review/learning record](records/pr-9-review-and-learning.md) records all three correct developer answers and explicit understanding at taught head `b5e937dd94f3fe35be4711f9109f0a46f08676f5`, with no comprehension gaps. This supersedes the prior learning-pending checkpoint only: WEB-HOME-01, six originals, twenty REF files/confidence, renderer and dated October 27 boards remain unchanged. p0-06 moves only to `ready_to_merge`; completion evidence stays empty, counts remain 6/55 and application 0/46, p0-07 stays unstarted. Merge/acceptance and later work remain separately unapproved; no source-confidence or era upgrade follows learning.
 
+## Initial web Home measurements (p0-07)
+
+After [accepted p0-06 closure](records/pr-9-review-and-learning.md#verified-merge-and-p0-06-closure), the [initial token measurements](reference/tokens/initial-tokens.md) use only REF-2015-001's approved web Home crops. They record decoded color modes and raster geometry alongside provisional swatches and visual comparison targets. The JPEG's unknown browser scale and compositing leave original CSS values unresolved. Typography, icon identity and rights, detailed geometry, breakpoints, motion and later-era persistence still gate affected work. Historical confidence for the first pass is medium within this scoped reconstruction, with value-specific confidence in the measurement sheet. Phase 0 exit remains pending.
+
 ## Inherited historical conclusions
 
 | Claim | Confidence | Notes |
