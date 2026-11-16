@@ -3,8 +3,8 @@
   "project": "Google+ restoration (name TBD)",
   "version": "v1",
   "current_phase": "p0",
-  "current_task": "p0-06",
-  "next_task": "p0-06",
+  "current_task": null,
+  "next_task": "p0-07",
   "blockers": [
     "Phase 0 reference coverage and exit remain incomplete; WEB-HOME-01 is approved only as a reconstructed web Home structural baseline.",
     "Meaningful PRs require developer-confirmed learning before merge readiness."
@@ -164,7 +164,7 @@
           "id": "p0-06",
           "title": "Canonical visual snapshot declaration",
           "kind": "research",
-          "status": "ready_to_merge",
+          "status": "done",
           "dependencies": [
             "p0-03"
           ],
@@ -180,9 +180,12 @@
             "docs/17-research-evidence-register.md",
             "docs/reference/canonical-snapshot.md",
             "docs/reference/route-page-matrix.md",
-            "docs/reference/source-inventory.md"
+            "docs/reference/source-inventory.md",
+            "docs/records/pr-9-review-and-learning.md"
           ],
-          "completion_evidence": []
+          "completion_evidence": [
+            "docs/records/pr-9-review-and-learning.md"
+          ]
         },
         {
           "id": "p0-07",
