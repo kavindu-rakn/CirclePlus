@@ -39,6 +39,8 @@ The [visual decision package](visual-decision-package.md) records the developer'
 
 **November 1 readiness update:** the [verified learning record](../records/pr-9-review-and-learning.md) supersedes the October 27 learning-pending checkpoint above and in the unchanged private boards. Learning is complete; p0-06 is `ready_to_merge`, with no completion credit, merge authorization or p0-07 start. The approved baseline and all source limitations remain unchanged.
 
+**November 16 update.** PR #9 has merged and the developer accepted the [scoped p0-06 baseline](../records/pr-9-review-and-learning.md#verified-merge-and-p0-06-closure). The [p0-07 initial token measurements](tokens/initial-tokens.md) record web Home raster readings and provisional comparison targets for review. Historical CSS values and later-era persistence remain open.
+
 - Home Stream desktop
 - Home Stream mobile
 - expanded composer
