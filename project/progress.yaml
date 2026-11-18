@@ -191,7 +191,7 @@
           "id": "p0-07",
           "title": "Initial design tokens with evidence confidence",
           "kind": "research",
-          "status": "review",
+          "status": "learning_gate",
           "dependencies": [
             "p0-03"
           ],
@@ -205,7 +205,8 @@
             "docs/15-roadmap-and-implementation-plan.md",
             "plans/CODEX-MASTER-PLAN.md",
             "docs/17-research-evidence-register.md",
-            "docs/reference/tokens/initial-tokens.md"
+            "docs/reference/tokens/initial-tokens.md",
+            "docs/records/pr-10-review-and-learning.md"
           ],
           "completion_evidence": []
         },
